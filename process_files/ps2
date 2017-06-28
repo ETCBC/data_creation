@@ -1,0 +1,132 @@
+
+
+
+BIBLICAL LANGUAGES                                         PS2(5)
+
+
+
+NAME
+     ps2 - morpho-syntactic analysis at word level
+
+SYNTAX
+     The syntax of this  file  is  identical  to  the  syntax  of
+     ps1(5).
+
+DESCRIPTION
+     Ps2 is the format of the morpho-syntactic data  base  output
+     by  syn02(1).   This type of file contains the result of the
+     second analysis at word level, where  the  lexical  features
+     are  being  assigned a value.  The lexical features are lex-
+     eme, lexical set and part of speech.
+
+     lexeme
+          Has already been fully determined by syn01(1).
+
+     lexical set
+          The value attributed to  the  feature  lexical  set  is
+          derived  from the information provided in lexset(5).  A
+          positive value indicates the ordinal of the  lexeme  in
+          the set of lexemes with this part of speech.  The value
+          0 (absent) means that this lexeme is not  a  member  of
+          any  lexical  set.  A negative value is the negative of
+          the ordinal of the lexical subset of the set of lexemes
+          with this part of speech this lexeme is a member of.
+
+     part of speech
+          The values of part of speech are 0 (article), 1 (verb),
+          2 (noun), 3 (proper noun), 4 (adverb), 5 (preposition),
+          6 (conjunction), 7 (personal pronoun), 8 (demonstrative
+          pronoun), 9 (interrogative pronoun), 10 (interjection),
+          11 (negative), 12 (interrogative) and 13 (adjective).
+
+     For a number of lexemes (e.g. personal pronouns)  the  value
+     of  person,  number  and  gender  has  been  set by syn02(5)
+     according to the information found in lexset(5).
+
+EXAMPLE
+     Label      Lexeme            LxS PoS Pr Rt Ve Ne Sf  VbT Pe Nu Ge   Sta
+
+      IKON21,04 >CR                 4   6 -1 -1 -1 -1 -1   -1 -1 -1 -1    -1
+      IKON21,04 DBR[               -1   1  0  1  1  0  0    2  3  1  2    -1
+      IKON21,04 >L                  2   5 -1 -1 -1 -1  6   -1 -1 -1 -1    -1
+      IKON21,04 NBWT//              0   3 -1 -1 -1  1 -1   -1 -1  1  0     0
+      IKON21,04 H                   0   0 -1 -1 -1 -1 -1   -1 -1 -1 -1    -1
+      IKON21,04 JZR<>LJ/           -2  13 -1 -1 -1  1  0   -1 -1  1  0     0
+                *
+
+NOTES
+     The name PS file originally stems from the work om  Psalm  1
+     in  the  early  days of the Werkgroep Informatica.  When the
+
+
+
+Werkgroep Informatica Last change: 01/14/98                     1
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                         PS2(5)
+
+
+
+     research shifted to phrases, the term was reassessed  as  to
+     mean  `Phrase Structure' file.  Nowadays, however, this flag
+     no longer covers its cargo as PS files are a data  base  for
+     the complete morpho-syntactic analysis of a text.
+
+SEE ALSO
+     lexset(5), ps1(5), syn01(1), syn02(1).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 01/14/98                     2
+
+
+
