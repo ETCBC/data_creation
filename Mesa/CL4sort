@@ -1,0 +1,4 @@
+#!/bin/sh
+name=$1
+hebsort +1 $name.cl4
+mv $name.cl4 $name.cl4.sort

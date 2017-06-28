@@ -1,0 +1,86 @@
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
++     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <..>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     +     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     +     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     +     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <Qp>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     +     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     +     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     +     .     .     +     .     .     .     .     .     .     .     +L    .     .     .     .     .     .     .      <Su> <PC> <Co>
+.     .     +     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     +     .     .     .     .     .     +B    .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     +     .     .     .     .     .     +L    .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Fr>
+.     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     +     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <PC> <Su>
+.     .     .     +     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     +     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     +     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <Qp>
+.     .     .     +     .     .     .     .     +<L   .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     +     .     .     .     .     +B    .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     +     .     .     .     .     +K    .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     +     .     .     .     .     +L    .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Fr>
+.     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Ob>
+.     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+.     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su>
+.     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Vo>
+.     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <pa>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     +     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     .     +     .     .     +XJ/  .     .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Fr>
+.     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+.     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su>
+.     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Vo>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     .     +     .     .     +<L   .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     .     .     +     .     .     +B    .     .     +     .     .     .     .     .     .     .     .     .      <Su> <PC> <Ng>
+.     .     .     .     .     +     .     .     +B    .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     .     .     +     .     .     +L    .     .     +     .     .     .     .     .     .     .     .     .      <Su> <PC> <Ng>
+.     .     .     .     .     +     .     .     +L    .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     .     .     +     .     .     +MN   .     .     .     .     .     .     .     .     .     .     .     .      <Su> <PC>
+.     .     .     .     .     +     .     .     .     .     .     +     .     .     .     .     .     .     .     .     .      <Su> <Ng>
+.     .     .     .     .     +     .     .     .     .     .     .     .     +L    .     .     .     .     .     .     .      <Ob> <Co>
+.     .     .     .     .     +     .     .     .     .     .     .     .     +L    .     .     .     .     .     .     .      <PC> <Co>
+.     .     .     .     .     +     .     .     .     .     .     .     .     +L    .     .     .     .     .     .     .      <PC> <sp>
+.     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Aj>
+.     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Fr>
+.     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Ob>
+.     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+.     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Su>
+.     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Vo>
+.     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <sp>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     .     .     +     .     +B    .     .     .     .     .     .     .     .     .     .     .     .      <Qs> <PC>
+.     .     .     .     .     .     +     .     +L    .     .     .     .     .     .     .     .     .     .     .     .      <Qs> <PC>
+.     .     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Qs>
+.     .     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Qu>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     .     .     .     +JCR/ .     .     .     .     .     +B    .     .     .     .     .     .     .      <PC> <Co>
+.     .     .     .     .     .     .     +R</  .     .     .     .     .     +B    .     .     .     .     .     .     .      <PC> <Co>
+.     .     .     .     .     .     .     +RB/  .     .     .     .     .     +L    .     .     .     .     .     .     .      <PC> <Co>
+.     .     .     .     .     .     .     +RB/  .     .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+.     .     .     .     .     .     .     +VWB/ .     .     .     .     .     +<L   .     .     .     .     .     .     .      <PC> <Co>
+.     .     .     .     .     .     .     +VWB/ .     .     .     .     .     +B    .     .     .     .     .     .     .      <PC> <Co>
+.     .     .     .     .     .     .     +VWB/ .     .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     .     .     .     .     +<L   .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+.     .     .     .     .     .     .     .     +>T== .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+.     .     .     .     .     .     .     .     +B    .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+.     .     .     .     .     .     .     .     +K    .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+.     .     .     .     .     .     .     .     +L    .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+.     .     .     .     .     .     .     .     +MN   .     .     .     .     .     .     .     .     .     .     .     .      <PC>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     .     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .     .      <Qu>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     .     .     .     .     .     .     +     .     .     .     .     .     .     .     .     .     .      <Mo>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     .     .     .     .     .     .     .     +     .     .     .     .     .     .     .     .     .      <Ng>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     .     .     .     .     .     .     .     .     +     .     .     .     .     .     .     .     .      <Ij>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse
+.     .     .     .     .     .     .     .     .     .     .     .     .     +B    .     .     .     .     .     .     .      <..>
+#Sfx  2PrnD 3PrnP 4NPdt 5NPPN 6NPid 7PrnI 8AdjP 9PP   0Irog 1Mod  2Ext  3Inj  4Cpl1 5Cpl2 6Cpl3 7Cpl4 8Time 9Loca 0Adj1 1Adj2 .Parse

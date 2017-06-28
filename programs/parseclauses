@@ -1,0 +1,198 @@
+
+
+
+BIBLICAL LANGUAGES                                PARSECLAUSES(1)
+
+
+
+NAME
+     parseclauses - parse clauses
+
+SYNOPSIS
+     parseclauses
+
+DESCRIPTION
+     This parsing program matches previously parsed  clause  pat-
+     terns with the clause atoms of a particular text.  It starts
+     from a virtually empty set  of  clause  constituent  labels.
+     During  the  parsing  process this set is filled with clause
+     patterns made or accepted by the user.  This results in both
+     an  update  of  the  linguistically  tagged Hebrew text and,
+     ultimately, a collection of grammatical rules for the  pars-
+     ing of Hebrew clauses.
+
+  Parsing labels
+     The collection of parsing labels which can  be  attached  to
+     the  phrase function within the clause are defined in ct(5).
+     The meaning and typical use of the  less  obvious  ones  are
+     described below.
+
+     Exst <eX>
+          Used for nouns like JC/ that act as a copula.
+          [JC <eX>] [JHWH <Su>] [B--MQWM H-ZH <PC>]
+
+     ExsS <Xs>
+          Used for nouns like JC/ that act as a copula and have a
+          subject suffix attached to them.
+          [JCKM <Xs>] [<FJM <PC>] [XSD W->MT <Ob>]
+
+     NCop <NC>
+          Used for nouns like >JN/ that act as a negated copula.
+          [>JC <Su>] [>JN <NC>] [B-->RY <PC>]
+
+     NCoS <Ns>
+          Used for nouns like >JN/ that act as a  negated  copula
+          and have a subject suffix attached to them.
+          [>JNK <Ns>] [MCJB <PC>]
+
+FILES
+     *.Nclauses
+          Output file with a list  of  new  parsings  of  nominal
+          clauses found during this session.  Overwritten at each
+          run.
+     *.Ps3pED
+          New version of the *.ps3.p file reflecting the  correc-
+          tions  to  the  phrase and clause divisions made by the
+          user during the session.
+     *.ct Input file with the surface text.
+     *.ct4.p
+          Output file with annotated surface text of  the  clause
+
+
+
+Werkgroep Informatica Last change: 12/11/09                     1
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                PARSECLAUSES(1)
+
+
+
+          atoms.   The  constituent  phrases  are  demarcated  by
+          square brackets and labelled.
+     *.div
+          Input file with clause divisions.
+     *.div.p
+          Output file with clause divisions and clause parsings.
+     *.ps3.p
+          Input  file  containing   the   morpho-syntactic   text
+          analysis  complete  with  phrase  divisions  and phrase
+          parsings.
+     *.ps4.p
+          Output  file  containing  the   morpho-syntactic   text
+          analysis  complete  with  clause  divisions  and clause
+          parsings.
+     NCLsort
+          Output file containing a Bourne shell script to  create
+          a  file  *.Nclauses.sort  with  a sorted version of the
+          list from *.Nclauses.
+     NEW  Output file with a survey of the  new  clause  parsings
+          introduced in this session.
+     Nclause.struc
+          Output  file  containing   the   updated   version   of
+          clause.struc.
+     Ps3pV
+          Temporary file used by the editing facility of the pro-
+          gram.  Can safely be removed after the session.
+     clause.struc
+          Input file.
+     lexcondcl
+          List of lexemes with a special meaning in clause  pars-
+          ing.
+     loc.ref
+          List of lexemes that can act as a  local  reference  in
+          clause parsing.
+     morfcondcl
+          List of conditions for word and phrase function  values
+          relevant to clause parsing.
+     noparses
+          List of clauses that the program was  unable  to  match
+          with a pattern from its clause set.
+     synnr
+          Stage file with stage number and section name.  Stage 3
+          or higher is required.
+     time.ref
+          List of lexemes that can act as  a  time  reference  in
+          clause parsing.
+     verblessList
+          List of verbless clauses.
+     verbvalList
+          List of verbal valency.
+
+
+
+
+
+Werkgroep Informatica Last change: 12/11/09                     2
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                PARSECLAUSES(1)
+
+
+
+SEE ALSO
+     analyzeclset(1), syn04(1), syn05(1), ct(5), synnr(5).
+
+BUGS
+     The following lexemes  are  internal  to  the  program:   >J
+     where,  >JH  where, >CR which, >T object marker, D which, DJ
+     which, H which, HWJ alas, W and, ZW which, <WD/ duration,  C
+     which, CM there, and CMH= thither.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 12/11/09                     3
+
+
+

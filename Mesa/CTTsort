@@ -1,0 +1,3 @@
+#!/bin/sh
+name=$1
+sort +2 -o $name.CTT.sort $name.CTT

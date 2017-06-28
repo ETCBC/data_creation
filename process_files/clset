@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES                                       CLSET(5)
+
+
+
+NAME
+     clset - collection of accepted clause patterns
+
+SYNTAX
+     clause_set =             clause_pattern { clause_pattern }.
+
+     clause_pattern =         phrase_pattern {  phrase_pattern  }
+                              eocl <newline>.
+
+     phrase_pattern =         phrase_type phrase_condition.
+
+     phrase_condition =       empty_condition | condition_set
+
+     empty_condition =        '-'.
+
+     condition_set =          '(' condition  {  ','  condition  }
+                              ')'.
+
+     eocl =                   '99'.
+
+     The  non-terminals  phrase_type  and  condition  are  signed
+     integers.
+
+DESCRIPTION
+     The file clset contains the set of clause patterns  that  is
+     used  by  syn04(1)  to build clause atoms.  A clause pattern
+     consists of a string of phrase patterns that must be matched
+     to  form  a  clause atom.  Each phrase pattern to be matched
+     consists of a phrase type and possibly  additional  require-
+     ments in the form of `morphological' and lexical conditions.
+
+     If condition is a number smaller than 100, it refers to  the
+     morphological  condition  in morfcondcl(5) identified by the
+     same number.  If it is greater than 100, it  refers  to  the
+     lexical  condition in lexcondcl(5) with line number equal to
+     the offset from 100.  So condition 23 is morphological  con-
+     dition  23 in morfcondcl(5) and condition 123 is the lexical
+     condition found at line 23 of lexcondcl(5).
+
+     The clause patterns in clset(5) are expected by syn04(1)  to
+     be  in  descending  numerical  order, first on the string of
+     phrase types (disregarding eocl), then on  condition_set  in
+     ascending order.
+
+NOTES
+     In this description we have used `clauses' as a  short  hand
+     for the more correct term `clause atoms'.
+
+SEE ALSO
+     lexcondcl(5), morfcondcl(5), syn04(1).
+
+
+
+
+
+Werkgroep Informatica Last change: 12/07/23                     1
+
+
+

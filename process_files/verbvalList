@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES                                 VERBVALLIST(5)
+
+
+
+NAME
+     verbvalList - valency list for verbal clauses
+
+SYNTAX
+     file =              section + .
+
+     section =           hline pattern + .
+
+     hline =             `#lex  .Root .P123 .Modf .* .Adj4  .Adj5
+                         .Adj6 .Parse' .
+
+     pattern =           constituent {21} parsing .
+
+     constituent =       marker label .
+
+     parsing =           `<..>' | `<' [:alpha:] {2} `>' .
+
+     marker =            `+' | `.' .
+
+     label =             [:print:] {5} .
+
+DESCRIPTION
+     The verbvalList is a collection of valency patterns used  by
+     parseclauses(1)  for the parsing of verbal clause atoms.  It
+     resides in the working directory and  is  updated  with  new
+     patterns  approved  by the user during interactive sessions.
+     The   standard   initial   version   of    the    file    is
+     /projects/grammar/lib/language/verbvalList.   This file con-
+     tains only well-attested patterns, which are those  patterns
+     within  a  section  of  which the frequency in the corpus is
+     greater than one and exceeds the average by  more  than  one
+     sample  standard  deviation.  A section consists of all pat-
+     terns that share the same lexeme and verbal stem,  that  is,
+     have identical values in the first two columns.
+
+FILES
+     /projects/grammar/lib/aramaic/verbvalList
+          The standard initial version for Aramaic.
+
+     /projects/grammar/lib/hebrew/verbvalList
+          The standard initial version for Hebrew.
+
+     /projects/grammar/lib/syriac/verbvalList
+          The standard initial version for Syriac.
+
+SEE ALSO
+     isalpha(3c), isprint(3c), parseclauses(1), verblessList(5).
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 11/10/31                     1
+
+
+

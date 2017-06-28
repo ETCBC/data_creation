@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES                                       GENAT(1)
+
+
+
+NAME
+     genat - generate chapters of analysed text from *.an file
+
+SYNOPSIS
+     genat [-m] [-ffmt]  [-ttag]  [-uchapter]  -bbook  -llanguage
+     [file..]
+
+DESCRIPTION
+     genat extracts all chapters from a morphological analysis in
+     an(5)  format into separate files in at(5) format.  The name
+     of each output file is constructed from the book  name  sup-
+     plied   by  -bbook  and  the  chapter  number,  for  example
+     BenSira12.at, or 2Kings13.at in case of  a  multipart  book.
+     Files  in  the  current directory that are identical in name
+     and contents with the chapter extracted are not overwritten.
+     It  takes  its  input  from  the files given as arguments or
+     standard input in the case of no arguments.
+
+OPTIONS
+     -bbook
+          Book name to be used in the output file names.
+
+     -ffmt
+          Format of the book name and chapter number in the  file
+          name.  The default is "%s%02d".
+
+     -llanguage
+          Use language for the language directive in  the  output
+          file.
+
+     -m   Process a multipart book like Samuel or Kings.
+
+     -ttag
+          Abbreviation of the book name to be used in  the  verse
+          label.  The default is the unabbreviated book name sup-
+          plied by -bbook.
+
+     -uchapter
+          Update  only  the  file  chapter.at.    If   the   file
+          chapter.at already exists, it is rewritten.
+
+SEE ALSO
+     an(5), at(5).
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 08/03/14                     1
+
+
+

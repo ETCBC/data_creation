@@ -1,0 +1,3 @@
+#!/bin/sh
+name=$1
+sort -o $name.Nclauses.sort $name.Nclauses

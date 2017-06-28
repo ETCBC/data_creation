@@ -1,0 +1,86 @@
+MESA 01,01  0    1 120   7 100  19 470  52 120   0   0  .N  0 LineNr     1 ClauseNr   1:  1:  2: 200:  0    0 SentenceNr   1 TxtType: Q       Pargr: 1          ClType:NmCl 
+MESA 01,02  0   -1 120   1 422   0   0  ..  4 LineNr     2 ClauseNr   1:  1:  4: 122:  0    0 SentenceNr   2 TxtType: Q       Pargr: 1          ClType:XQtl 
+MESA 01,02  0   -1 422   1 472   0   0  .#  5 LineNr     3 ClauseNr   1:  1:  4: 172:  0    0 SentenceNr   3 TxtType: Q       Pargr: 11         ClType:WXQt 
+MESA 01,03  0   -1 472   1 107   0   0  ..  6 LineNr     4 ClauseNr   1:  1:  5: 157:  0    0 SentenceNr   4 TxtType: QN      Pargr: 11         ClType:Way0 
+MESA 01,04  0   -1 107   1 520   0   0  l.  7 LineNr     5 ClauseNr   2:  1:  1: 303: -6  -11 SentenceNr   4 TxtType: QN      Pargr: 11         ClType:Ellp 
+MESA 01,04  0   -1 520   1 201   0   0  ..  8 LineNr     6 ClauseNr   1:  1:  4: 132:  0    0 SentenceNr   5 TxtType: QN      Pargr: 11         ClType:xQt0 
+MESA 01,04  0   -1 201   0   0  ..  9 LineNr     7 ClauseNr   1:  1:  5: 182:  0    0 SentenceNr   6 TxtType: QN      Pargr: 11         ClType:WxQ0 
+MESA 01,05  0   -7 100   1 470   3 470   9 470   0   0  ..  3 LineNr     8 ClauseNr   1:  1:  2: 200:  0    0 SentenceNr   7 TxtType: Q       Pargr: 1          ClType:NmCl 
+MESA 01,05  0   -1 470   1 517   0   0  ..  6 LineNr     9 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr   8 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,05  0   -1 517   0   0  ..  7 LineNr    10 ClauseNr   1:  1:  4: 141:  0    0 SentenceNr   9 TxtType: QND     Pargr: 1          ClType:xYqX 
+MESA 01,06  0   -3 470   1 477   0   0  .#  5 LineNr    11 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr  10 TxtType: QN      Pargr: 12         ClType:Way0 
+MESA 01,06  0   -1 477   1 999   2 127   3 477   0   0  ..  6 LineNr    12 ClauseNr   1:  1:  3: 167:  0    0 SentenceNr  11 TxtType: QN      Pargr: 12         ClType:WayX 
+MESA 01,06  0   -1 999   0   0  .q  9 LineNr    13 ClauseNr   1:  1:  2: 101:  0    0 SentenceNr  12 TxtType: QNQ     Pargr: 121        ClType:ZYq0 
+MESA 01,07  0   -2 127   0   0  ..  8 LineNr    14 ClauseNr   1:  1:  3: 132:  0    0 SentenceNr  13 TxtType: QN      Pargr: 12         ClType:xQt0 
+MESA 01,07  0   -3 477   1 427   0   0  ..  7 LineNr    15 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  14 TxtType: QN      Pargr: 12         ClType:Way0 
+MESA 01,08  0   -1 427   0   0  .#  8 LineNr    16 ClauseNr   1:  1:  5: 172:  0    0 SentenceNr  15 TxtType: QN      Pargr: 122        ClType:WXQt 
+MESA 01,08  0   -9 470   1 427   2 200   0   0  .#  4 LineNr    17 ClauseNr   1:  1:  4: 167:  0    0 SentenceNr  16 TxtType: QN      Pargr: 13         ClType:WayX 
+MESA 01,09  0   -1 427   0   0  ..  6 LineNr    18 ClauseNr   1:  1:  4: 152:  0    0 SentenceNr  17 TxtType: QN      Pargr: 13         ClType:WQt0 
+MESA 01,09  0   -2 200   0   0  .#  5 LineNr    19 ClauseNr   1:  1:  5: 167:  0    0 SentenceNr  18 TxtType: QN      Pargr: 131        ClType:WayX 
+MESA 01,10  0  -19 470   1 200   2 200   0   0  ..  2 LineNr    20 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  19 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,10  0   -1 200   0   0  ..  3 LineNr    21 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr  20 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,10  0   -2 200   1 427   3 200   0   0  ..  2 LineNr    22 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  21 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,11  0   -1 427   1 472   0   0  .#  3 LineNr    23 ClauseNr   1:  1:  5: 172:  0    0 SentenceNr  22 TxtType: QN      Pargr: 14         ClType:WXQt 
+MESA 01,11  0   -1 472   0   0  .#  4 LineNr    24 ClauseNr   1:  1:  5: 167:  0    0 SentenceNr  23 TxtType: QN      Pargr: 141        ClType:WayX 
+MESA 01,12  0   -3 200   1 200   2 200   7 477  20 427  24 200   0   0  ..  2 LineNr    25 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  24 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,12  0   -1 200   0   0  ..  6 LineNr    26 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  25 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,13  0   -2 200   1 127   2 200   0   0  ..  5 LineNr    27 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  26 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,13  0   -1 127   0   0  ..  6 LineNr    28 ClauseNr   1:  1:  2: 102:  0    0 SentenceNr  27 TxtType: QN      Pargr: 1          ClType:ZQt0 
+MESA 01,14  0   -2 200   1 200   2 200   0   0  ..  5 LineNr    29 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr  28 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,14  0   -1 200   0   0  ..  6 LineNr    30 ClauseNr   1:  1:  5: 157:  0    0 SentenceNr  29 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,15  0   -2 200   0   0  ..  5 LineNr    31 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr  30 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,16  0   -7 477   1 999   3 477   0   0  .#  4 LineNr    32 ClauseNr   1:  1:  4: 167:  0    0 SentenceNr  31 TxtType: QN      Pargr: 15         ClType:WayX 
+MESA 01,16  0   -1 999   1 200   0   0  .q  6 LineNr    33 ClauseNr   1:  1:  1: 103:  0    0 SentenceNr  32 TxtType: QNQ     Pargr: 151        ClType:ZIm0 
+MESA 01,16  0   -1 200   0   0  ..  7 LineNr    34 ClauseNr   1:  1:  3: 103:  0    0 SentenceNr  33 TxtType: QNQ     Pargr: 151        ClType:ZIm0 
+MESA 01,17  0   -3 477   1 200   0   0  ..  5 LineNr    35 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  34 TxtType: QN      Pargr: 15         ClType:Way0 
+MESA 01,17  0   -1 200   1  67   2 223   3 200   4 200   0   0  ..  5 LineNr    36 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  35 TxtType: QN      Pargr: 15         ClType:Way0 
+MESA 01,17  0   -1  67   0   0  .e  8 LineNr    37 ClauseNr   2:  1:  2: 104:505  -11 SentenceNr  35 TxtType: QN      Pargr: 15         ClType:InfC 
+MESA 01,17  0   -2 223   0   0  d.  7 LineNr    38 ClauseNr   1:  4:  4: 157:  0    0 SentenceNr  35 TxtType: QN      Pargr: 15         ClType:Defc 
+MESA 01,18  0   -3 200   0   0  ..  6 LineNr    39 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  36 TxtType: QN      Pargr: 15         ClType:Way0 
+MESA 01,18  0   -4 200   1 407   2 527   3 200   0   0  ..  5 LineNr    40 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  37 TxtType: QN      Pargr: 15         ClType:Way0 
+MESA 01,19  0   -1 407   0   0  l.  7 LineNr    41 ClauseNr   2:  1:  2: 303:  0    0 SentenceNr  37 TxtType: QN      Pargr: 15         ClType:Ellp 
+MESA 01,20  0   -2 527   0   0  ..  6 LineNr    42 ClauseNr   1:  1:  4: 132:  0    0 SentenceNr  38 TxtType: QN      Pargr: 15         ClType:xQt0 
+MESA 01,21  0   -3 200   1 200   0   0  ..  5 LineNr    43 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr  39 TxtType: QN      Pargr: 15         ClType:Way0 
+MESA 01,21  0   -1 200   0   0  ..  6 LineNr    44 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr  40 TxtType: QN      Pargr: 15         ClType:Way0 
+MESA 01,22  0  -20 427   1 472   3 472   0   0  .#  3 LineNr    45 ClauseNr   1:  1:  4: 172:  0    0 SentenceNr  41 TxtType: QN      Pargr: 16         ClType:WXQt 
+MESA 01,22  0   -1 472   1  55   0   0  ..  5 LineNr    46 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  42 TxtType: QN      Pargr: 16         ClType:Way0 
+MESA 01,22  0   -1  55   0   0  ..  6 LineNr    47 ClauseNr   2:  1:  3: 104:505  -11 SentenceNr  42 TxtType: QN      Pargr: 16         ClType:InfC 
+MESA 01,23  0   -3 472   0   0  .#  4 LineNr    48 ClauseNr   1:  1:  5: 167:  0    0 SentenceNr  43 TxtType: QN      Pargr: 161        ClType:WayX 
+MESA 01,24  0  -24 200   1 200   0   0  ..  2 LineNr    49 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr  44 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,25  0   -1 200   1 200   0   0  ..  3 LineNr    50 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr  45 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,25  0   -1 200   1  64   0   0  ..  3 LineNr    51 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  46 TxtType: QN      Pargr: 1          ClType:Way0 
+MESA 01,25  0   -1  64   0   0  ..  4 LineNr    52 ClauseNr   2:  1:  2: 104:505  -11 SentenceNr  46 TxtType: QN      Pargr: 1          ClType:InfC 
+MESA 01,26  0  -52 120   1 201  10 200   0   0  ..  1 LineNr    53 ClauseNr   1:  1:  3: 122:  0    0 SentenceNr  47 TxtType: Q       Pargr: 1          ClType:XQtl 
+MESA 01,27  0   -1 201   1 200   0   0  .#  2 LineNr    54 ClauseNr   1:  1:  4: 172:  0    0 SentenceNr  48 TxtType: Q       Pargr: 17         ClType:WXQt 
+MESA 01,27  0   -1 200   1 200   0   0  .#  2 LineNr    55 ClauseNr   1:  1:  4: 172:  0    0 SentenceNr  49 TxtType: Q       Pargr: 18         ClType:WXQt 
+MESA 01,28  0   -1 200   1 200   0   0  .#  2 LineNr    56 ClauseNr   1:  1:  4: 172:  0    0 SentenceNr  50 TxtType: Q       Pargr: 19         ClType:WXQt 
+MESA 01,28  0   -1 200   1 402   2 472   5 200   0   0  .#  2 LineNr    57 ClauseNr   1:  1:  5: 172:  0    0 SentenceNr  51 TxtType: Q       Pargr: 110        ClType:WXQt 
+MESA 01,29  0   -1 402   0   0  ..  4 LineNr    58 ClauseNr   1:  1:  4: 200:  0    0 SentenceNr  52 TxtType: Q       Pargr: 110        ClType:NmCl 
+MESA 01,29  0   -2 472   1 999   0   0  ..  3 LineNr    59 ClauseNr   1:  1:  3: 157:  0    0 SentenceNr  53 TxtType: QN      Pargr: 110        ClType:Way0 
+MESA 01,29  0   -1 999   1 103   0   0  .q  4 LineNr    60 ClauseNr   1:  1:  2: 103:  0    0 SentenceNr  54 TxtType: QNQ     Pargr: 1101       ClType:ZIm0 
+MESA 01,29  0   -1 103   0   0  l.  5 LineNr    61 ClauseNr   2:  1:  3: 303:505  -11 SentenceNr  54 TxtType: QNQ     Pargr: 1101       ClType:Ellp 
+MESA 01,30  0   -5 200   0   0  .#  2 LineNr    62 ClauseNr   1:  1:  6: 172:  0    0 SentenceNr  55 TxtType: Q       Pargr: 111        ClType:WXQt 
+MESA 01,31  0  -10 200   1 201   4 200   0   0  ..  1 LineNr    63 ClauseNr   1:  1:  3: 122:  0    0 SentenceNr  56 TxtType: Q       Pargr: 1          ClType:XQtl 
+MESA 01,31  0   -1 201   1 200   0   0  .#  2 LineNr    64 ClauseNr   1:  1:  5: 172:  0    0 SentenceNr  57 TxtType: Q       Pargr: 112        ClType:WXQt 
+MESA 01,32  0   -1 200   1 562   0   0  .#  2 LineNr    65 ClauseNr   1:  1:  4: 172:  0    0 SentenceNr  58 TxtType: Q       Pargr: 113        ClType:WXQt 
+MESA 01,32  0   -1 562   0   0  ..  3 LineNr    66 ClauseNr   1:  1:  3: 106:  0    0 SentenceNr  59 TxtType: Q       Pargr: 113        ClType:Ptcp 
+MESA 01,33  0   -4 200   1 502   2 223   3 502   4 201  10 402  19 402   0   0  ..  1 LineNr    67 ClauseNr   1:  1:  3: 122:  0    0 SentenceNr  60 TxtType: Q       Pargr: 1          ClType:XQtl 
+MESA 01,33  0   -1 502   0   0  .e  7 LineNr    68 ClauseNr   1:  1:  3: 200:  0    0 SentenceNr  61 TxtType: Q       Pargr: 1          ClType:NmCl 
+MESA 01,33  0   -2 223   0   0  d.  6 LineNr    69 ClauseNr   1:  4:  4: 122:  0    0 SentenceNr  60 TxtType: Q       Pargr: 1          ClType:Defc 
+MESA 01,33  0   -3 502   0   0  ..  5 LineNr    70 ClauseNr   1:  1:  3: 200:  0    0 SentenceNr  62 TxtType: Q       Pargr: 1          ClType:NmCl 
+MESA 01,34  0   -4 201   1  12   2 200   0   0  .#  4 LineNr    71 ClauseNr   1:  1:  5: 172:  0    0 SentenceNr  63 TxtType: Q       Pargr: 114        ClType:WXQt 
+MESA 01,34  0   -1  12   0   0  ..  5 LineNr    72 ClauseNr   2:  1:  3: 132:-13 -103 SentenceNr  63 TxtType: Q       Pargr: 114        ClType:xQt0 
+MESA 01,35  0   -2 200   1 402   2 472   0   0  .#  4 LineNr    73 ClauseNr   1:  1:  4: 172:  0    0 SentenceNr  64 TxtType: Q       Pargr: 115        ClType:WXQt 
+MESA 01,36  0   -1 402   0   0  l.  6 LineNr    74 ClauseNr   2:  1:  2: 303:  0    0 SentenceNr  64 TxtType: Q       Pargr: 115        ClType:Ellp 
+MESA 01,36  0   -2 472   1  64   0   0  ..  5 LineNr    75 ClauseNr   1:  1:  4: 157:  0    0 SentenceNr  65 TxtType: QN      Pargr: 115        ClType:Way0 
+MESA 01,36  0   -1  64   0   0  ..  6 LineNr    76 ClauseNr   2:  1:  2: 104:505  -11 SentenceNr  65 TxtType: QN      Pargr: 115        ClType:InfC 
+MESA 01,37  0  -10 402   1 120   2 470   0   0  c.  3 LineNr    77 ClauseNr   1:  1:  2: 302:  0    0 SentenceNr  66 TxtType: Q       Pargr: 1          ClType:CPen 
+MESA 01,37  0   -1 120   0   0  ..  5 LineNr    78 ClauseNr   2:  1:  5: 112:572  -11 SentenceNr  66 TxtType: Q       Pargr: 1          ClType:ZQtX 
+MESA 01,37  0   -2 470   1 999   3 477   0   0  .#  4 LineNr    79 ClauseNr   1:  1:  4: 167:  0    0 SentenceNr  67 TxtType: QN      Pargr: 116        ClType:WayX 
+MESA 01,37  0   -1 999   1 200   0   0  .q  6 LineNr    80 ClauseNr   1:  1:  1: 103:  0    0 SentenceNr  68 TxtType: QNQ     Pargr: 1161       ClType:ZIm0 
+MESA 01,37  0   -1 200   0   0  ..  7 LineNr    81 ClauseNr   1:  1:  2: 103:  0    0 SentenceNr  69 TxtType: QNQ     Pargr: 1161       ClType:ZIm0 
+MESA 01,38  0   -3 477   1 427   2 477   3 407   0   0  ..  5 LineNr    82 ClauseNr   1:  1:  5: 157:  0    0 SentenceNr  70 TxtType: QN      Pargr: 116        ClType:Way0 
+MESA 01,38  0   -1 427   0   0  ..  8 LineNr    83 ClauseNr   1:  1:  3: 152:  0    0 SentenceNr  71 TxtType: QN      Pargr: 116        ClType:WQt0 
+MESA 01,38  0   -2 477   0   0  .#  7 LineNr    84 ClauseNr   1:  1:  5: 167:  0    0 SentenceNr  72 TxtType: QN      Pargr: 1162       ClType:WayX 
+MESA 01,38  0   -3 407   0   0  ..  6 LineNr    85 ClauseNr   1:  1:  7: 200:  0    0 SentenceNr  73 TxtType: QN      Pargr: 116        ClType:NmCl 
+MESA 01,39  0  -19 402   0   0  ..  2 LineNr    86 ClauseNr   1:  1:  2: 200:  0    0 SentenceNr  74 TxtType: Q       Pargr: 1          ClType:NmCl 

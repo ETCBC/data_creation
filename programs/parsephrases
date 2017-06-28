@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES				  PARSEPHRASES(1)
+
+
+
+NAME
+     parsephrases - internal phrase parsing
+
+SYNOPSIS
+     parsephrases
+
+DESCRIPTION
+     parsephrases  is  a  semi-interactive  program   that   adds
+     phrase-internal  parsing  to the phrase analysis of a ps3(5)
+     file.  It uses an extended	phrase set nphrset to  parse  the
+     phrases  in  its  input  file.  The result	is written in the
+     form of a ps3.p(5)	file.	New  phrase  structure	templates
+     created  by the user during the session are added to the set
+     of	templates which	is read	from phrase.struc and written  to
+     the file NewphraseStruc.
+
+EXIT STATUS
+     The exit status of	the program is undefined.
+
+FILES
+     *.MISparse
+	  Output file.	List of	phrases	and  their  corresponding
+	  patterns  in the phrase set for which	no internal pars-
+	  ing was found.
+     *.ct Input	file containing	the consonantal	text.
+     *.ps3
+	  Input	 file  containing   the	  morpho-syntactic   text
+	  analysis with	phrase types and phrase	boundaries.
+     *.ps3.p
+	  Output file complete with internal phrase parsing.
+     *.report
+	  Output file.	 Report	 of  the  session  including  the
+	  user's input.
+     NewphraseStruc
+	  Output file with the update of the file phrase.struc.
+     nphrset
+	  Input	 file  with  extended  phrase  set  produced   by
+	  analyzephrset(1).
+     phrase.struc
+	  Input	file with phrase structure templates.
+     phrase.suggest
+	  Input	file with suggestions for phrase structures.
+     synnr
+	  Stage	file with the stage number and the file	name pre-
+	  fix  of  the	pericope.   The	stage number must be 3 or
+	  greater.
+
+SEE ALSO
+     analyzephrset(1), ps3(5), ps3.p(5), synnr(5).
+
+
+
+
+
+
+Talstra	Centre	      Last change: 15/03/24			1
+
+
+

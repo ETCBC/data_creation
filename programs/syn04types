@@ -1,0 +1,264 @@
+
+
+
+BIBLICAL LANGUAGES                                  SYN04TYPES(1)
+
+
+
+NAME
+     syn04types - provide clause connections
+
+SYNOPSIS
+     syn04types
+
+DESCRIPTION
+     syn04types proposes and makes clause connections in  a  text
+     in  consultation  with  the  user.   This  program  has been
+     designed to replace the program syn05(1) for the parsing  of
+     clause  connections  once  fully developed.  One goal of the
+     development of syn04types is to  have  the  grammatical  and
+     lexical  data  on  which  calculations  of  clause types and
+     clause connections are based, program-external  as  much  as
+     possible.   For  that reason the program needs special input
+     files with these grammatical data.   During  a  session  the
+     files with these data will be updated, recording the choices
+     made by the user.
+
+     syn04types reads a ps4(5) file  or  (if  one  wants  to  use
+     existing  data of clause connections) a ps5(5) file. This is
+     decided by the contents  of  the  file  synnr(5).   To  have
+     access to a file with surface-text data, the program reads a
+     ct4(5) file (a surface-text  file  with  clause  constituent
+     labels).   If a ct4(5) file does not exist, the program will
+     read the corresponding lay.asc file,  made  by  syn04lay(1),
+     after completion of clause divisions by syn04(1).
+
+     If syn04types has been used before to create clause  connec-
+     tions  of  a  particular text, a usertab(5) file exists with
+     instructions for the clause types and clause tabs entered by
+     the  user. If the program is applied to the same text again,
+     it will use the instructions present in this usertab.
+
+     The output of the program is a CTT(5)  file  (comparable  to
+     the  ctt(5)  file  made  by  the actual version of syn05(1).
+     This file presents the surface format of the text  with  the
+     tabs  added  to  it  and  some  data  from  the  grammatical
+     analysis: verbal tense, blocks of direct speech in a  narra-
+     tive.
+
+     A CTT.rev file can be made on request.  It is an  adaptation
+     of the CTT file for ctt2rtf(1).
+
+     The tabs proposed by the user are stored in  the  usertab(5)
+     file.
+
+     For the time being the program also stores the tabs  in  the
+     format  of  the inn(5) file as used by syn05(1).  syn04types
+     is also capable of reading the existing ps5 file  types  and
+     composing  a  usertab file from it, so that the existing ps5
+     data produced by syn05, can be used.
+
+
+
+Werkgroep Informatica Last change: 14/03/19                     1
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                  SYN04TYPES(1)
+
+
+
+     Furthermore the program produces a typ.asc file, which is  a
+     printout of the internal array with clause level information
+     used to propose clause  connections.  The  file  presents  a
+     description of all lines (clause atoms) of the text in terms
+     of phrases and phrase types. The phrases are listed  accord-
+     ing  to  the  position  they  have in a more abstract model:
+     clause opening elements, preverbal  phrases,  adjectival  or
+     verbal predicate, postverbal phrases.
+
+     As a result of the clause connections made, syn04types  also
+     produces  a  px(5) file. Its format equals the format of the
+     ps5 files made by syn05 en syn05codes(1).  syn04types calcu-
+     lates  the  three  digit codes for clause connections in the
+     same way as syn05codes did. The px file can be read  by  the
+     program  struc(1)  to reformat it into a textual schema (see
+     sch(5)).
+
+     The file ClFreqTot contains the frequencies  of  the  clause
+     connections  of  all  texts  analysed  so  far.  The file is
+     updated by addition of the statistics of the clause  connec-
+     tions of the text being analysed in a particular session.
+
+COMMANDS
+     In interactive mode, the program accepts the following char-
+     acter  commands, which can be combined into a single string.
+     Within such a string,  commands  have  priority  over  their
+     predecessors.
+
+     `#'      New paragraph
+     `+'      Increase indentation
+     `-'      Decrease indentation
+     `/'      Parallel connection
+     `0..9'   Clause atom number
+     `='      Same indentation
+     `B'      Go back
+     `N'      No relation; start new paragraph
+     `R'      Clause constituent relation
+     `S'      Stop session
+     `T'      Absolute tab
+     `U'      Undo
+     `\'      Downward connection
+     `^'      Dependent connection
+     `c'      Casus pendens
+     `d'      Defective clause atom
+     `e'      Embedded clause atom
+     `l'      Ellipsis
+     `m'      Macrosyntactic sign
+     `q'      Start of direct speech paragraph
+     `r'      (Not implemented)
+     `v'      Vocative clause atom
+
+
+
+
+
+Werkgroep Informatica Last change: 14/03/19                     2
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                  SYN04TYPES(1)
+
+
+
+FILES
+     *.Actors
+     *.CTT
+     *.CTT.rev
+          File with  right-to-left  translitteration,  which  can
+          serve as input for ctt2rtf(1).
+     *.PX
+     *.VBLESS
+     *.cl4
+     *.clfreq
+     *.constit
+     *.ct4.p
+     *.hierarch
+     *.inn1
+     *.lay.asc
+     *.ps4
+          Input file in the absence of an *.ps4.p input file.
+     *.ps4.p
+     *.ps5
+     *.report
+     *.typ.asc
+     *.usertab
+          Record of the clause types and clause tabs supplied  by
+          the user.
+     ArgumentsList
+          Labels  of  grammatical  or   lexical   correspondences
+          between two clauses.
+     CL4sort
+     CTTsort
+     ClConnList
+     ClFreqTot
+          Frequencies of the  clause  connections  of  all  texts
+          analysed so far.
+     ClTypesList
+          This file is no longer used by  the  program.   It  has
+          been     superseded     by    the    library    routine
+          ClauseLabel(3hebrew).   It  contains  the  clause  type
+          labels  used by the program.  To the labels a figure is
+          attached, to indicate its value in the  calculation  of
+          clause connections.
+     Clauseconnsort
+     Clausetypesort
+     CodesList
+          Three digit clause relation codes  used  in  the  px(5)
+          file.
+     NamesList
+     ParsingList
+          This file is no longer used by  the  program.   It  has
+          been     superseded     by    the    library    routine
+          ParseLabel(3hebrew).
+     QuotActorsList
+     QuotList
+
+
+
+Werkgroep Informatica Last change: 14/03/19                     3
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                  SYN04TYPES(1)
+
+
+
+          This file is no longer used by the program.  The  start
+          of  a direct speech section is now detected with a dif-
+          ferent, probabilistic, algorithm.   The  file  contains
+          sets of clause connection labels from ArgumentsList, to
+          determine the start of a direct speech section.
+     synnr
+          Stage file.
+     verbLexList
+
+SEE ALSO
+     CTT(5),  ct4(5),  ctt(5),  inn(5),  ps4(5),  ps5(5),  px(5),
+     sch(5)),    struc(1),   syn04(1),   syn04lay(1),   syn05(1),
+     syn05codes(1), synnr(5), usertab(5).
+
+BUGS
+     The user should be aware of  the  fact  that  syn04types  is
+     still  experimental  in  many  respects.  Yet the program is
+     stable enough for the production of clause connections.
+
+     The following lexemes are internal to the program:   >W  or,
+     >JN/  is  not,  >M if, >MR[ to say, >NXNW we, >NJ I, >NKJ I,
+     >CR which, >T object marker, >T= you, >TH you, >TM you,  >TN
+     you,  BLTJ/  is not, DBR[ to speak, H the, HW> he, HWJ alas,
+     HJ> she, HJH[ to be, HM  they,  HMH  they,  HN  behold,  HNH
+     behold,  HNH=  they,  W and, JD<[ to know, K as, KH thus, KJ
+     that, KL/ whole, KN thus, LKN therefore, LM<N because of, MH
+     what,  NGD[  to  report,  NXNW we, <TH now, PN lest, R>H[ to
+     see, and CM<[ to hear.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 14/03/19                     4
+
+
+

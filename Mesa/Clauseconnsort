@@ -1,0 +1,3 @@
+#!/bin/sh
+name=$1
+sort +5 -o $name.rep.sort $name.rep

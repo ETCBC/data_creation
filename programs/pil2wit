@@ -1,0 +1,132 @@
+
+
+
+CALAP                                                  PIL2WIT(1)
+
+
+
+NAME
+     pil2wit - convert PIL running text to graphic text
+
+SYNOPSIS
+     pil2wit [-lsv] [-m siglum] [-o output] [-t language]  file
+     ...
+
+DESCRIPTION
+     pil2wit converts  a  running  text  in  the  format  of  the
+     Peshitta  Institute Leiden into a graphic text in the format
+     specified by gt(5).  It writes its  output  to  stdout,  but
+     this can be changed by the -o option.
+
+     The input file is stripped of its comments and its  transli-
+     teration is adapted to the one that is in use with the Werk-
+     groep  Informatica.   By  default,  textual  variations  are
+     resolved but not followed.
+
+OPTIONS
+     -l   Labels.  Also check whether the verse labels  are  con-
+          sistent and consecutive.
+
+     -m siglum
+          Manuscript.   In   textual   variations,   follow   the
+          manuscript  with this siglum.  This option can be given
+          more than once, in which case the variant  is  followed
+          when any one of the sigla is listed with the variant.
+
+     -o output
+          Output.  Write the result to the file output.
+
+     -s   Strict substitutions.  Do not allow substitutions  that
+          affect text from a preceding variant.
+
+     -t language
+          Taal.  Use language in the language  directive,  rather
+          than  `syriac',  which  is  the default.  Syriac is the
+          default language in order to maintain backward compati-
+          bility  with earlier versions which did not have the -t
+          option.
+
+     -v   Verbose.  It lists the file names  and  selected  sigla
+          while  it  processes the files.  At the end of the run,
+          the set  of  sigla  used  in  the  texts  is  reported,
+          together with an error count.
+
+EXIT STATUS
+     Exits with a non-zero status in case of errors, among  which
+     format errors in the input file.
+
+SEE ALSO
+     gt(5)
+
+
+
+Werkgroep Informatica Last change: 05/08/25                     1
+
+
+
+
+
+
+CALAP                                                  PIL2WIT(1)
+
+
+
+     H. J. Bosman and C. J. Sikkel, Format of A PIL Running  Text
+     which is part of the CALAP documentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 05/08/25                     2
+
+
+

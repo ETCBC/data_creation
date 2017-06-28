@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES                                VERBLESSLIST(5)
+
+
+
+NAME
+     verblessList - valency list for nominal clauses
+
+SYNTAX
+     file =              section {14} hline.
+
+     section =           hline pattern +.
+
+     hline =             `#Sfx  2PrnD 3PrnP 4NPdt .* 9Loca  0Adj1
+                         1Adj2 .Parse'.
+
+     pattern =           constituent {21} parsing.
+
+     constituent =       marker label.
+
+     parsing =           `<..>' | `<' [:alpha:] {2} `>'.
+
+     marker =            `+' | `.' .
+
+     label =             [:print:] {5}.
+
+DESCRIPTION
+     The verblessList is a collection of valency patterns used by
+     parseclauses(1).  It resides in the working directory and is
+     updated with  new  patterns  approved  by  the  user  during
+     interactive  sessions.   The standard initial version of the
+     file is  /projects/grammar/lib/language/verblessList.   This
+     file  contains  only well-attested patterns, which are those
+     patterns within a section of  which  the  frequency  in  the
+     corpus  exceeds  the average by at least one sample standard
+     deviation.
+
+FILES
+     /projects/grammar/lib/aramaic/verblessList
+          The standard initial version for Aramaic.
+
+     /projects/grammar/lib/hebrew/verblessList
+          The standard initial version for Hebrew.
+
+     /projects/grammar/lib/syriac/verblessList
+          The standard initial version for Syriac.
+
+SEE ALSO
+     isalpha(3c), isprint(3c), parseclauses(1), verbvalList(5).
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 11/10/26                     1
+
+
+

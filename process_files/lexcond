@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES                                     LEXCOND(5)
+
+
+
+NAME
+     lexcond - lexemes for the lexical conditions
+
+DESCRIPTION
+     The  file  lexcond  contains  the  list  of   lexemes   that
+     correspond  with  the  lexical conditions used in phrset(5).
+     The lexemes are listed one to a line. Each line consists  of
+     nothing  but  the lexeme.  Lexical conditions are referenced
+     through positive integers  that  correspond  with  the  line
+     number  in  this  file.  A condition is met when the word in
+     question has a lexeme that is identical to the one stated on
+     the indicated line.
+
+     In phrset(5) lexical conditions are listed with an offset of
+     100  in order to discriminate them from morphological condi-
+     tions. E.g. condition 105 in phrset(5)  stands  for  lexical
+     condition number 5.
+
+SEE ALSO
+     syn03(1), morfcond(5), phrset(5).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 01/23/98                     1
+
+
+

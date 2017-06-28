@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES                                       SYN04(1)
+
+
+
+NAME
+     syn04 - establish clause atom divisions
+
+SYNOPSIS
+     syn04
+
+DESCRIPTION
+     syn04 performs the  fourth  stage  of  the  morpho-syntactic
+     analysis  of  a  text, the delimitation of the clause atoms.
+     It relies on the synnr(5) stage file to find the  base  name
+     of its input files.  It insists on the stage number being at
+     least 3, as this indicates that  syn03(1)  has  successfully
+     run to completion.
+
+     Taking chapter as base name, its input files are chapter.ps3
+     and   chapter.ct.    The  names  of  the  output  files  are
+     chapter.div, chapter.ct4, and chapter.ps4.  It further  uses
+     the  files  lexcondcl,  morfcondcl and clset as data base of
+     valid clause atom patterns.  All files need to reside in the
+     current directory.
+
+     When syn04 has finished successfully,  it  will  update  the
+     stage  number in synnr to 4, indicating that all clause atom
+     boundaries have been established.
+
+FILES
+     addClSet  Updated version of clset(5).
+
+     clset     Collection of approved clause atom  patterns  used
+               as input.  See clset(5).
+
+     lexcondcl Lexical conditions.
+
+     morfcondcl
+               Morphological conditions.
+
+     partcldivis
+               Clause atom divisions after an incomplete session.
+
+     synnr     Stage file.
+
+BUGS
+     syn04 uses an inefficient algorithm to match the clause atom
+     patterns, which causes it to run slowly when the pattern set
+     grows large.
+
+SEE ALSO
+     clset(5), lexcondcl(5), morfcondcl(5), syn03(1), synnr(5).
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 10/04/21                     1
+
+
+

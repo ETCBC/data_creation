@@ -1,0 +1,396 @@
+
+
+
+BIBLICAL LANGUAGES                                       FMTPX(1)
+
+
+
+NAME
+     fmtpx - reformat a PX-file
+
+SYNOPSIS
+     fmtpx [-prtvw] [-i indent] [-o output] file...
+
+DESCRIPTION
+     fmtpx reformats a PX(5) file and optionally reconstructs  it
+     recalculating  and renumbering the hierarchies of the clause
+     atoms and the linguistic units.  The  program  will  combine
+     the  contents  of the files named on the command line into a
+     single output file.  The result is written  to  stdout,  but
+     can be directed to a file by the -o option.
+
+     When reconstructing, as indicated with the  -r  option,  the
+     program  operates  in  phases.   It will proceed to the next
+     phase only if  the  previous  phase  was  completed  without
+     errors.   First  it  will parse the PX(5) file and construct
+     the hierarchies of  the  clause  atoms  and  the  linguistic
+     units.   If  the  input  is  correct,  it  will  process the
+     phrases, the clause constituent relations,  and  the  clause
+     atom  boundaries.   It  will  then  proceed  to recreate the
+     clause atom hierarchy and the tree of linguistic units.  The
+     instructions,   consisting   of   the  two-character  string
+     representing the status of the clause atom followed  by  its
+     indentation,  together  with  the clause and sentence number
+     are the initial data on which the recalculation is based and
+     from  which  all values are derived.  The type of the clause
+     atom relations, however, is  copied  and  not  recalculated,
+     because  it  is  language-specific.  If the hierarchy can be
+     recreated without errors, the resulting PX(5) file is  writ-
+     ten.
+
+OPTIONS
+     -i indent
+          The indent used in displaying the tree requested by the
+          -v option.  The default is 3.
+
+     -o output
+          Write the result to output in stead of stdout.
+
+     -p   Paragraph scope.  This option is accepted, but ignored.
+          It  has  become  obsolete  with the introduction of the
+          concept of text segments to the program.
+
+     -r   Recalculate and renumber the hierarchies of the  clause
+          atoms and the linguistic units.
+
+     -t   Traditional.  Adopt a format  compatible  with  earlier
+          versions of syn04types(1).  Accept ambiguous (overflow-
+          ing) paragraph numbers and, in doing so, a result  that
+          may not be reproducible.  Furthermore, in the input, an
+
+
+
+Werkgroep Informatica Last change: 14/03/20                     1
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                       FMTPX(1)
+
+
+
+          instruction `N' is implied at the first clause atom  at
+          indentation  0.   In  the output, the sentences are not
+          numbered within the  paragraph,  but  absolutely.   The
+          Text  Type  labels  are  padded  with spaces to a fixed
+          width of seven character positions.
+
+     -v   Verbose.  Display the recalculated tree  of  linguistic
+          units and their atoms on stderr.
+
+     -w   Warn.  Treat errors as warnings where possible.
+
+EXIT STATUS
+     If no errors are encountered,  fmtpx  returns  a  zero  exit
+     status  to  the  calling environment.  On error, it prints a
+     message on stderr and exits with a non-zero exit status.
+
+SEE ALSO
+     PX(5), syn04types(1).
+
+DIAGNOSTICS
+     `Input in wrong format. No output produced.'
+          The input file could not be read properly,  because  it
+          did  not  adhere  to  the  format of a PX(5) file.  The
+          reformatting is abandoned.
+
+     `Input inconsistent. No output produced.'
+          During the recalculation  of  the  hierarchies,  errors
+          were found in the data.  No PX(5) file is written.
+
+     `Input incorrect. No further processing.'
+          The input file could not be processed properly,  either
+          because  it  did  not  adhere  to the format of a PX(5)
+          file, or because it contained too serious  inconsisten-
+          cies.  No reconstruction is attempted.
+
+     `a proleptic ellips requires a daughter in the same sentence'
+          The instruction `p' was found on a clause atom that did
+          not have a daughter as the main clause within the  sen-
+          tence.
+
+     `abandoned vocative'
+          A vocative was found  with  a  daughter  that  lacks  a
+          clause constituent relation with the vocative.
+
+     `an extraposition requires a downward connection'
+          An extraposition was found which is  not  connected  to
+          the main clause in which it is a constituent.
+
+     `clause atom hierarchy implies virtual mother'
+          The clause atom hierarchy contains  or  implies  clause
+          atom relations with a mother outside the text contained
+          in the file.
+
+
+
+Werkgroep Informatica Last change: 14/03/20                     2
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                       FMTPX(1)
+
+
+
+     `clause broken up by tabs'
+          The clause numbering is contradicted by  the  tab  set-
+          tings.   This  can happen when a zero tab without rela-
+          tion starts a new segment in the gap within a  compound
+          clause.
+
+     `clause atom type in conflict with clause type'
+          In a clause atom without a predicate, the  clause  atom
+          type label does not agree with the clause type number.
+
+     `clause constituent relation missing'
+          A dependent clause with a predication  needs  a  clause
+          constituent  relation  in  order to be part of the sen-
+          tence.
+
+     `clause constituent relation on main clause'
+          The main clause of the sentence should be the mother of
+          the clause constituent relations, not a daughter.
+
+     `clause type in conflict with clause atom type'
+          In a clause without a predicate, the clause type number
+          does  not  agree with the clause atom type label of its
+          primary clause atom.
+
+     `conflict with clause atom relation'
+          The target of the clause constituent relation does  not
+          lie  within  the  mother clause atom of the clause atom
+          carrying the clause constituent relation.
+
+     `daughter claims to be her own mother'
+          In a phrase atom relation or clause  constituent  rela-
+          tion, the distance code points to a position within the
+          daughter herself.
+
+     `departs from <type> at line <number>'
+          In a compound clause, the value for clause type or text
+          type  is  not  repeated  properly  on the matching star
+          line.
+
+     `distance missing'
+          A phrase atom relation requires a distance code.
+
+     `downward connection inside a clause'
+          A downward connection should connect two  clause  atoms
+          of  different  clauses,  not the clause atoms of a com-
+          pound clause.
+
+     `expected `:' in place of `?''
+          An unexpected character was used as  separator  on  the
+          star line.  The parsing continues.
+
+     `mother not in this <unit>'
+
+
+
+Werkgroep Informatica Last change: 14/03/20                     3
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                       FMTPX(1)
+
+
+
+          In a phrase atom relation or clause  constituent  rela-
+          tion,  the  distance  code points to a position outside
+          the surrounding clause or sentence.
+
+     `need exactly one primary atom'
+          A clause or  sentence  was  found  that  did  not  have
+          exactly one atom with a relation outside the unit.
+
+     `need exactly two subtypes'
+          The string representing the status of the  clause  atom
+          did not consist of exactly two characters, which is the
+          de facto standard at present.
+
+     `not a simple clause'
+          A compound clause was labelled as macrosyntactic sign.
+
+     `not properly resumed'
+          The clause atom marked casus  pendens  lacks  a  clause
+          atom  relation  in the same sentence with the head of a
+          clause that has a resumptive clause  constituent  rela-
+          tion to the casus pendens clause.
+
+     `not the first clause atom of this clause'
+          In the PX(5) format, the clause constituent relation of
+          a  compound  clause is recorded only once, at the first
+          clause atom of the clause.
+
+     `not the first clause of the sentence'
+          A clause marked casus pendens was not the first of  the
+          sentence.
+
+     `not the main clause of the sentence'
+          A clause marked macrosyntactic sign was  not  the  main
+          clause of the sentence.
+
+     `orphaned <type>'
+          An  ellipsis  or  extraposition  was  found  without  a
+          mother.
+
+     `paragraph 11 taken as 1.1'
+          An ambiguous paragraph  number  was  encountered.   The
+          interpretation   closest  to  the  preceding  paragraph
+          number is taken.  In the traditional format,  paragraph
+          numbers may overflow and become ambiguous.
+
+     `paragraph number overflow'
+          The PX(5) format allows for a  maximum  of  nine  para-
+          graphs  per  segment  and  nine subparagraphs per para-
+          graph.  Beyond this limit, paragraph numbers are  ambi-
+          guous.
+
+     `partial clause atom'
+
+
+
+Werkgroep Informatica Last change: 14/03/20                     4
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                       FMTPX(1)
+
+
+
+          A star line was found in the middle of a  clause  atom.
+          This  happens  when  the  clause numbering ascribes two
+          consecutive clause atoms to the same clause.
+
+     `phrase broken up by tabs'
+          The phrase numbering is contradicted by  the  tab  set-
+          tings.   This  can happen when a zero tab without rela-
+          tion starts a new segment in the gap within a  compound
+          phrase.
+
+     `points out of the text'
+          In a phrase atom relation or clause  constituent  rela-
+          tion,  the  distance  code points to a position outside
+          the text.
+
+     `requires a distance in clause atoms'
+          A resumption or a  continuation  of  the  vocative  was
+          found with a distance other than in clause atoms.
+
+     `requires a reopening or a casus pendens as mother'
+          A resumption was found with a mother other than a  reo-
+          pened or a casus pendens clause.
+
+     `requires a vocative clause as mother'
+          A continuation of the vocative was found with a  mother
+          other than a vocative clause.
+
+     `sentence does not connect to a primary atom'
+          A clause atom that opens a sentence should  connect  to
+          the primary clause atom of the clause it connects to.
+
+     `status in conflict with clause atom type'
+          In a clause without a predicate, the status  attributed
+          to  the  clause by the instructions does not agree with
+          the label assigning the clause atom type.
+
+     `tab 0: status `\' ignored'
+          An attempt was made at a downward connection at  inden-
+          tation 0.  The downward direction is ignored.
+
+     `unnatural mother'
+          The mother of an ellipsis or extraposition is not in  a
+          different clause within the same sentence.
+
+     `use `lp' for an ellipsis that precedes the predicate'
+          A downward connection was found on  an  ellipsis.   The
+          instruction  `p'  has  been  introduced to handle these
+          cases, in which a proleptic ellipsis precedes the  main
+          clause with the predicate.
+
+BUGS
+     Since  fmtpx  makes  two  passes  over  the  input  when  it
+
+
+
+Werkgroep Informatica Last change: 14/03/20                     5
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                       FMTPX(1)
+
+
+
+     recalculates  the  hierarchies,  it  may  produce  incorrect
+     results if one of its input files is changed by another pro-
+     cess during its operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 14/03/20                     6
+
+
+

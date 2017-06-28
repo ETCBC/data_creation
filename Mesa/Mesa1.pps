@@ -1,0 +1,269 @@
+Pattern 79d, line 2: 3
+ 0:0 2:2 = 2/2.
+   MESA 1:10 H->CWX, MESA 1:17 H-CXRT, MESA 1:31 H-MSLT
+
+Pattern 222d, line 3: 1
+ 0:0 2:2 = 2/2.
+   MESA 1:30 H-MKRTT
+
+Pattern 14d, line 4: 1
+ 0:0 2:2 8:8 = 2/2.
+   MESA 1:3 H-BMT Z>T
+
+Pattern 2s, line 5: 55
+ 1:1 = 1/-1.
+   MESA 1:2 MLK, MESA 1:2 MLKTJ, MESA 1:3 ><F, MESA 1:5 J<NW, MESA 1:5 J>NP
+   MESA 1:6 ><NW, MESA 1:6 J>MR, MESA 1:7 >MR, MESA 1:7 >R>, MESA 1:8 >BD
+   MESA 1:8 JRC, MESA 1:9 JCB, MESA 1:10 ><F, MESA 1:10 >BN, MESA 1:10 >BN
+   MESA 1:11 JBN, MESA 1:11 JCB, MESA 1:12 >LTXM, MESA 1:13 >HRG, MESA 1:13 HJT
+   MESA 1:14 >CB, MESA 1:15 >CB, MESA 1:16 >XZ, MESA 1:16 J>MR, MESA 1:16 LK
+   MESA 1:17 >HLK, MESA 1:17 >LTXM, MESA 1:18 >HRG, MESA 1:21 >QX
+   MESA 1:21 >SXB, MESA 1:22 BNH, MESA 1:22 JCB, MESA 1:24 >QX, MESA 1:26 BNTJ
+   MESA 1:27 BNTJ, MESA 1:27 BNTJ, MESA 1:28 <FTJ, MESA 1:28 BNTJ, MESA 1:29 <FW
+   MESA 1:29 >MR, MESA 1:30 KRTJ, MESA 1:31 <FTJ, MESA 1:31 BNTJ, MESA 1:32 BNTJ
+   MESA 1:33 BNTJ, MESA 1:34 JSPTJ, MESA 1:34 MLKTJ, MESA 1:35 BNTJ
+   MESA 1:36 >F>, MESA 1:37 HLTXM, MESA 1:37 J>MR, MESA 1:37 JCB, MESA 1:37 RD
+   MESA 1:38 >RD, MESA 1:38 JCB
+
+Pattern 3s, line 6: 2
+ 1:1 = 1/-1.
+   MESA 1:8 >BD, MESA 1:32 HRS
+
+Pattern 19j, line 8: 12
+ 1:1 = 1/-1, 7:7 = 7/2.
+   MESA 1:4 HC<-NJ, MESA 1:4 HR>-NJ, MESA 1:6 JXLP-H, MESA 1:9 JCB-H
+   MESA 1:12 >XZ-H, MESA 1:14 >SXB-H, MESA 1:18 >XZ-H, MESA 1:20 HXRMT-H
+   MESA 1:23 JGRC-H, MESA 1:25 >F>-H, MESA 1:25 >XZ-H, MESA 1:38 >XZ-H
+
+Pattern 5s, line 9: 7
+ 2:2 = 2/1.
+   MESA 1:26 QRXH, MESA 1:29 >C, MESA 1:29 >N, MESA 1:29 BR, MESA 1:29 BR
+   MESA 1:33 <JN, MESA 1:33 MCM<T
+
+Pattern 203d, line 12: 1
+ 2:2 0:0 2:2 = 2/2.
+   MESA 1:28 KL>J H->CWX
+
+Pattern 187d, line 13: 1
+ 2:2 0:0 2:2 6:6 2:2 0:0 3:3 = 2/2.
+   MESA 1:26 XMT H-J<RN W-XMT H-<PL
+
+Pattern 17d, line 14: 2
+ 2:2 2:2 = 2/1.
+   MESA 1:4 BMT JC<, MESA 1:28 BT MLK
+
+Pattern 236d, line 15: 1
+ 2:2 2:2 = 2/1.
+   MESA 1:32 BT BMT
+
+Pattern 7d, line 16: 2
+ 2:2 2:2 = 2/1.
+   MESA 1:2 CLCN CT, MESA 1:9 >RB<N CT
+
+Pattern 173d, line 17: 1
+ 2:2 2:2 = 2/1.
+   MESA 1:24 M>TN >C
+
+Pattern 140d, line 18: 1
+ 2:2 2:2 2:2 6:6 2:2 = 2/1.
+   MESA 1:18 CB<T >LPN GBRN W-GRN
+
+Pattern 66d, line 19: 1
+ 2:2 2:2 2:2 7:7 = 2/2.
+   MESA 1:9 XYJ JMJ BN-H
+
+Pattern 174d, line 20: 1
+ 2:2 2:2 7:7 = 2/2.
+   MESA 1:24 KL RC-H
+
+Pattern 11d, line 21: 1
+ 2:5 2:2 7:7 = 5/2.
+   MESA 1:2 >XR >B-J
+
+Pattern 28d, line 22: 7
+ 2:2 3:3 = 2/2.
+   MESA 1:5 MLK JFR>L, MESA 1:11 >C GD, MESA 1:11 MLK JFR>L, MESA 1:22 MLK JFR>L
+   MESA 1:33 KL DJBN, MESA 1:36 BT B<LM<N, MESA 1:37 BT DWD
+
+Pattern 56j, line 23: 1
+ 2:4 = 4/-1, 6:6 = 6/-1.
+   MESA 1:8 <LM W-
+
+Pattern 142d, line 24: 1
+ 2:2 6:6 2:2 6:6 2:2 = 2/1.
+   MESA 1:19 GBRT W-GRT W-RXMT
+
+Pattern 4d, line 25: 3
+ 2:2 7:7 = 2/2.
+   MESA 1:2 >B-J, MESA 1:6 BN-H, MESA 1:18 KL-H
+
+Pattern 195d, line 26: 1
+ 2:2 7:7 = 2/2.
+   MESA 1:27 MGDLT-H
+
+Pattern 191d, line 27: 2
+ 2:2 7:7 = 2/2.
+   MESA 1:9 JM-H, MESA 1:27 C<RJ-H
+
+Pattern 32d, line 28: 1
+ 2:2 13:13 = 2/1.
+   MESA 1:5 JMN RBN
+
+Pattern 8s, line 29: 12
+ 3:3 = 3/2.
+   MESA 1:5 <MRJ, MESA 1:5 KMC, MESA 1:8 <MRJ, MESA 1:8 JFR>L, MESA 1:9 KMC
+   MESA 1:16 KMC, MESA 1:23 KMC, MESA 1:31 <R<R, MESA 1:33 BYR, MESA 1:37 KMC
+   MESA 1:37 XWRNN, MESA 1:38 KMC
+
+Pattern 2j, line 30: 1
+ 3:3 = 3/2, 2:2 3:3 2:2 3:3 0:0 13:3 = 2/2(a).
+   MESA 1:1 MC< BN KMCJT MLK M>B H-DJBNJ
+
+Pattern 9s, line 31: 11
+ 4:4 = 4/-1.
+   MESA 1:7 KN, MESA 1:36 CM, MESA 1:37 >C, MESA 1:37 B, MESA 1:37 WQ
+   MESA 1:38 <C, MESA 1:38 CDQ, MESA 1:38 CT, MESA 1:38 DH, MESA 1:38 TXM
+   MESA 1:38 W>L
+
+Pattern 261d, line 32: 1
+ 4:4 3:3 6:6 2:2 3:3 = 3/2.
+   MESA 1:35 GM MHDB> W-BT DBLTN
+
+Pattern 43d, line 33: 1
+ 4:4 7:7 = 7/2.
+   MESA 1:6 GM H>
+
+Pattern 10s, line 34: 1
+ 5:5 = 5/-1.
+   MESA 1:38 <L
+
+Pattern 95d, line 36: 7
+ 5:5 0:0 2:2 = 5/2.
+   MESA 1:12 B--QR, MESA 1:17 <D H-YHRM, MESA 1:17 B--LLH, MESA 1:29 B--QRXH
+   MESA 1:30 L--QRXH, MESA 1:34 <L H->RY, MESA 1:38 B--QR
+
+Pattern 254d, line 37: 1
+ 5:5 0:0 2:2 = 5/2.
+   MESA 1:34 B--QRN
+
+Pattern 253d, line 38: 1
+ 5:5 0:0 2:2 = 5/2.
+   MESA 1:34 <L H-M>T
+
+Pattern 182d, line 40: 3
+ 5:5 1:1 = 1/-1.
+   MESA 1:17 M-BQ<, MESA 1:25 L-SPT, MESA 1:36 L-R<T
+
+Pattern 162j, line 41: 1
+ 5:5 1:1 = 1/-1, 7:7 = 7/2.
+   MESA 1:22 B-HLTXM-H
+
+Pattern 16d, line 42: 3
+ 5:5 2:2 = 5/1.
+   MESA 1:3 B-QRXH, MESA 1:11 M-<LM, MESA 1:28 B-M<JN
+
+Pattern 205d, line 43: 4
+ 5:5 2:2 0:0 2:2 = 5/2.
+   MESA 1:28 B-QRB H-QR, MESA 1:29 B-QRB H-QR, MESA 1:29 L-KL H-<M
+   MESA 1:36 >T Y>N H->RY
+
+Pattern 21d, line 44: 1
+ 5:5 2:2 0:0 2:2 = 5/2.
+   MESA 1:4 M-KL H-MLKN
+
+Pattern 101d, line 45: 1
+ 5:5 2:2 0:0 2:2 5:5 0:0 2:2 = 5/2.
+   MESA 1:13 >T KL H-<M M-H-QR
+
+Pattern 26d, line 46: 1
+ 5:5 2:2 1:2 7:7 = 5/2.
+   MESA 1:4 B-KL FN>-J
+
+Pattern 60d, line 47: 1
+ 5:5 2:2 2:2 3:3 = 5/2.
+   MESA 1:8 >T KL >RY MHDBH
+
+Pattern 86d, line 48: 3
+ 5:5 2:2 3:3 = 5/2.
+   MESA 1:11 B->RY <VRT, MESA 1:14 >T >R>L DWDH, MESA 1:20 L-<CTR KMC
+
+Pattern 150d, line 49: 4
+ 5:5 2:2 3:3 = 5/2.
+   MESA 1:14 L-PNJ KMC, MESA 1:21 >T KLJ JHWH, MESA 1:21 L-PNJ KMC
+   MESA 1:30 B->SRJ JFR>L
+
+Pattern 246d, line 50: 1
+ 5:5 2:2 3:3 2:2 = 5/2.
+   MESA 1:33 B->C DJBN XMCN
+
+Pattern 116d, line 51: 1
+ 5:5 2:2 3:3 6:6 5:5 2:2 3:3 = 5/2.
+   MESA 1:15 >T >C CRN W->T >C MXRT
+
+Pattern 36d, line 52: 2
+ 5:5 2:2 7:7 = 5/2.
+   MESA 1:5 B->RY-H, MESA 1:29 B-BJT-H
+
+Pattern 46d, line 53: 3
+ 5:5 2:2 7:7 = 5/2.
+   MESA 1:7 B-JMJ-, MESA 1:9 B-JMJ-, MESA 1:38 B-JMJ-
+
+Pattern 169d, line 54: 1
+ 5:5 2:2 7:7 = 5/2.
+   MESA 1:23 M-PNJ-
+
+Pattern 6d, line 55: 16
+ 5:5 3:3 = 5/2.
+   MESA 1:2 <L M>B, MESA 1:3 L-KMC, MESA 1:5 >T M>B, MESA 1:6 >T M>B
+   MESA 1:10 >T B<LM<N, MESA 1:10 >T QRJTN, MESA 1:11 >T <VRT, MESA 1:14 B-QRJT
+   MESA 1:16 <L JFR>L, MESA 1:16 >T NBH, MESA 1:22 >T JHY, MESA 1:24 M-M>B
+   MESA 1:25 <L DJBN, MESA 1:25 B-JHY, MESA 1:31 B->RNN, MESA 1:37 B-XWRNN
+
+Pattern 103d, line 56: 1
+ 5:5 3:3 6:6 5:5 3:3 = 5/2.
+   MESA 1:13 L-KMC W-L-M>B
+
+Pattern 106d, line 57: 3
+ 5:5 4:4 = 5/-1.
+   MESA 1:14 M-CM, MESA 1:21 M-CM, MESA 1:38 M-CM
+
+Pattern 267d, line 58: 1
+ 5:5 4:4 4:4 = 5/-1.
+   MESA 1:36 >T NQ DJ
+
+Pattern 63d, line 59: 10
+ 5:5 7:7 = 5/2.
+   MESA 1:9 B-H, MESA 1:10 B-H, MESA 1:11 L-H, MESA 1:15 B-H, MESA 1:16 L-J
+   MESA 1:17 B-H, MESA 1:22 B-H, MESA 1:22 B-J, MESA 1:37 L-J, MESA 1:38 B-H
+
+Pattern 215d, line 60: 1
+ 5:5 7:7 = 5/2.
+   MESA 1:29 L-KM
+
+Pattern 51d, line 61: 1
+ 5:5 7:7 6:6 5:5 2:2 7:7 = 5/2.
+   MESA 1:7 B-H W-B-BT-H
+
+Pattern 12s, line 62: 64
+ 6:6 = 6/-1.
+   MESA 1:2 W-, MESA 1:3 W-, MESA 1:4 KJ, MESA 1:4 KJ, MESA 1:4 W-, MESA 1:5 KJ
+   MESA 1:5 W-, MESA 1:6 W-, MESA 1:6 W-, MESA 1:7 W-, MESA 1:8 W-, MESA 1:9 W-
+   MESA 1:9 W-, MESA 1:9 W-, MESA 1:10 W-, MESA 1:10 W-, MESA 1:10 W-
+   MESA 1:11 W-, MESA 1:11 W-, MESA 1:12 W-, MESA 1:12 W-, MESA 1:13 W-
+   MESA 1:14 W-, MESA 1:14 W-, MESA 1:15 W-, MESA 1:16 W-, MESA 1:17 W-
+   MESA 1:17 W-, MESA 1:18 W-, MESA 1:18 W-, MESA 1:19 W-, MESA 1:20 KJ
+   MESA 1:21 W-, MESA 1:21 W-, MESA 1:22 W-, MESA 1:22 W-, MESA 1:23 W-
+   MESA 1:24 W-, MESA 1:25 W-, MESA 1:25 W-, MESA 1:27 W-, MESA 1:27 W-
+   MESA 1:28 W-, MESA 1:28 W-, MESA 1:29 W-, MESA 1:29 W-, MESA 1:30 W-
+   MESA 1:31 W-, MESA 1:32 KJ, MESA 1:32 W-, MESA 1:33 KJ, MESA 1:33 KJ
+   MESA 1:34 >CR, MESA 1:34 W-, MESA 1:35 W-, MESA 1:36 W-, MESA 1:36 W-
+   MESA 1:37 W-, MESA 1:37 W-, MESA 1:38 W-, MESA 1:38 W-, MESA 1:38 W-
+   MESA 1:38 W-, MESA 1:39 W-
+
+Pattern 13s, line 63: 18
+ 7:7 = 7/2.
+   MESA 1:1 >NK, MESA 1:2 >NK, MESA 1:21 HM, MESA 1:26 >NK, MESA 1:27 >NK
+   MESA 1:27 >NK, MESA 1:28 >NK, MESA 1:28 >NK, MESA 1:30 >NK, MESA 1:31 >NK
+   MESA 1:31 >NK, MESA 1:32 >NK, MESA 1:32 H>, MESA 1:33 >NK, MESA 1:33 H>
+   MESA 1:34 >NK, MESA 1:35 >NK, MESA 1:39 >NK
+

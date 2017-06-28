@@ -1,0 +1,198 @@
+
+
+
+BIBLICAL LANGUAGES                                       AT2PS(1)
+
+
+
+NAME
+     at2ps - create a ps-file from analysed text
+
+SYNOPSIS
+     at2ps [-iv] [-c conf] [-d dump] [-o ps] [-t ct] [at...]
+
+DESCRIPTION
+     at2ps reads one or more analysed text files as described  in
+     at(5),  and  a collection of linguistic data files for every
+     language in its input.  It calculates the lexical  and  mor-
+     phological features of the words in the text using the rules
+     laid out in the word_grammar(5) file.
+
+     The results are written to a ps-file, the format of which is
+     defined in a psdef(5) file for each language.
+
+     The default output format is that of a ps2(5)  file.   at2ps
+     can  be  configured  to  produce  ps-files in one of various
+     other formats by using a modified psdef(5) file.
+
+     When applying the rules from  the  word  grammar,  it  first
+     processes  the rule section on inflection, and then the sec-
+     tion on derivation.  Although both  of  these  sections  are
+     optional,  the  presence  of  a possibly empty section has a
+     meaning.  If a rule section is completed successfully,  i.e.
+     no reject occurred, the lexically determined function values
+     are assigned to the word.  These function values  are  gath-
+     ered  from  the lexicon that is listed in the grammar as the
+     repository for the cores.  These  assignments  are  made  in
+     reverse  order,  i.e.  a  lexeme  determined  function value
+     replaces a root determined value.
+
+     With respect to identifying  input  and  output  files,  two
+     modes  exist:  normal mode and compatibility mode.  Compati-
+     bility mode is used to imitate the behaviour of  a  previous
+     version  of  at2ps,  which  is  still  presupposed  by  some
+     scripts.  The program will determine itself the correct mode
+     in  which  to  run.  Input and output are then identified as
+     follows.
+
+  Normal Mode
+     The input file names are taken from the command line.  If no
+     input files are specified, at2ps will read from stdin.
+
+     The output file is specified by the -o option.  If -o is not
+     used, at2ps will write to stdout.
+
+  Compatibility Mode
+     This mode is activated by the existence of a  synnr(5)  file
+     in the current directory, which contains the stage number of
+     the analysis (must be 0) and the name of the  at-file.   The
+     output   files  are  named  after  this  at-file,  with  the
+
+
+
+Werkgroep Informatica Last change: 03/11/20                     1
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                       AT2PS(1)
+
+
+
+     extensions `ps2' and `ct'.  In compatibility mode at2ps mim-
+     ics  the  behaviour  of  syn01(1)  and  syn02(1) and updates
+     `synnr' by increasing the stage number to 2.
+
+     Compatibility mode is entered only if `synnr' exists and  no
+     options  other  than  a possible -d are given on the command
+     line.  In any other case, at2ps will run in normal mode.
+
+OPTIONS
+     -c file
+          Use the configuration specified in  file,  rather  than
+          the          default          configuration          in
+          /projects/calap/etc/at2ps.conf.   Use  of  this  option
+          implies normal mode.
+
+     -d file
+          Dump.  A human readable copy of the analysis is written
+          to file.
+
+     -i   Ignore `synnr', force normal mode.
+
+     -o ps
+          Write the columnal output to ps.  Use  of  this  option
+          implies normal mode.
+
+     -t ct
+          Write a copy of the surface  text  in  its  traditional
+          form to ct.  Use of this option implies normal mode.
+
+     -v   Verbose.
+
+EXIT STATUS
+     If no errors are encountered,  at2ps  returns  a  zero  exit
+     status  to  the  calling environment.  On error, it prints a
+     message on stderr and exits with a non-zero exit status.
+
+FILES
+     /projects/calap/etc/at2ps.compat
+          Configuration file for compatibility mode.  The  confi-
+          guration  file determines which alphabet, lexicon, word
+          grammar, and ps-file definition are used for the  vari-
+          ous languages.  See at2ps.conf(5),
+
+     /projects/calap/etc/at2ps.conf
+          Default configuration file.
+
+     synnr
+          Stage file, used only in compatibility mode.
+
+SEE ALSO
+     alphabet(5),  at(5),  at2ps.conf(5),   lexicon(5),   ps2(5),
+     psdef(5), syn01(1), syn02(1), synnr(5), word_grammar(5).
+
+
+
+Werkgroep Informatica Last change: 03/11/20                     2
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                       AT2PS(1)
+
+
+
+NOTES
+     at2ps replaces the programs  syn01(1)  and  syn02(1),  which
+     cannot handle analysed texts in at(5) format.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 03/11/20                     3
+
+
+

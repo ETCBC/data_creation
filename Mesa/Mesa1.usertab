@@ -1,0 +1,86 @@
+.N T  0: L    1: C   1: P1   1: Pl   2: Cty  200: CCR   0: dis     0: S   1: Q       : 1         :NmCl #   1 120   7 100  19 470  52 120   0   0
+.. T  4: L    2: C   1: P1   1: Pl   4: Cty  122: CCR   0: dis     0: S   2: Q       : 1         :XQtl #  -1 120   1 422   0   0
+.# T  5: L    3: C   1: P1   1: Pl   4: Cty  172: CCR   0: dis     0: S   3: Q       : 11        :WXQt #  -1 422   1 472   0   0
+.. T  6: L    4: C   1: P1   1: Pl   5: Cty  157: CCR   0: dis     0: S   4: QN      : 11        :Way0 #  -1 472   1 107   0   0
+l. T  7: L    5: C   2: P1   1: Pl   1: Cty  303: CCR  -6: dis   -11: S   4: QN      : 11        :Ellp #  -1 107   1 520   0   0
+.. T  8: L    6: C   1: P1   1: Pl   4: Cty  132: CCR   0: dis     0: S   5: QN      : 11        :xQt0 #  -1 520   1 201   0   0
+.. T  9: L    7: C   1: P1   1: Pl   5: Cty  182: CCR   0: dis     0: S   6: QN      : 11        :WxQ0 #  -1 201   0   0
+.. T  3: L    8: C   1: P1   1: Pl   2: Cty  200: CCR   0: dis     0: S   7: Q       : 1         :NmCl #  -7 100   1 470   3 470   9 470   0   0
+.. T  6: L    9: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S   8: QN      : 1         :Way0 #  -1 470   1 517   0   0
+.. T  7: L   10: C   1: P1   1: Pl   4: Cty  141: CCR   0: dis     0: S   9: QND     : 1         :xYqX #  -1 517   0   0
+.# T  5: L   11: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S  10: QN      : 12        :Way0 #  -3 470   1 477   0   0
+.. T  6: L   12: C   1: P1   1: Pl   3: Cty  167: CCR   0: dis     0: S  11: QN      : 12        :WayX #  -1 477   1 999   2 127   3 477   0   0
+.q T  9: L   13: C   1: P1   1: Pl   2: Cty  101: CCR   0: dis     0: S  12: QNQ     : 121       :ZYq0 #  -1 999   0   0
+.. T  8: L   14: C   1: P1   1: Pl   3: Cty  132: CCR   0: dis     0: S  13: QN      : 12        :xQt0 #  -2 127   0   0
+.. T  7: L   15: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  14: QN      : 12        :Way0 #  -3 477   1 427   0   0
+.# T  8: L   16: C   1: P1   1: Pl   5: Cty  172: CCR   0: dis     0: S  15: QN      : 122       :WXQt #  -1 427   0   0
+.# T  4: L   17: C   1: P1   1: Pl   4: Cty  167: CCR   0: dis     0: S  16: QN      : 13        :WayX #  -9 470   1 427   2 200   0   0
+.. T  6: L   18: C   1: P1   1: Pl   4: Cty  152: CCR   0: dis     0: S  17: QN      : 13        :WQt0 #  -1 427   0   0
+.# T  5: L   19: C   1: P1   1: Pl   5: Cty  167: CCR   0: dis     0: S  18: QN      : 131       :WayX #  -2 200   0   0
+.. T  2: L   20: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  19: QN      : 1         :Way0 # -19 470   1 200   2 200   0   0
+.. T  3: L   21: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S  20: QN      : 1         :Way0 #  -1 200   0   0
+.. T  2: L   22: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  21: QN      : 1         :Way0 #  -2 200   1 427   3 200   0   0
+.# T  3: L   23: C   1: P1   1: Pl   5: Cty  172: CCR   0: dis     0: S  22: QN      : 14        :WXQt #  -1 427   1 472   0   0
+.# T  4: L   24: C   1: P1   1: Pl   5: Cty  167: CCR   0: dis     0: S  23: QN      : 141       :WayX #  -1 472   0   0
+.. T  2: L   25: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  24: QN      : 1         :Way0 #  -3 200   1 200   2 200   7 477  20 427  24 200   0   0
+.. T  6: L   26: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  25: QN      : 1         :Way0 #  -1 200   0   0
+.. T  5: L   27: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  26: QN      : 1         :Way0 #  -2 200   1 127   2 200   0   0
+.. T  6: L   28: C   1: P1   1: Pl   2: Cty  102: CCR   0: dis     0: S  27: QN      : 1         :ZQt0 #  -1 127   0   0
+.. T  5: L   29: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S  28: QN      : 1         :Way0 #  -2 200   1 200   2 200   0   0
+.. T  6: L   30: C   1: P1   1: Pl   5: Cty  157: CCR   0: dis     0: S  29: QN      : 1         :Way0 #  -1 200   0   0
+.. T  5: L   31: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S  30: QN      : 1         :Way0 #  -2 200   0   0
+.# T  4: L   32: C   1: P1   1: Pl   4: Cty  167: CCR   0: dis     0: S  31: QN      : 15        :WayX #  -7 477   1 999   3 477   0   0
+.q T  6: L   33: C   1: P1   1: Pl   1: Cty  103: CCR   0: dis     0: S  32: QNQ     : 151       :ZIm0 #  -1 999   1 200   0   0
+.. T  7: L   34: C   1: P1   1: Pl   3: Cty  103: CCR   0: dis     0: S  33: QNQ     : 151       :ZIm0 #  -1 200   0   0
+.. T  5: L   35: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  34: QN      : 15        :Way0 #  -3 477   1 200   0   0
+.. T  5: L   36: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  35: QN      : 15        :Way0 #  -1 200   1  67   2 223   3 200   4 200   0   0
+.e T  8: L   37: C   2: P1   1: Pl   2: Cty  104: CCR 505: dis   -11: S  35: QN      : 15        :InfC #  -1  67   0   0
+d. T  7: L   38: C   1: P1   4: Pl   4: Cty  157: CCR   0: dis     0: S  35: QN      : 15        :Defc #  -2 223   0   0
+.. T  6: L   39: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  36: QN      : 15        :Way0 #  -3 200   0   0
+.. T  5: L   40: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  37: QN      : 15        :Way0 #  -4 200   1 407   2 527   3 200   0   0
+l. T  7: L   41: C   2: P1   1: Pl   2: Cty  303: CCR   0: dis     0: S  37: QN      : 15        :Ellp #  -1 407   0   0
+.. T  6: L   42: C   1: P1   1: Pl   4: Cty  132: CCR   0: dis     0: S  38: QN      : 15        :xQt0 #  -2 527   0   0
+.. T  5: L   43: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S  39: QN      : 15        :Way0 #  -3 200   1 200   0   0
+.. T  6: L   44: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S  40: QN      : 15        :Way0 #  -1 200   0   0
+.# T  3: L   45: C   1: P1   1: Pl   4: Cty  172: CCR   0: dis     0: S  41: QN      : 16        :WXQt # -20 427   1 472   3 472   0   0
+.. T  5: L   46: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  42: QN      : 16        :Way0 #  -1 472   1  55   0   0
+.. T  6: L   47: C   2: P1   1: Pl   3: Cty  104: CCR 505: dis   -11: S  42: QN      : 16        :InfC #  -1  55   0   0
+.# T  4: L   48: C   1: P1   1: Pl   5: Cty  167: CCR   0: dis     0: S  43: QN      : 161       :WayX #  -3 472   0   0
+.. T  2: L   49: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S  44: QN      : 1         :Way0 # -24 200   1 200   0   0
+.. T  3: L   50: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S  45: QN      : 1         :Way0 #  -1 200   1 200   0   0
+.. T  3: L   51: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  46: QN      : 1         :Way0 #  -1 200   1  64   0   0
+.. T  4: L   52: C   2: P1   1: Pl   2: Cty  104: CCR 505: dis   -11: S  46: QN      : 1         :InfC #  -1  64   0   0
+.. T  1: L   53: C   1: P1   1: Pl   3: Cty  122: CCR   0: dis     0: S  47: Q       : 1         :XQtl # -52 120   1 201  10 200   0   0
+.# T  2: L   54: C   1: P1   1: Pl   4: Cty  172: CCR   0: dis     0: S  48: Q       : 17        :WXQt #  -1 201   1 200   0   0
+.# T  2: L   55: C   1: P1   1: Pl   4: Cty  172: CCR   0: dis     0: S  49: Q       : 18        :WXQt #  -1 200   1 200   0   0
+.# T  2: L   56: C   1: P1   1: Pl   4: Cty  172: CCR   0: dis     0: S  50: Q       : 19        :WXQt #  -1 200   1 200   0   0
+.# T  2: L   57: C   1: P1   1: Pl   5: Cty  172: CCR   0: dis     0: S  51: Q       : 110       :WXQt #  -1 200   1 402   2 472   5 200   0   0
+.. T  4: L   58: C   1: P1   1: Pl   4: Cty  200: CCR   0: dis     0: S  52: Q       : 110       :NmCl #  -1 402   0   0
+.. T  3: L   59: C   1: P1   1: Pl   3: Cty  157: CCR   0: dis     0: S  53: QN      : 110       :Way0 #  -2 472   1 999   0   0
+.q T  4: L   60: C   1: P1   1: Pl   2: Cty  103: CCR   0: dis     0: S  54: QNQ     : 1101      :ZIm0 #  -1 999   1 103   0   0
+l. T  5: L   61: C   2: P1   1: Pl   3: Cty  303: CCR 505: dis   -11: S  54: QNQ     : 1101      :Ellp #  -1 103   0   0
+.# T  2: L   62: C   1: P1   1: Pl   6: Cty  172: CCR   0: dis     0: S  55: Q       : 111       :WXQt #  -5 200   0   0
+.. T  1: L   63: C   1: P1   1: Pl   3: Cty  122: CCR   0: dis     0: S  56: Q       : 1         :XQtl # -10 200   1 201   4 200   0   0
+.# T  2: L   64: C   1: P1   1: Pl   5: Cty  172: CCR   0: dis     0: S  57: Q       : 112       :WXQt #  -1 201   1 200   0   0
+.# T  2: L   65: C   1: P1   1: Pl   4: Cty  172: CCR   0: dis     0: S  58: Q       : 113       :WXQt #  -1 200   1 562   0   0
+.. T  3: L   66: C   1: P1   1: Pl   3: Cty  106: CCR   0: dis     0: S  59: Q       : 113       :Ptcp #  -1 562   0   0
+.. T  1: L   67: C   1: P1   1: Pl   3: Cty  122: CCR   0: dis     0: S  60: Q       : 1         :XQtl #  -4 200   1 502   2 223   3 502   4 201  10 402  19 402   0   0
+.e T  7: L   68: C   1: P1   1: Pl   3: Cty  200: CCR   0: dis     0: S  61: Q       : 1         :NmCl #  -1 502   0   0
+d. T  6: L   69: C   1: P1   4: Pl   4: Cty  122: CCR   0: dis     0: S  60: Q       : 1         :Defc #  -2 223   0   0
+.. T  5: L   70: C   1: P1   1: Pl   3: Cty  200: CCR   0: dis     0: S  62: Q       : 1         :NmCl #  -3 502   0   0
+.# T  4: L   71: C   1: P1   1: Pl   5: Cty  172: CCR   0: dis     0: S  63: Q       : 114       :WXQt #  -4 201   1  12   2 200   0   0
+.. T  5: L   72: C   2: P1   1: Pl   3: Cty  132: CCR -13: dis  -103: S  63: Q       : 114       :xQt0 #  -1  12   0   0
+.# T  4: L   73: C   1: P1   1: Pl   4: Cty  172: CCR   0: dis     0: S  64: Q       : 115       :WXQt #  -2 200   1 402   2 472   0   0
+l. T  6: L   74: C   2: P1   1: Pl   2: Cty  303: CCR   0: dis     0: S  64: Q       : 115       :Ellp #  -1 402   0   0
+.. T  5: L   75: C   1: P1   1: Pl   4: Cty  157: CCR   0: dis     0: S  65: QN      : 115       :Way0 #  -2 472   1  64   0   0
+.. T  6: L   76: C   2: P1   1: Pl   2: Cty  104: CCR 505: dis   -11: S  65: QN      : 115       :InfC #  -1  64   0   0
+c. T  3: L   77: C   1: P1   1: Pl   2: Cty  302: CCR   0: dis     0: S  66: Q       : 1         :CPen # -10 402   1 120   2 470   0   0
+.. T  5: L   78: C   2: P1   1: Pl   5: Cty  112: CCR 572: dis   -11: S  66: Q       : 1         :ZQtX #  -1 120   0   0
+.# T  4: L   79: C   1: P1   1: Pl   4: Cty  167: CCR   0: dis     0: S  67: QN      : 116       :WayX #  -2 470   1 999   3 477   0   0
+.q T  6: L   80: C   1: P1   1: Pl   1: Cty  103: CCR   0: dis     0: S  68: QNQ     : 1161      :ZIm0 #  -1 999   1 200   0   0
+.. T  7: L   81: C   1: P1   1: Pl   2: Cty  103: CCR   0: dis     0: S  69: QNQ     : 1161      :ZIm0 #  -1 200   0   0
+.. T  5: L   82: C   1: P1   1: Pl   5: Cty  157: CCR   0: dis     0: S  70: QN      : 116       :Way0 #  -3 477   1 427   2 477   3 407   0   0
+.. T  8: L   83: C   1: P1   1: Pl   3: Cty  152: CCR   0: dis     0: S  71: QN      : 116       :WQt0 #  -1 427   0   0
+.# T  7: L   84: C   1: P1   1: Pl   5: Cty  167: CCR   0: dis     0: S  72: QN      : 1162      :WayX #  -2 477   0   0
+.. T  6: L   85: C   1: P1   1: Pl   7: Cty  200: CCR   0: dis     0: S  73: QN      : 116       :NmCl #  -3 407   0   0
+.. T  2: L   86: C   1: P1   1: Pl   2: Cty  200: CCR   0: dis     0: S  74: Q       : 1         :NmCl # -19 402   0   0
