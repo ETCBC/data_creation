@@ -1,0 +1,132 @@
+
+
+
+BIBLICAL LANGUAGES                                          AT(5)
+
+
+
+NAME
+     at - format of morphologically analysed text
+
+SYNTAX
+     text =              partition { partition }.
+
+     partition =         language line { line }.
+
+     language =          '%language' space name <newline>.
+
+     line =              label space sentence <newline>.
+
+     label =             book space index.
+
+     book =              section name.
+
+     section =           empty | <digit>.
+
+     space =             separator { separator }.
+
+     separator =         <space> | <tab>.
+
+     index =             number { ',' number }.
+
+     number =            <digit> { <digit> }.
+
+     name =              letter { letter }.
+
+     letter =            <any ASCII alphabetic character  or  the
+                         '_'>
+
+     sentence =          string { space string }.
+
+     string =            word { '-' word }.
+
+     word =              printable { printable }.
+
+     printable =         <any ASCII graphical character, save the
+                         '-'>.
+
+DESCRIPTION
+     An analysed text is one or  more  subsequent  language  sec-
+     tions.   A language section consists of a language indicator
+     followed by lines tagged with a verse  label.   Empty  lines
+     and  lines  that  start  with  a pound sign (#) are ignored.
+     Each line bears a tag, which consists  of  (an  abbreviation
+     of) a book name and a verse index, for example `Ex 21,17'. A
+     book name may start with a digit, if desired, (as in 3John).
+     The tag is followed by white  space  and  the  text  of  the
+     verse.  When a verse is to be distributed over more than one
+     line, the tag is repeated on every line, for example:
+
+
+
+
+Werkgroep Informatica Last change: 12/22/97                     1
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                          AT(5)
+
+
+
+          %language hebrew
+          HOS 1,1 DBR/:c JHWH/ >CR HJH[ >L HWC</ BN/:c B>RJ/
+          HOS 1,1 B-J(WM/J <ZJH/ JWTM/ >XZ=/ JXZQJH/ MLK/J JHWDH/
+          HOS 1,1 W-B-J(WM/J JRB<M/ BN/:c JW>C/ MLK/ JFR>L/
+          HOS 1,2 TXL(H/T:c DBR[:d JHWH/ B-HWC</
+          HOS 1,2 W-!J!>MR[ JHWH/ >L HWC</
+          HOS 1,2 !!(HLK[
+          HOS 1,2 !!(LQX[ L+K >C(H/T:c ZNWN(J(M/JM W-JLD/J ZNWN(J(M/JM
+          HOS 1,2 KJ !!ZNH[/:a !T=!ZNH[ H->RY/:a M(N->XR/J JHWH/
+
+     Words are separated by white space, where white space is  to
+     be  understood  as any sequence of spaces and tabs. The dash
+     is used to separate words which are  written  together  (for
+     instance BJWM is rendered as follows: B-(H-JWM/).
+
+SEE ALSO
+     at(3), gt(5), isalpha(3C), isgraph(3C).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 12/22/97                     2
+
+
+
