@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES                                         CTT(5)
+
+
+
+NAME
+     CTT - Coded Text Tabulated
+
+DESCRIPTION
+     The  CTT  file  is  a  human-readable   file   produced   by
+     syn04types(1) concurrently with the PX(5) file.  It offers a
+     summary of the clause atom hierarchy present  in  the  PX(5)
+     file.   The information is displayed in nine fields of fixed
+     width, which are the following.
+
+
+          1   Verse Label
+          2   Person/Number/Gender of the predicate
+          3   Clause Atom Type of the daughter
+          4   Indication of the mother
+          5   Text Type
+          6   Paragraph Number
+          7   Clause Atom Number
+          8   Tabulation and Subtypes
+          9   Hierarchy made with the surface text from ct4.p(5)
+
+     More about these fields can be  found  in  PX(5)  and  user-
+     tab(5).
+
+     Field 4, the indication of the mother, can be either:
+
+     a)   the clause atom type of the mother, for example `WayX';
+     b)   the marker [Q], which indicates that the mother  intro-
+          duced direct speech;
+     c)   the marker [R], which means that this atom is the  root
+          of the clause atom hierarchy;
+     d)   a   clause   constituent   relation,    for    instance
+          `[adjunct]'.
+
+SEE ALSO
+     PX(5), syn04types(1), usertab(5).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Talstra Centre        Last change: 13/11/29                     1
+
+
+
