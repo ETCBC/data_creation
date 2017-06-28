@@ -1,0 +1,132 @@
+
+
+
+BIBLICAL LANGUAGES                                          GT(3)
+
+
+
+NAME
+     gt, gt_close, gt_lang, gt_lex, gt_open, gt_string, gt_vsid -
+     read graphical text
+
+SYNOPSIS
+     #include <gt.h>
+
+     int gt_close(gt_t *gt);
+
+     char *gt_lang(const gt_t *gt);
+
+     int gt_lex(gt_t *gt);
+
+     gt_t *gt_open(const char *path);
+
+     char *gt_string(const gt_t *gt);
+
+     vsid_t *gt_vsid(const gt_t *gt);
+
+DESCRIPTION
+     gt_close(gt)
+          Closes the  file  previously  opened  by  gt_open.   It
+          returns 1 on success and 0 on error.
+
+     gt_lang(gt)
+          Returns a pointer to a static area that holds the  name
+          of the current language.
+
+     gt_lex(gt)
+          Retrieves the next word from gt.  It returns a positive
+          value on success, 0 on EOF and -1 on error.  On success
+          the following bit masks can be used on the return value
+          to determine what boundaries have been crossed.
+
+          GT_WORD
+               Always the case. A new word has been read from the
+               file.
+
+          GT_VERSE
+               A verse boundary has been crossed.
+
+          GT_LANGUAGE
+               We entered a new language.
+
+          GT_BOOK
+               A new book has been entered.
+
+          In the case of a syntactic error,  gt_lex  proceeds  by
+          discarding  the  offending  input  and  making the best
+          guess about the state from which to continue.
+
+     gt_open(path)
+
+
+
+Werkgroep Informatica Last change: 02/03/26                     1
+
+
+
+
+
+
+BIBLICAL LANGUAGES                                          GT(3)
+
+
+
+          Opens the file pointed to by path and returns a pointer
+          for further reading with gt_lex.  If the file cannot be
+          opened, it returns NULL.  System errors  like  insuffi-
+          cient memory are signalled as exceptions.
+
+     gt_string(gt)
+          Returns the string representation of the last word read
+          from gt.
+
+     gt_vsid(gt)
+          Returns a pointer to a vsid_t structure that  describes
+          the current verse.
+
+SEE ALSO
+     at(3), gt(5), nblerr(3), vsid(3).
+
+BUGS
+     The maximum string length of a word is set  to  BUFSIZ.   An
+     input token longer than BUFSIZ will cause a syntactic error.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 02/03/26                     2
+
+
+
