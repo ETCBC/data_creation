@@ -1,0 +1,129 @@
+BOOK		= 4QTFS
+CHAPTER		= 2
+LANGUAGE	= aramaic
+
+SYN04TYPES_CF   = ArgumentsList CodesList QuotActorsList verbLexList
+PARSECLAUSES_RW	= loc.ref time.ref verblessList verbvalList
+PARSECLAUSES_CF	= clause.struc lexcondcl morfcondcl
+SYN04_CF	= clset lexcondcl morfcondcl
+SYN03_CF	= lexcond morfcond
+PARSEPHRASES_CF = nphrset phrase.struc phrase.suggest
+AT2PS_CF	= psdef lexicon word_grammar alphabet
+LANG_CF		= $(AT2PS_CF:%=$(LIB)/$(LANGUAGE)/%)
+
+COLS	=  1.1,1.2,1.3,1.4,0,2.2,1.6,1.7
+
+ETC	= /projects/synvar/etc
+LIB	= /projects/synvar/lib
+
+C	= $(BOOK)$(CHAPTER)
+
+
+all: $C.glossed
+
+$C.glossed: $C.data1 data2 format.awk
+	join -a1 -t\	 -1 5 -o $(COLS) -e 'WHAT??' $C.data1 data2 |\
+	sort -k 1n,1 | awk -F"\t" -f format.awk > $@
+
+$C.data1: $C.dump
+	awk '{print NR "\t" $$0}' $C.dump  |\
+	sed 's/		/	-	/' |\
+	sort -t\	 -k 5,5 -o $@
+
+data2: data2.sed lexicon
+	sed -f data2.sed lexicon | sort -k 1,1 -o $@
+
+$C.ps5: $C.PX
+	@test `wc -l < $C.usertab` -eq \
+	`awk '$$1 == "*" {n++} END{print n}' $C.ps4.p` || \
+	(touch $C.usertab; echo $C.usertab is incomplete; false)
+	fmtpx -rt -o $@ $C.PX || (rm -f $@ && false)
+
+$C.PX: $C.ct4.p $C.ps4.p $(SYN04TYPES_CF)
+	test ! -s $C.usertab || cp -p $C.usertab $C.usertab~
+	echo 5 $C > synnr
+	syn04types
+
+$C.ps4.p: $C.ps4 $(PARSECLAUSES_CF) $(PARSECLAUSES_RW)
+	test ! -s $C.div.p || cp $C.div.p $C.div.p~
+	parseclauses
+	postparsecl $C
+
+$C.ps4:	$C.ps3.p $(SYN04_CF)
+	echo 3 $C > synnr
+	syn04
+
+$C.phd.p: $C.ps3.p
+	exphdp $C.ps3.p > $@
+
+$C.ps3.p: $C.ps3 $(PARSEPHRASES_CF)
+	echo 3 $C > synnr
+	test ! -s $C.ps3.p || cp $C.ps3.p $C.ps3.p~
+	parsephrases 
+	test ! -s $@.diff || patch -b -i $@.diff $@
+
+$C.ps3 + PHR: $C.ps2 $(SYN03_CF)
+	echo 2 $C > synnr
+	syn03
+
+$C.dump: $(LANG_CF) $C.at $(ETC)/at2ps.conf
+	at2ps -c at2ps.conf -d $@ -o /dev/null -t /dev/null $C.at
+
+$C.ps2: $(LANG_CF) $C.at at2ps.conf
+	at2ps -c at2ps.conf -o $@ -t $C.ct $C.at
+
+$C.at: $(BOOK).an
+	genat -b $(BOOK) -f '%s%1d' -l $(LANGUAGE) -u $C $(BOOK).an
+	test ! -s $@.patch || patch -i $@.patch $@
+
+$(BOOK).an: $(BOOK)
+	if [ -s $@ ] ; then adjust_an $(BOOK) ;\
+	else analyse $(BOOK) ; fi
+
+
+# Auxiliary files
+ArgumentsList: $(LIB)/hebrew/ArgumentsList
+	sccs -d $(LIB)/hebrew get -s $@
+
+CodesList: $(LIB)/hebrew/CodesList
+	sccs -d $(LIB)/hebrew get -s $@
+
+verbLexList: $(LIB)/hebrew/verbLexList
+	sccs -d $(LIB)/hebrew get -s $@
+
+QuotActorsList:
+	sccs -d /projects/grammar/lib/hebrew get -s -p $@ > $@
+
+$(PARSECLAUSES_RW):
+	sccs -d /projects/grammar/lib/$(LANGUAGE) get -s -p $@ > $@
+
+$(PARSECLAUSES_CF) $(SYN04_CF) phrase.param phrase.suggest:
+	sccs -d /projects/grammar/lib/$(LANGUAGE) get -s $@
+
+$(SYN03_CF):
+	sccs -d $(LIB)/$(LANGUAGE) get -s -G $@ $@
+
+$(LANGUAGE)/%: $(LIB)/$(LANGUAGE)/%
+	sccs -d $(LIB) get -s -G $@ $@
+
+nphrset: ophrset phrase.param phrase.struc
+	analyzephrset
+
+ophrset: PHR
+	sortphrset PHR | cut -f1 > $@
+
+phrase.struc:
+	sortphrset phrset | cut -f1 > $@
+
+update4:
+	test ! -s addClSet || mv addClSet clset
+	test ! -s Nclause.struc || mv Nclause.struc clause.struc
+
+update3:
+	test ! -s PHR || mv PHR phrset
+	test ! -s $C.npd || mv $C.npd $C.phd
+	test ! -s NewphraseStruc || mv NewphraseStruc phrase.struc
+
+# Het anzb wordt aangevuld met de nieuwe analyses uit $(BOOK).an
+anzb: $(BOOK).an
+	update $(BOOK).an
