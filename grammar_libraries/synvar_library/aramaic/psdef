@@ -1,0 +1,175 @@
+########################################################################
+#                                                                      #
+#       Aramaic PS definition of the Syntactic Variation Project       #
+#                                                                      #
+########################################################################
+
+#ident "@(#)psdef	1.6 16/10/13"
+
+booklabels
+     "Gn"	: " GEN %02d,%02d" 
+     "Jer"	: " JER %02d,%02d"
+     "Ps"	: " PS%03d,%03d"
+     "Da"	: " DAN %02d,%02d"
+     "Esr"	: " ESR %02d,%02d"
+     "Pirqe"	: "PIRQE%02d,%02d"
+     "Shirata"  : "SHIR %02d,%02d"
+     "4QTFS"    : "4QTFS %1d,%02d"
+
+ 
+format 
+      # default format: 12 columns of width 2, with default value -1
+      default : 12 * 2 = -1
+
+      k[1]    += 1
+      k[7]    += 2
+      lexeme  = 18
+   
+   
+
+rules
+
+# k[0] : lexical set
+      set k[0] = 0	# default for lexical set is not -1 but 0
+      ls == afad :: k[0] = -4
+      ls == card :: k[0] = -1
+      ls == cjad :: k[0] = -3
+      ls == focp :: k[0] = -2
+      ls == gntl :: k[0] = -2
+      ls == mult :: k[0] = -2
+      ls == nmcp :: k[0] = -5
+      ls == nmdi :: k[0] = -6
+      ls == ordn :: k[0] = -3
+      ls == padv :: k[0] = -4
+      ls == ppre :: k[0] = -3
+      ls == ques :: k[0] = -2
+      ls == quot :: k[0] = -1
+      ls == vbcp :: k[0] = -2
+      ls == sffx :: k[0] = -1
+
+
+# k[1] : part of speech
+      sp == verb :: k[1] = 1
+      sp == subs :: k[1] = 2
+      sp == nmpr :: k[1] = 3
+      sp == advb :: k[1] = 4
+      sp == prep :: k[1] = 5
+      sp == conj :: k[1] = 6
+      sp == prps :: k[1] = 7
+      sp == prde :: k[1] = 8
+      sp == prin :: k[1] = 9
+      sp == intj :: k[1] = 10
+      sp == nega :: k[1] = 11
+      sp == inrg :: k[1] = 12
+      sp == adjv :: k[1] = 13
+
+# k[2] : preformatives on verbs
+      not exist(pfm) && sp == verb :: k[2] = 0
+      pfm == ""   :: k[2] = 1
+      pfm == ">"  :: k[2] = 4
+      pfm == "J"  :: k[2] = 2
+      pfm == "L"  :: k[2] = 9
+      pfm == "M"  :: k[2] = 7
+      pfm == "N"  :: k[2] = 5
+      pfm == "T"  :: k[2] = 3
+      pfm == "T=" :: k[2] = 8
+
+
+# k[3] : verbal stem
+      exist(vbe) :: k[3] = 17
+      vs == afel :: k[3] = 15
+      vs == esht :: k[3] = 22
+      vs == etpa :: k[3] = 13
+      vs == etpe :: k[3] = 21
+      vs == etta :: k[3] = 23
+      vs == haf  :: k[3] = 5
+      vs == hof  :: k[3] = 8
+      vs == htpa :: k[3] = 20
+      vs == htpe :: k[3] = 7
+      vs == pael :: k[3] = 18
+      vs == peal :: k[3] = 17
+      vs == peil :: k[3] = 19
+      vs == pual :: k[3] = 4
+      vs == shaf :: k[3] = 16
+
+
+# k[4] : verbal endings
+      exist(vbe) :: k[4] = 0
+      vbe == ""    :: k[4] = 1
+      vbe == "H"   :: k[4] = 2
+      vbe == "W"   :: k[4] = 7
+      vbe == "WN"  :: k[4] = 14
+      vbe == "J"   :: k[4] = 12
+      vbe == "JN"  :: k[4] = 13
+      vbe == "N"   :: k[4] = 19
+      vbe == "N>"  :: k[4] = 20
+      vbe == "T"   :: k[4] = 3
+      vbe == "T="  :: k[4] = 5
+      vbe == "T==" :: k[4] = 21
+      vbe == "TWN" :: k[4] = 22
+      vbe == "TJ"  :: k[4] = 6
+      vbe == "TN"  :: k[4] = 9
+
+
+# k[5] : nominal ending
+      exist(vbe) || exist(nme) :: k[5] =  0
+      nme == ""    :: k[5] = 1
+      nme == "H"   :: k[5] = 2
+      nme == "W"   :: k[5] = 18
+      nme == "W="  :: k[5] = 11
+      nme == "J"   :: k[5] = 5
+      nme == "J="  :: k[5] = 13
+      nme == "JM"  :: k[5] = 4
+      nme == "JM=" :: k[5] = 14
+      nme == "JN"  :: k[5] = 15
+      nme == "JN=" :: k[5] = 19
+      nme == "N"   :: k[5] = 20
+      nme == "T"   :: k[5] = 3
+      nme == "T="  :: k[5] = 21
+      nme == "TJM" :: k[5] = 17
+      nme == "TJN" :: k[5] = 22
+
+
+# k[6] : pronominal suffix
+      exist(vbe) || exist(nme) :: k[6] = 0
+      sp == prep :: k[6] = 0
+      sp == intj :: k[6] = 0
+      sp == inrg :: k[6] = 0
+
+
+# k[7] : verbal tense
+      exist(vt) :: k[7] = 0
+      vt == impf :: k[7] = 1
+      vt == perf :: k[7] = 2
+      vt == impv :: k[7] = 3
+      vt == infc :: k[7] = 4
+      vt == infa :: k[7] = 5
+      vt == ptca :: k[7] = 6
+      vt == ptcp :: k[7] = 62
+
+
+# k[8] : person
+      exist(ps) :: k[8] = 0
+      ps == first   :: k[8] = 1
+      ps == second  :: k[8] = 2
+      ps == third   :: k[8] = 3
+
+
+# k[9] : number
+      exist(nu) :: k[9] = 0
+      nu == sg      :: k[9] = 1
+      nu == du      :: k[9] = 2
+      nu == pl      :: k[9] = 3
+
+
+# k[10] : gender
+      exist(gn) :: k[10] = 0
+      gn == f       :: k[10] = 1
+      gn == m       :: k[10] = 2
+
+
+# k[11] : nominal state
+      exist(st)  :: k[11] = 0
+      st == cst  :: k[11] = 1
+      st == abs  :: k[11] = 2
+      st == emf  :: k[11] = 3

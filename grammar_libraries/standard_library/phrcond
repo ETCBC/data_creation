@@ -1,0 +1,9 @@
+-2  -2 = -2 99                  =
+-1  -1 = -1 99           lex    = lex
+ 0   0 = 0  99           lexset = lexset
+ 1   1 = 1  99           p.ofsp = p.ofsp.
+ 6   6 = 6  99           sfxpgg = sfxpgg
+ 7   7 = 7  99           vbtense= vbtense
+ 8   8 = 8  99           pers   = pers
+ 9   9 = 9  99           gen    = gen
+10  10 = 10 99           num    = num

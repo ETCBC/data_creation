@@ -1,0 +1,19 @@
+#################################################
+#                                               #
+# semantic_specs : semantic specifications      #
+# in the Hebrew lexicon                         #
+#                                               #
+#################################################
+gntl    adjectivum gentilicium
+ordn    adjectivum ordinale
+card    nomen cardinale
+nmdi    nomen distributivum (>X/ R<=/ KL/ >JC/)
+nmex    nomen existentiae (>C=/ JC/)
+mult    nomen multitudinis (RBBH/)
+padv    potentialiter adverbium
+pcon    potentialiter conjunctio
+pinr    potentialiter interrogativum
+ppre    potentialiter prepositio
+ppde    potentialiter pronomen demonstrativum
+vbex    verbum existentiae (HJH[)
+quot    verbum rectae orationis

@@ -1,0 +1,339 @@
+.\" @(#)ps_io.3 1.30 94/10/31 SMI; from SVr4
+'\"macro stdmacro
+.\" Copyright 1994 Peter Crom
+.nr X
+.TH ps_io 5 "9 Dec 1994" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+.SH NAME
+ps_io \- phrase structure file (nnn.ps2) description 
+.SH SYNTAX
+.TP 20
+phrase_structure =
+verse { verse }.
+.TP 20
+verse =
+word { word } verse_end.
+.TP 20
+word =
+.I pos	len	col	desription
+.br
+1..11	11		Label
+.br
+12..29	18		Lexeme
+.br
+30..32	3	0	Lexical Set
+.br
+33..36	4	1	Part of Speech
+.br
+37..39	3	2	Preformative
+.br
+40..42	3	3	Verbal Stem
+.br
+43..45	3	4	Verbal Ending
+.br
+46..48	3	5	Nominal Ending
+.br
+49..51	3	6	Suffix
+.br
+52..56	5	7	Verbal Tense
+.br
+57..59	3	8	Person
+.br
+60..62	3	9	Number
+.br
+63..65	3	10	Gender
+.br
+66..75	10	11	Phrase Composition
+.br
+76..78	3	12	Phrase Type
+.br
+79..84	6	13	Control
+.br
+<newline>.
+.TP 20
+verse_end =
+11*<space> "*" <newline>.
+.TP 20
+Label =
+book index.
+.TP 20
+book =
+AMOS_ | _CAN_ | _ICHR | IICHR | _DAN_ | _DEUT | _QOH_ | _ESR_ | _EST_ |
+_EXO_ | _EZE_ | _GEN_ | _HAB_ | _HAG_ | _HOS_ | _IOB_ | _JER_ | _JES_ |
+_JOE_ | JONA_ | _JOZ_ | RICHT | _LEV_ | _MAL_ | _MICH | _NAH_ | _NEH_ |
+_NUM_ | _OBAD | _PRO_ | _PS | _IKON | IIKON | RUTH | _ZACH | ISAM_ |
+IISA_ | _THR_ | _ZEP_
+.TP 20
+index =
+0x,0y | 00x,00y (psalms)
+.TP 20
+Lexeme =
+string of letters, that may end on '/' or '['
+.TP 20
+Lexical Set =
+-1	(verb)	quotation verb
+.br
+-1	(noun)	cardinal
+.br
+-2	(verb)	verbum essendi
+.br
+-2	(noun)	nomen multitudinis
+.br
+-2	(adjec)	gentilic
+.br
+-3	(noun)	adverb of place
+.br
+-3	(prep)	possible preposition
+.br
+-3	(adjec)	ordinal
+.br
+-4	(noun)	adverb of time
+.br
+-4	adverb)	possible adverb
+.br
+-5	nomen essendi
+.br
+-6	nomen distributivum
+.TP 20
+Part of Speech =
+0	article
+.br
+1	verb
+.br
+2	noun
+.br
+3	proper name
+.br
+4	adverb
+.br
+5	preposition
+.br
+6	conjunction
+.br
+7	personal pronoun
+.br
+8	demonstrative pronoun
+.br
+9	interrogative pronoun
+.br
+10	interjection
+.br
+11	negation
+.br
+12	interrogative particle
+.br
+13	adjective
+.TP 20
+Preformative =
+-1	Not Relevant
+.br
+0	Absent
+.br
+1	!!
+.br
+2	!J!
+.br
+3	!T!
+.br
+4	!>!
+.br
+5	!N!
+.br
+6	!H!
+.TP 20
+Verbal Stem =
+-1	Not Relevant
+.br
+0	Absent	(Qal)
+.br
+1	]] 	(Pi''el)
+.br
+2	]H]	(Hif'il)
+.br
+3	]N]	(Nif'al)
+.br
+4	]2]	(Pu'al)
+.br
+6	]HT]	(Hitpa''el)
+.br
+8	]H2]	(Hof'al)
+.br
+10	]HCT]	(Hishtaf'al)
+.br
+11	]HT2]	(Hotpa''al)
+.br
+12	]NT]	(Nitpa''el)
+.br
+13	-	(etpa''al)
+.br
+14	-	(tif'al)
+.TP 20
+Verbal Ending =
+-1	Not Relevant
+.br
+0	Absent
+.br
+1	[
+.br
+2	[H
+.br
+3	[T
+.br
+4	[TH
+.br
+5	[T=
+.br
+6	[TJ
+.br
+7	[W
+.br
+8	[TM
+.br
+9	[TN
+.br
+10	[NW
+.br
+11	[=
+.br
+12	[J
+.br
+13	[JN
+.br
+14	[WN
+.br
+15	[NH
+.br
+16	[NH=
+.br
+17	[2
+.TP 20
+Nominal Ending =
+-1	Not Relevant
+.br
+0	Absent
+.br
+1	/
+.br
+2	/H
+.br
+3	/T
+.br
+4	/JM
+.br
+5	/J
+.br
+6	/WT
+.br
+7	/H=	(locative)
+.br
+8	/JM2
+.br
+9	/J2
+.br
+10	/2	(obsolete)
+.br
+11	//	(nomen proprium)
+.TP 20
+Suffix =
+-1	Not Relevant
+.br
+0	Absent
+.br
+1	+	obsolete
+.br
+2	+NJ
+.br
+3	+J
+.br
+4	+K
+.br
+5	+K=
+.br
+6	+W
+.br
+7	+HW
+.br
+8	+H
+.br
+9	+NW
+.br
+10	+KM
+.br
+11	+KN
+.br
+12	+HM
+.br
+13	+M
+.br
+14	+MW
+.br
+15	+HN
+.br
+16	+N
+.TP20
+Verbal Tense =
+-1	Not Relevant
+.br
+0	Absent
+.br
+1	yiqtol	(ipf)
+.br
+2	qatal	(pf)
+.br
+3	qtol	(imp)
+.br
+4	qetol	(inf cstr)
+.br
+5	qatol	(inf abs)
+.br
+6	qotel	(ptc)
+.br
+11	we-yiqtol	(we + ipf)
+.br
+12	way-yiqtol	(ipf cons)
+.br
+62	qatul	(passiv ptc)
+.TP 20
+Person =
+-1	Not Relevant
+.br
+0	Absent
+.br
+1	first person
+.br
+2	second person
+.br
+3	third person
+.TP 20
+Number =
+-1	Not Relevant
+.br
+0	Absent
+.br
+1	singular
+.br
+2	dual
+.br
+3	plural
+.TP 20
+Gender =
+-1	Not Relevant
+.br
+0	Absent
+.br
+1	feminine
+.br
+2	masculine
+.TP 20
+Pharse Composition =
+-1
+.TP 20
+Phrase Type =
+-1
+.TP 20
+Control =
+-1
+.SH DESCRIPTION
+.SH SEE ALSO
+.BR biblan (3),
+.BR ps_io (5),
+.BR ECA_word (5).

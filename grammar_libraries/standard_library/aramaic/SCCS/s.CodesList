@@ -1,0 +1,117 @@
+h07422
+s 00063/00023/00003
+d D 1.2 13/12/06 12:32:28 const 2 1
+c New format for syn04types 2.0
+e
+s 00026/00000/00000
+d D 1.1 07/04/17 23:20:25 const 1 0
+c date and time created 07/04/17 23:20:25 by const
+e
+u
+U
+f e 0
+t
+T
+I 1
+D 2
+ipf.     1
+perf.    2
+imp.     3
+inf.     4
+ptc.     6 
+ptcP.    6
+----     0
+E 2
+I 2
+impf     1	Verbal tense of the predicate
+perf     2
+impv     3
+infc     4
+infa     5
+ptca     6
+ptcp     6
+wayq     7
+weyq     8
+E 2
+-----
+D 2
+B        1
+JT       2
+K        3
+L        4
+LWT      5
+MN       6
+<D       7
+<L       8
+<M       9
+----     0
+E 2
+I 2
+>XR/     1	Preposition class of infinitive clause
+>L       2
+>YL/     3
+>T       4
+B        5
+BJN/     6
+BL<DJ    7
+BMW      5
+B<D/     9
+ZWLH/   10
+J<N/    11
+K       12
+KMW     12
+L       14
+LMW     14
+LM<N    15
+MN      17
+<D      20
+<L      21
+<M      22
+TXT/    24
+E 2
+-----
+D 2
+DJ      10
+HN     230
+W      300
+LHN=   300
+LHN    600
+>DJN   700
+E 2
+I 2
+>W     400	Conjunction class of clause opening
+>LW    600
+>M     600
+>CR    500
+DJ     500
+H      500
+W      400
+ZW     500
+KJ     500
+HN     600
+LHN=   600
+LW     600
+LWL>   600
+PN     800
+C      500
+-----
+>XR/   700	Preposition class of clause opening
+>L     700
+B      700
+BLT/   800
+BMW    700
+ZWLH/  800
+VRM/   700
+J<N/   900
+K      700
+KMW    700
+L      700
+LMW    700
+LM<N   800
+MN     800
+<D     700
+<L     900
+<QB/   900
+E 2
+-----
+E 1

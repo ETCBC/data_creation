@@ -1,0 +1,74 @@
+Addlex adds lexical info to a word_t word.
+Uses lexicon and lemma routines from
+./grammar/src/lib/biblan/old	lexicon.c
+./grammar/src/lib/lexicon	lexicon.c
+./grammar/src/simple		check_lexicon.c
+./grammar/src/sk2at		lexicon.c
+./grammar/src/sk2at/SCCS	lexicon.c
+
+./grammar/src/encode		lemma.c
+./grammar/src/frank		lemma.c
+./grammar/src/lib/biblan/old	lemma.c
+./grammar/src/lib/lexicon	lemma.c
+
+lib/lexicon/lexicon.h (abbr)	**************************************
+
+#ifndef LEXICON_H
+#define LEXICON_H
+
+#include	<sys/types.h>
+#include	<stdio.h>
+#include	<lemma.h>
+
+typedef struct lexicon_instance {
+   lemma_t      **lemmas;
+   size_t         size;
+   int            mode;
+   FILE          *fp;
+} lexicon_t;
+
+#if __STDC__
+int            lexicon_add(lexicon_t *lexicon, lemma_t *lemma);
+int            lexicon_close(lexicon_t *lexicon);
+lexicon_t     *lexicon_create(char *fname);
+lexicon_t     *lexicon_open(char *fname);
+lemma_t       *lexicon_retrieve(lexicon_t *lexicon, char *lexeme);
+
+#endif /* ! __STDC__ */
+
+#endif /* ! LEXICON_H */
+
+lib/lexicon/lemma.h (abbr)	**************************************
+
+#ifndef LEMMA_H
+#define LEMMA_H
+
+#define	PROPERTY_NAME_SIZE 3
+
+typedef struct property_instance {
+   char              name[PROPERTY_NAME_SIZE];
+   char             *value;
+   struct property_instance *next;
+} property_t;
+
+typedef struct lemma_instance {
+   char             *lexeme;
+   property_t       *properties;
+   property_t       *current;
+} lemma_t;
+
+#ifdef __STDC__
+extern void       lemma_clear(lemma_t *lemma);
+extern int        lemma_compare(lemma_t **lp1, lemma_t **lp2);
+extern lemma_t   *lemma_create(void);
+extern void       lemma_delete(lemma_t *lemma);
+extern lemma_t   *lemma_duplicate(lemma_t *lemma);
+extern char      *lemma_first_property(lemma_t *lemma);
+extern char      *lemma_get_lexeme(lemma_t *lemma);
+extern char      *lemma_get_property(lemma_t *lemma, char *name);
+extern char      *lemma_next_property(lemma_t *lemma);
+extern int        lemma_set_lexeme(lemma_t *lemma, char *lexeme);
+extern int        lemma_set_property(lemma_t *lemma, char *name, char *value);
+#endif /* ! __STDC__ */
+
+#endif /* ! LEMMA_H */

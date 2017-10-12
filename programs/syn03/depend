@@ -1,0 +1,49 @@
+Main.o: AtomList.h Atom.h IntList.h Compare.h Word.h Feature.h String.h
+Main.o: Lexeme.h VerseLabel.h Division.h Pattern.h Item.h CondSetList.h
+Main.o: CondSet.h Error.h File.h Grammar.h LCTable.h Locus.h MCTable.h
+Main.o: MCond.h PhraseSet.h Loci.h IO.h Surface.h Verse.h User.h
+Atom.o: Atom.h IntList.h Compare.h Word.h Feature.h String.h Lexeme.h Error.h
+AtomList.o: AtomList.h Atom.h IntList.h Compare.h Word.h Feature.h String.h
+AtomList.o: Lexeme.h VerseLabel.h
+Compare.o: Compare.h
+CondSet.o: CondSet.h Compare.h
+CondSetList.o: CondSetList.h CondSet.h Compare.h
+Division.o: Division.h AtomList.h Atom.h IntList.h Compare.h Word.h Feature.h
+Division.o: String.h Lexeme.h VerseLabel.h Pattern.h Item.h CondSetList.h
+Division.o: CondSet.h Error.h
+Error.o: Error.h String.h Compare.h
+Feature.o: Feature.h String.h Compare.h
+File.o: Error.h String.h Compare.h File.h
+Grammar.o: Error.h String.h Compare.h Grammar.h CondSet.h File.h LCTable.h
+Grammar.o: Lexeme.h Locus.h VerseLabel.h MCTable.h MCond.h Feature.h
+Grammar.o: IntList.h Pattern.h AtomList.h Atom.h Word.h Item.h CondSetList.h
+Grammar.o: PhraseSet.h Loci.h IO.h Surface.h Verse.h
+IO.o: Error.h String.h Compare.h IO.h AtomList.h Atom.h IntList.h Word.h
+IO.o: Feature.h Lexeme.h VerseLabel.h File.h LCTable.h Loci.h Locus.h
+IO.o: MCTable.h MCond.h Pattern.h Item.h CondSetList.h CondSet.h Surface.h
+IO.o: Verse.h
+IntList.o: IntList.h Compare.h
+Item.o: Error.h String.h Compare.h Item.h Atom.h IntList.h Word.h Feature.h
+Item.o: Lexeme.h CondSetList.h CondSet.h
+LCTable.o: LCTable.h Lexeme.h Compare.h
+Lexeme.o: Lexeme.h Compare.h
+Loci.o: Loci.h Compare.h Locus.h String.h VerseLabel.h
+Locus.o: Error.h String.h Compare.h Locus.h VerseLabel.h
+MCond.o: MCond.h Feature.h String.h Compare.h IntList.h
+MCTable.o: MCTable.h MCond.h Feature.h String.h Compare.h IntList.h
+Pattern.o: Error.h String.h Compare.h Pattern.h AtomList.h Atom.h IntList.h
+Pattern.o: Word.h Feature.h Lexeme.h VerseLabel.h Item.h CondSetList.h
+Pattern.o: CondSet.h
+PhraseSet.o: Error.h String.h Compare.h PhraseSet.h Loci.h Locus.h
+PhraseSet.o: VerseLabel.h Pattern.h AtomList.h Atom.h IntList.h Word.h
+PhraseSet.o: Feature.h Lexeme.h Item.h CondSetList.h CondSet.h
+String.o: String.h Compare.h
+Surface.o: Surface.h String.h Compare.h VerseLabel.h
+User.o: Error.h String.h Compare.h IO.h AtomList.h Atom.h IntList.h Word.h
+User.o: Feature.h Lexeme.h VerseLabel.h File.h LCTable.h Loci.h Locus.h
+User.o: MCTable.h MCond.h Pattern.h Item.h CondSetList.h CondSet.h Surface.h
+User.o: Verse.h User.h Division.h
+Verse.o: Error.h String.h Compare.h Verse.h VerseLabel.h Word.h Feature.h
+Verse.o: Lexeme.h
+VerseLabel.o: VerseLabel.h Compare.h
+Word.o: Word.h Feature.h String.h Compare.h Lexeme.h

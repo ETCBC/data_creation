@@ -1,0 +1,60 @@
+########################################################################
+#                                                                      #
+#  Definition of the translitteration alphabet                         #
+#                                                                      #
+########################################################################
+
+#ident "@(#)alphabet	1.1.1.1 15/11/24"
+
+consonants:
+
+>	aleph
+B	beth
+G	gimel
+D	daleth
+H	heh
+W	waw
+Z	zayin
+X	cheth
+V	theth
+J	yod
+K	kaph
+L	lamed
+M	mem
+N	nun
+S	samekh
+<	ayin
+P	peh
+Y	tsade
+Q	qoph
+R	resh
+F	sin
+C	shin
+T	taw
+
+vowels:
+:	sewa
+@	qames
+A	patah
+;	sere
+E	segol
+I	hireq
+O	holem
+U	qibbus
+
+accents:
+0	used in accents
+1	used in accents
+2	used in accents
+3	used in accents
+4	used in accents
+5	used in accents
+6	used in accents
+7	used in accents
+8	used in accents
+9	used in accents
+
+diacritics:
+.	dagesh or mappiq
+,	rape
+*	qere/ketib

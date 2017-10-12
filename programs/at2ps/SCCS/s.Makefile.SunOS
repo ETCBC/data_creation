@@ -1,0 +1,253 @@
+h40314
+s 00001/00001/00062
+d D 1.7 13/12/08 12:03:28 const 7 6
+c Editing the ct(5) of at2ps(1), ctcor.sed was moved from mkdescr to here
+e
+s 00003/00002/00060
+d D 1.6 13/01/31 12:46:31 const 6 5
+c Added word_grammar.5
+e
+s 00005/00003/00057
+d D 1.5 13/01/31 11:58:43 const 5 4
+c Added ps2cor.awk
+e
+s 00003/00003/00057
+d D 1.4 11/11/07 17:20:21 const 4 3
+c Adjusted configuration as required by WIVUobl
+e
+s 00001/00001/00059
+d D 1.3 04/07/20 11:43:26 const 3 2
+c Resolved a few compiler warnings.
+e
+s 00042/00039/00018
+d D 1.2 03/11/06 15:23:13 const 2 1
+c Placed under package WIVUq2pro.
+e
+s 00057/00000/00000
+d D 1.1 03/10/31 16:30:44 const 1 0
+c Version of Sep 19 2000
+e
+u
+U
+f e 0
+f m q2pro/at2ps/Makefile.SunOS
+t
+T
+I 1
+D 2
+include ../MakeDefs
+E 2
+I 2
+D 4
+#ident %W% %E%
+E 4
+I 4
+#ident "%W% %E%"
+E 4
+E 2
+
+D 2
+INCLUDE	= -I. -I$(ROOT)/include
+DEFINE	= -D_XOPEN_SOURCE -D_XPG4_2
+E 2
+I 2
+NAME	= at2ps
+E 2
+
+D 2
+CPPFLAGS = $(DEFINE) $(INCLUDE)
+LINTFLAGS = -Xc -Nlevel=4 -Ncheck -erroff=E_INDISTING_FROM_TRUNC
+LDFLAGS	= -L$(ROOT)/lib
+LDLIBS	= -ll -lbl
+E 2
+I 2
+include ../config
+E 2
+
+D 2
+LLGEN	= LLgen
+LLOPT	= -vvvx
+E 2
+I 2
+D 3
+INCLUDES	= -I. -I$(LIBBASE)/obl/include
+E 3
+I 3
+D 4
+INCLUDES	= -I$(LIBBASE)/obl/include
+E 3
+LDFLAGS		= -L$(LIBBASE)/lib -R$(LIBBASE)/lib
+E 4
+I 4
+INCLUDES	= -I$(BASEDIR)/include/obl
+LDFLAGS		= -L$(BASEDIR)/lib -R$(BASEDIR)/lib
+E 4
+LDLIBS		= -lobl -ll
+E 2
+
+D 2
+HEADERS = Lpars.h backpatch.h compile.h error.h exec.h extra.h \
+   global.h grammar.h lexer.h ps_io_2.h qlist.h quad.h segment.h \
+   symbol.h symtbl.h type.h word.h wrdgrm.h
+E 2
+
+I 5
+D 7
+AUX		= ps2cor.awk
+E 7
+I 7
+AUX		= ctcor.sed ps2cor.awk
+E 7
+E 5
+D 2
+SOURCES = at2ps.c backpatch.c compile.g error.c exec.c get_at.c \
+   grammar.c lexer.l ps_io_2.c qlist.c quad.c segment.c symbol.c \
+   symtbl.c type.c word.c wrdgrm.c
+E 2
+I 2
+GENERATED	= Lpars.c Lpars.h lexer.c compile.c
+HEADERS		= Lpars.h backpatch.h compile.h error.h exec.h extra.h\
+		  global.h grammar.h lexer.h ps_io_2.h qlist.h quad.h\
+		  segment.h symbol.h symtbl.h type.h word.h wrdgrm.h
+SOURCES		= at2ps.c ps_io_2.c segment.c wrdgrm.c compile.c\
+		  Lpars.c lexer.c backpatch.c qlist.c quad.c error.c\
+		  exec.c word.c grammar.c symtbl.c type.c symbol.c
+E 2
+
+D 2
+PROGRAMMES = at2ps get_at
+E 2
+I 2
+LNFILES	= $(SOURCES:.c=.ln)
+OBJECTS	= $(SOURCES:.c=.o)
+E 2
+
+D 2
+MAN1	= at2ps.1
+E 2
+I 2
+MAN1	= $(NAME).1
+I 6
+MAN5	= word_grammar.5
+E 6
+E 2
+
+D 2
+all: $(PROGRAMMES) $(MAN1)
+E 2
+
+D 2
+get_at := CPPFLAGS=-I/usr/local/include/p2c
+get_at := LDFLAGS=-L/usr/local/lib
+get_at := LDLIBS=-lp2c
+E 2
+I 2
+D 5
+all: $(NAME) $(MAN1)
+E 5
+I 5
+D 6
+all: $(NAME) $(AUX) $(MAN1)
+E 6
+I 6
+all: $(NAME) $(AUX) $(MAN1) $(MAN5)
+E 6
+E 5
+E 2
+
+D 2
+AT2PS_O = Lpars.o at2ps.o backpatch.o compile.o error.o exec.o \
+   grammar.o lexer.o ps_io_2.o quad.o qlist.o segment.o symbol.o \
+   symtbl.o type.o word.o wrdgrm.o
+E 2
+I 2
+$(NAME): $(OBJECTS)
+	$(LINK.c) -o $@ $(OBJECTS) $(LDLIBS)
+E 2
+
+D 2
+compile.c + Lpars.c + Lpars.h: compile.g
+	$(LLGEN) $(LLOPT) compile.g
+E 2
+I 2
+lexer.c: lexer.l
+	$(LEX.l) lexer.l > $@
+E 2
+
+D 2
+at2ps: $(AT2PS_O)
+	$(LINK.c) -o $@ $(AT2PS_O) $(LDLIBS)
+E 2
+I 2
+Lpars.c + Lpars.h + compile.c: compile.g
+	rm -f Lpars.c Lpars.h compile.c
+	LLgen -a compile.g
+E 2
+
+D 2
+lint: $(HEADERS) $(SOURCES)
+	$(LINT.c) $(SOURCES)
+E 2
+I 2
+lint: lintflags $(LNFILES)
+	$(LINT.c) -flagsrc=lintflags $(LNFILES) $(LNLIBS)
+E 2
+
+D 2
+depend: $(HEADERS) $(SOURCES)
+	makedepend $(CPPFLAGS) -I/usr/local/include/p2c $(SOURCES)
+
+E 2
+install: all
+D 2
+	$(INSTALL) $(PROGRAMMES) $(BIN)
+	$(INSTALL) -m 444 $(MAN1) $(MAN)/man1
+E 2
+I 2
+	mkdir -p $(DESTDIR)/bin
+	$(INSTALL) -m 555 $(NAME) $(DESTDIR)/bin
+D 5
+	mkdir -p $(DESTDIR)/man/man1
+	$(INSTALL) -m 444 $(MAN1) $(DESTDIR)/man/man1
+E 5
+I 5
+	mkdir -p $(DESTDIR)/$(NAME)
+	$(INSTALL) -m 444 $(AUX) $(DESTDIR)/$(NAME)
+D 6
+	minstall -M $(DESTDIR)/man $(MAN1)
+E 6
+I 6
+	minstall -M $(DESTDIR)/man $(MAN1) $(MAN5)
+E 6
+E 5
+E 2
+
+I 2
+depend: $(HEADERS) $(SOURCES)
+	$(CC) $(DEPOPT) $(CPPFLAGS) $(SOURCES) > $@
+	$(CC) $(DEPOPT) $(CPPFLAGS) $(SOURCES) |\
+	sed 's/\.o:/.ln:/' >> $@
+
+E 2
+clean:
+D 2
+	rm -f $(PROGRAMMES)
+	rm -f *.bak *.o L*
+	rm -f compile.c core lexer.c
+E 2
+I 2
+	rm -f $(NAME) $(OBJECTS) $(LNFILES) *.bak core
+E 2
+
+D 2
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+E 2
+I 2
+distclean: $(DISTRIBUTION) clean
+	rm -f $(GENERATED)
+	rm -f *.ln *.o ,* depend
+	test ! -h Makefile || rm Makefile
+
+include depend
+E 2
+E 1

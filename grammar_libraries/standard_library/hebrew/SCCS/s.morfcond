@@ -1,0 +1,124 @@
+h52539
+s 00001/00001/00017
+d D 1.5 15/09/18 11:35:43 const 5 4
+c Added locative values 9 = /T~H and 10 = /JM~H
+e
+s 00000/00008/00018
+d D 1.4 03/02/11 15:03:22 const 4 3
+c Removed comments that did not comply with format.
+e
+s 00019/00026/00007
+d D 1.3 98/09/04 16:38:52 const 3 2
+c Grouped verb forms in finite and non-finite. Suffix presence.
+e
+s 00025/00025/00008
+d D 1.2 98/08/17 12:52:48 const 2 1
+c Added condition numbers.
+e
+s 00033/00000/00000
+d D 1.1 98/02/09 17:34:48 const 1 0
+c date and time created 98/02/09 17:34:48 by const
+e
+u
+U
+f e 0
+t
+T
+I 1
+D 4
+########################################################################
+#                                                                      #
+D 3
+#      Template for file "morfcond"                                    #
+E 3
+I 3
+#      Hebrew, template for file "morfcond"                            #
+E 3
+#                                                                      #
+########################################################################
+
+#ident "%Z%%M% %I% %G%"
+
+E 4
+D 2
+ 0 =  -6 99	distributiva
+ 0 =  -5 99	nouns of existence
+ 0 =  -4 99	possible adverbs
+ 0 =  -3 99	possible prepositions, ordinals
+ 0 =  -2 99	nouns of multitude, verbs of existence, gentilics
+ 0 =  -1 99	cardinals, direct speech, pure adjectives
+ 1 =   1 99	part of speech = verb
+ 3 =   3 99	verbal stem = "N" (niphal)
+ 5 =   7 99	locative
+ 6 =   0 99	suffix
+ 7 =   1 99	verbal tense = imperfect
+ 7 =   2 99	verbal tense = perfect
+ 7 =   3 99	verbal tense = imperative
+ 7 =   4 99	verbal tense = infinitive construct
+ 7 =   5 99	verbal tense = infinitive absolute
+ 7 =   6 99	verbal tense = participle
+ 7 =  11 99	verbal tense = wayyiqtol
+ 7 =  12 99	verbal tense = weyiqtol
+ 7 =  62 99	verbal tense = passive participle
+ 8 = 1 2 99	person = first, second
+ 9 =   1 99	number = singular
+ 9 =   3 99	number = plural
+11 =   0 99	state = unknown
+11 =   1 99	state = construct
+11 =   2 99	state = absolute
+E 2
+I 2
+D 3
+ 1  0 =  -6 99	distributiva
+ 2  0 =  -5 99	nouns of existence
+ 3  0 =  -4 99	possible adverbs
+ 4  0 =  -3 99	possible prepositions, ordinals
+ 5  0 =  -2 99	nouns of multitude, verbs of existence, gentilics
+ 6  0 =  -1 99	cardinals, direct speech, pure adjectives
+ 7  1 =   1 99	part of speech = verb
+ 8  3 =   3 99	verbal stem = "N" (niphal)
+ 9  5 =   7 99	locative
+10  6 =   0 99	suffix
+11  7 =   1 99	verbal tense = imperfect
+12  7 =   2 99	verbal tense = perfect
+13  7 =   3 99	verbal tense = imperative
+14  7 =   4 99	verbal tense = infinitive construct
+15  7 =   5 99	verbal tense = infinitive absolute
+16  7 =   6 99	verbal tense = participle
+17  7 =  11 99	verbal tense = wayyiqtol
+18  7 =  12 99	verbal tense = weyiqtol
+19  7 =  62 99	verbal tense = passive participle
+20  8 = 1 2 99	person = first, second
+21  9 =   1 99	number = singular
+22  9 =   3 99	number = plural
+23 11 =   0 99	state = unknown
+24 11 =   1 99	state = construct
+25 11 =   2 99	state = absolute
+E 3
+I 3
+ 1  0 = -6 99	# distributiva
+ 2  0 = -5 99	# nouns of existence
+ 3  0 = -4 99	# possible adverbs
+ 4  0 = -3 99	# possible prepositions, ordinals
+ 5  0 = -2 99	# nouns of multitude, verbs of existence, gentilics
+ 6  0 = -1 99	# cardinals, direct speech, pure adjectives
+ 7  3 =  3 99	# verbal stem = "N" (niphal)
+D 5
+ 8  5 =  7 99	# locative
+E 5
+I 5
+ 8  5 =  7 9 10 99	# locative
+E 5
+ 9  6 =  0 99	# suffix absent
+10  6 =  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 99	# suffix present
+11  7 =  1 2 3 11 12 99		# finite verbs
+12  7 =  4 5 6 62 99		# non-finite verbs
+13  9 =  1 99	# number = singular
+14  9 =  2 99	# number = dual
+15  9 =  3 99	# number = plural
+16 11 =  0 99	# state = unknown
+17 11 =  1 99	# state = construct
+18 11 =  2 99	# state = absolute
+E 3
+E 2
+E 1

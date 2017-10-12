@@ -1,0 +1,312 @@
+h01311
+s 00090/00092/00016
+d D 2.1 01/10/23 14:07:26 const 4 3
+c New format for new grapheme based alphabet(3) interface.
+e
+s 00002/00003/00106
+d D 1.3 99/05/21 16:10:19 const 3 2
+c Moved the raphe, as counterpart of the dagesh, to the diacritics.
+e
+s 00068/00019/00041
+d D 1.2 98/08/25 16:26:13 const 2 1
+c New version for alphabet(3) of December 1997.
+e
+s 00060/00000/00000
+d D 1.1 98/02/09 17:40:57 const 1 0
+c date and time created 98/02/09 17:40:57 by const
+e
+u
+U
+f e 0
+t
+T
+I 1
+########################################################################
+#                                                                      #
+D 2
+#  Definition of the translitteration alphabet                         #
+E 2
+I 2
+D 4
+#  Definition of the transliteration alphabet                          #
+E 4
+I 4
+#  Definition of the transliteration alphabet for Hebrew               #
+E 4
+E 2
+#                                                                      #
+########################################################################
+
+D 4
+#ident "%Z%%M% %I% %G%"
+E 4
+I 4
+#ident "%W% %E%"
+E 4
+
+D 4
+consonants:
+E 4
+I 4
+letters:
+aleph	">"
+beth	"B"
+gimel	"G"
+daleth	"D"
+heh	"H"
+waw	"W"
+zayin	"Z"
+cheth	"X"
+theth	"V"
+yod	"J"
+kaph	"K"
+lamed	"L"
+mem	"M"
+nun	"N"
+samekh	"S"
+ayin	"<"
+peh	"P"
+tsade	"Y"
+qoph	"Q"
+resh	"R"
+sin	"F"
+shin	"C"
+taw	"T"
+E 4
+
+D 4
+>	aleph
+B	beth
+G	gimel
+D	daleth
+H	heh
+W	waw
+Z	zayin
+X	cheth
+V	theth
+J	yod
+K	kaph
+L	lamed
+M	mem
+N	nun
+S	samekh
+<	ayin
+P	peh
+Y	tsade
+Q	qoph
+R	resh
+F	sin
+C	shin
+T	taw
+E 4
+
+I 2
+D 4
+k	kaph finalis
+m	mem finalis
+n	nun finalis
+p	pe finalis
+y	tsade finalis
+E 4
+I 4
+diacritics:
+E 4
+
+I 4
+# Vowels
+chataph_patach	":A"
+chataph_qamats	":@"
+chataph_segol	":E"
+chiriq		"I"
+cholam		"O"
+patach		"A"
+qamats		"@"
+qubbuts		"U"
+segol		"E"
+shewa		":"
+tsere		";"
+E 4
+
+E 2
+D 4
+vowels:
+E 4
+I 4
+# Dagesh is sometimes decisive
+dagesh		"."	# Also mappiq
+raphe		","
+E 4
+D 2
+:	sewa
+@	qames
+A	patah
+;	sere
+E 2
+I 2
+
+D 4
+:	shewa
+:@	chataph qamats
+:A	chataph patach
+:E	chataph segol
+;	tsere
+@	qamats
+A	patach
+E 2
+E	segol
+D 2
+I	hireq
+O	holem
+U	qibbus
+E 2
+I 2
+I	chiriq
+O	cholam
+U	qubbuts
+E 4
+E 2
+
+I 2
+D 4
+
+E 4
+E 2
+accents:
+D 2
+0	used in accents
+1	used in accents
+2	used in accents
+3	used in accents
+4	used in accents
+5	used in accents
+6	used in accents
+7	used in accents
+8	used in accents
+9	used in accents
+,	rape
+E 2
+
+I 2
+D 3
+,	raphe
+
+E 3
+D 4
+00	sof pasuq
+01	segolta
+02	sinnor
+03	pashta
+04	telisha qetana
+05	paseq
+10	yetib
+11	mugrash
+13	dechi
+14	telisha gedola
+24	telisha qetana med
+33	pashta med
+35	meteg
+44	telisha gedola med, once: II Kings 17:24
+60	ole weyored
+61	geresh
+62	garshayim
+63	azla
+64	illuy
+65	shalshelet
+70	mehuppach
+71	merecha
+72	merecha kepula
+73	tifcha
+74	munach
+75	silluq
+80	zaqef qatan
+81	rebia
+82	sinnorit
+83	pazer
+84	pazer gadol
+85	zaqef gadol
+91	tebir
+92	atnach
+93	yerach
+94	darga
+95	meteg yamin
+E 4
+I 4
+# Cantillation
+atnach			"92"
+azla			"63"
+darga			"94"
+dechi			"13"
+garshayim		"62"
+geresh			"61"
+illuy			"64"
+mehuppach		"70"
+merecha			"71"
+merecha_kepula		"72"
+meteg			"35"
+meteg_yamin		"95"
+mugrash			"11"
+munach			"74"
+ole_weyored		"60"
+paseq			"05"
+pashta			"03"
+pashta_med		"33"
+pazer			"83"
+pazer_gadol		"84"
+rebia			"81"
+segolta			"01"
+shalshelet		"65"
+silluq			"75"
+sinnor			"02"
+sinnorit		"82"
+sof_pasuq		"00"
+tebir			"91"
+telisha_gedola		"14"
+telisha_gedola_med	"44"	# Once: II Kings 17:24
+telisha_qetana		"04"
+telisha_qetana_med	"24"
+tifcha			"73"
+yerach			"93"
+yetib			"10"
+zaqef_gadol		"85"
+zaqef_qatan		"80"
+E 4
+
+I 4
+# Other word bound markers
+puncta_above		"52"
+puncta_below		"53"
+large_letter		"55"
+small_letter		"56"
+suspended_letter	"57"
+E 4
+
+E 2
+D 4
+diacritics:
+I 2
+
+E 2
+D 3
+.	dagesh or mappiq
+E 3
+*	qere/ketib
+I 3
+.	dagesh or mappiq
+,	raphe
+E 3
+I 2
+
+52	puncta above
+53	puncta below
+55	large
+56	small
+57	suspended
+E 4
+I 4
+punctuation marks:
+ketib			"*"
+maqqef			"-"
+qere			"**"
+E 4
+E 2
+E 1

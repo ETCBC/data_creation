@@ -1,0 +1,55 @@
+# This file lists the book names used in this project in their
+# various appearances. The order is that of BHS.
+
+# The first column gives the names as they are found in the BHS and
+# used in the directories /projects/at (analysed text) and /projects/gt
+# (graphical text). These are the canonical booknames.
+
+# The second column lists the names used in /projects/michigan (the
+# Michigan-Claremont-Westminster Text).
+
+# The third column states the names used by the Werkgroep Informatica
+# for the morphologically analysed text in its previous form (also
+# known as Cyber Text).
+
+#ident "@(#)booknames 1.2 05/19/99"
+
+Genesis          Genesis          genesis
+Exodus           Exodus           exodus
+Leviticus        Leviticus        leviticus
+Numeri           Numbers          numeri
+Deuteronomium    Deuteronomy      deuteronomium
+Josua            Joshua           jozua
+Judices          Judges           richteren
+Samuel_I         1_Samuel         isamuel
+Samuel_II        2_Samuel         iisamuel
+Reges_I          1_Kings          ikoningen
+Reges_II         2_Kings          iikoningen
+Jesaia           Isaiah           jesaja
+Jeremia          Jeremiah         jeremia
+Ezechiel         Ezekiel          ezechiel
+Hosea            Hosea            hosea
+Joel             Joel             joel
+Amos             Amos             amos
+Obadia           Obadiah          obadja
+Jona             Jonah            jona
+Micha            Micah            micha
+Nahum            Nahum            nahum
+Habakuk          Habakkuk         habakuk
+Zephania         Zephaniah        zefanja
+Haggai           Haggai           haggai
+Sacharia         Zechariah        zacharia
+Maleachi         Malachi          maleachi
+Psalmi           Psalms           psalmen
+Iob              Job              job
+Proverbia        Proverbs         spreuken
+Ruth             Ruth             ruth
+Canticum         Canticles        hooglied
+Ecclesiastes     Ecclesiastes     prediker
+Threni           Lamentations     klaagliederen
+Esther           Esther           esther
+Daniel           Daniel           daniel
+Esra             Ezra             ezra
+Nehemia          Nehemiah         nehemia
+Chronica_I       1_Chronicles     ikronieken
+Chronica_II      2_Chronicles     iikronieken

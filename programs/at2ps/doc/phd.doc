@@ -1,0 +1,46 @@
+Een phd file bevat de volgende syntax:
+
+vers
+
+vers = versaanduiding woord [woord]... 999
+
+woord = woordeigenschap { phrase-eigenschap | ',' }
+
+	NB	Als er een ',' staat dan zijn er geen phrase-
+		eigenschappen, oftwel een
+		0	in kolom 13 en een
+		-1	in kolom 14
+
+woordeigenschap = woord-status phrasedependent-part-of-speech
+
+phrase-eigenschap = ':' phrase-type determination
+
+woord-status = [-1 onbekend / nvt
+		1  constructus
+		2  absolutus ]	deze waarde wordt ingevuld in
+				kolom 11
+
+phrasedependent-part-of-speech =
+		[ 0 .. 13 ] zie pos
+				deze waarde wordt ingevuld in
+				kolom 12
+
+phrase-type = [ -2	nominale groep als appositie
+			(de soldaten, de mannen van David, ...)
+		-3	nominale groep, nl. een eigennaam als
+			appositie
+			(de koning van Israel, David, ...)
+		-5	prepositiegroep als appositie
+			(met David, met de koning van Israel, ...)
+		1 .. 13 ]	zie pos
+				deze waarde wordt ingevuld in
+				kolom 13
+
+determination = [-1	nvt
+		1	niet gedetermineerd
+			(>JC	een zekere)
+		2	gedetermineerd
+			met artikel, suffix of een eigennaam
+			(H->JC	de man, >JCK jouw man)
+				deze waarde wordt ingevuld in
+				kolom 14

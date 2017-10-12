@@ -1,0 +1,41 @@
+Een phrset file bevat phrase-atom patterns met de volgende syntax:
+
+
+phrset = phrase-atom-pattern [ phrase-atom-pattern ]...
+
+phrase-atom-pattern = input-pattern output-pattern newline
+
+input-pattern = phrase-atom [phrase-atom] 100
+
+phrase-atom = word [word]...
+
+word = part-of-speech-type { conditions | '-' }
+
+part-of-speech-type = [ 0 .. 13 ]
+
+conditions = '(' condition [ condition ]... ')'
+
+condition = morfological-condition | lexical-condition
+
+morfological-condition = line-number in morfcond file
+
+lexical-condition = line-number in lexcond file + 100
+
+output-pattern = state-setting part-of-speech-setting phrase-type-setting
+		 determination-setting
+
+state-setting = state [ space state ]... space 100
+
+state = { -1 | 1 | 2 }
+
+part-of-speech-setting = part-of-speech [ space part-of-speech ]... space 100
+
+part-of-speech = { 0 .. 13 }
+
+phrase-type-setting = phrase-type [ space phrase-type ]... space 100
+
+phrase-type = { -2 -3 -5 1..13 }
+
+dertermination-setting = determination [ space determination ]... space 99
+
+determination = { -1 1 2 }

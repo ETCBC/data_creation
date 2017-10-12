@@ -1,0 +1,118 @@
+This is TeX, Version 3.14159 (Web2C 7.2) (format=latex 1998.7.17)  25 SEP 1998 13:05
+**wla.tex
+(wla.tex
+LaTeX2e <1997/12/01> patch level 2
+Babel <v3.6j> and hyphenation patterns for american, dutch, english, french, ge
+rman, greek, loaded.
+(/usr/local/newtex/texmf/tex/latex/base/article.cls
+Document Class: article 1997/10/10 v1.3x Standard LaTeX document class
+(/usr/local/newtex/texmf/tex/latex/base/size10.clo
+File: size10.clo 1997/10/10 v1.3x Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/newtex/texmf/tex/latex/ntg/a4.sty
+Package: a4 1995/09/25 v1.2e A4 based page layout
+)
+(/usr/local/newtex/texmf/tex/latex/psnfss/palatino.sty
+Package: palatino 1998/01/07 PSNFSS v.7 Palatino font as default roman : S Raht
+z
+) (wla.aux)
+\openout1 = `wla.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 6.
+
+(/usr/local/newtex/texmf/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 1998/05/28 Fontinst v1.7 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 7.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 10.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 14.
+
+(/usr/local/newtex/texmf/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 39.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 40.
+
+(/usr/local/newtex/texmf/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 1998/05/28 Fontinst v1.7 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 42.
+
+Overfull \hbox (43.49763pt too wide) in paragraph at lines 52--60
+\OT1/ppl/m/n/10 stekens aan \OT1/pcr/m/n/10 seg-ment\OT1/ppl/m/n/10 . Voor \OT1
+/pcr/m/n/10 com-pile \OT1/ppl/m/n/10 moet vast-gelegd zijn: het for-maat van \O
+T1/pcr/m/n/10 word[]grammar\OT1/ppl/m/n/10 ,
+ []
+
+[1
+
+]
+Overfull \hbox (0.9166pt too wide) in paragraph at lines 69--80
+\OT1/ppl/m/n/10 Voor elke wo-ord-func-tie die door de gra-mat-ica aan een wo-or
+d wordt toegeschreven,
+ []
+
+
+Overfull \hbox (1.47685pt too wide) in paragraph at lines 94--102
+\OT1/ppl/m/n/10 gram-meren er-van in \OT1/pcr/m/n/10 word.c\OT1/ppl/m/n/10 . Di
+t datatype moet gener-iek zijn, dat wil zeggen
+ []
+
+
+Overfull \hbox (3.50684pt too wide) in paragraph at lines 94--102
+\OT1/ppl/m/n/10 overal toepas-baar zijn waar wo-ord-data wor-den doorgegeven. I
+n het overzicht
+ []
+
+
+Overfull \hbox (3.93779pt too wide) in paragraph at lines 133--137
+[]\OT1/ppl/m/n/10 Het schri-jven van de com-piler in de files \OT1/pcr/m/n/10 c
+om-pile.h \OT1/ppl/m/n/10 en \OT1/pcr/m/n/10 com-pile.c\OT1/ppl/m/n/10 . (\OT1/
+pcr/m/n/10 const\OT1/ppl/m/n/10 ) 
+ []
+
+[2] [3] (wla.aux) ) 
+Here is how much of TeX's memory you used:
+ 327 strings out of 10914
+ 3683 string characters out of 72741
+ 47924 words of memory out of 263001
+ 3291 multiletter control sequences out of 10000+0
+ 9857 words of font info for 32 fonts, out of 200000 for 1000
+ 22 hyphenation exceptions out of 1000
+ 23i,6n,19p,153b,250s stack positions out of 300i,100n,500p,30000b,4000s
+
+Output written on wla.dvi (3 pages, 7648 bytes).

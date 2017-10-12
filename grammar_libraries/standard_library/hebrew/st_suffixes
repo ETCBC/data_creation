@@ -1,0 +1,20 @@
+##########################################################################
+#                                                                        #
+#	st_suffixes: subject + tense suffixes in biblical Hebrew verbs   #
+#                                                                        #
+##########################################################################
+""
+"H"	:vt=pf:ps=3:gn=f:nu=s:
+"H="
+"W"	:nu=p:
+"WN"	:nu=p:
+"J"	:ps=2:gn=f:nu=s:
+"JN"	:vt=ipf:ps=2:gn=f:nu=s:
+"NH"	:gn=f:nu=p:
+"NW"	:vt=pf:ps=1:nu=p:
+"T"	:vt=pf:ps=2:gn=m:nu=s:
+"T="	:vt=pf:ps=2:gn=f:nu=s:
+"TH"	:vt=pf:ps=2:gn=m:nu=s:
+"TJ"	:vt=pf:ps=1:nu=s:
+"TM"	:vt=pf:ps=2:gn=m:nu=p:
+"TN"	:vt=pf:ps=2:gn=f:nu=p:

@@ -1,0 +1,283 @@
+Old situation				New situation
+
+Column	Name and Contents		Column	Name and Contents
+
+	Verse Identifier:			section name, followed by (a) space(s),
+	String of 10 characters,		and an index in the form:
+	single spaces included,			number, { number } ...
+	followed by a space.			In the PS file it will be truncated at
+	pos 1..10 Len: 10			the 10th position.
+						Pos 1..10 Len: 10
+
+	Lexeme:				1	Lexeme
+	String of 17 chars, single 		String with no space,
+	spaces included, ending with a		ending on a space, truncated after
+	a double space.				the 17th char.
+	Pos 12..28 Len 17			Pos 12..28 Len 17
+
+0	Lexical Information		0	lexset		wd_lexical_set
+
+	Part of speech	Subset
+	1 verb					verb
+			-1 verb of quotation		wd_quot	14
+			-2 verb of existence		wd_vbex	16
+	2 noun					subs
+			-1 cardinal number		wd_card	1
+			-2 noun of multitude		wd_mult	4
+			-3 potential preposition	wd_ppre	13
+			-4 potential adverb		wd_padv	8
+			-5 noun of existence		wd_nmex	6
+			-6 distributive noun		wd_nmdi	5
+	3 proper name
+			-1 people's name		wd_gens	2
+			-2 person's name		wd_pers	10
+			-3 topographical name		wd_topo	15
+	13 adjective				adjv
+			-2 gentilic adjective		wd_gntl	3
+			-3 ordinal number		wd_ordn	7
+
+			? potential conjunction		wd_pcon	9
+			? possible interrogative	wd_pinr	11
+			? possible demonstrative pronoun wd_ppde	12
+				name of month		wd_mens
+				object marker		wd_objm
+
+1	Part of Speech			1	part of speech			a_f_POS
+	integer value:				value:
+	0 article				dart  definite article	0
+	1 verb					verb  verb		1
+	2 noun					subs  substantive	2
+	3 proper name				nmpr  proper name	3
+	4 adverb				advb  adverb		4
+	5 preposition				prep  preposition	5
+	6 conjunction				conj  conjunction	6
+	7 personal pronoun			prps  personal pronoun	7
+	8 demonstrative pronoun			prde  demonstrative pronoun 8
+	9 interrogative pronoun			prin  interrogative pronoun 9
+	10 interjection				intj  interjection	10
+	11 negation				nega  negative paticle	11
+	12 interrogative particle		inrg  interrogative particle 12
+	13 adjective				adjv  adjective		13
+	Pos 30-32 Len 3				Pos 30..32 Len 3
+
+2	Prefix				2	Subject + Tense Prefix (preformative)
+	integer value:				Hebrew		Aramaic		a_pfm
+	-1 Not relevant
+	 0 Absent
+	 1 !!					!!	1	!!	wd_pf_	1
+	 2 !J!					!J!	2	!J!	wd_pf_j	4
+	 3 !T!					!T!	3	!T!	wd_pf_t	7
+	 4 !>!					!>!	4	!>!	wd_pf_a	2
+	 5 !N!					!N!	5	!N!	wd_pf_n	6
+	 6 !H!					!H!	6	!L!	wd_pf_h	3
+	 7 !m! {new values in lc}		!M!	7	!M!	wd_pf_m	5
+	 8 !t=!					!T=!	8	!T=!	wd_pf_t_	8
+	Pos 34-36 Len 3				Pos 34-36 Len 3
+
+3	Verbal Stem Morpheme		4	Verbal Stem Prefix
+						Hebrew		Aramaic
+	-1 Not relevant
+	 0 Absent Qal
+	 1 ]]	  Pi''el
+	 2 ]H]    Hif'il			]H]	2	]H]   haf'el	wd_vs_h	  2
+	 3 ]N]	  Nif'al			]N]	3			wd_vs_n	  4
+	 4 ]2]    Pu'al								wd__vs_2	  8
+	 6 ]HT]	  Hitpa''el			]HT]	6	]HT]  hitpe'el	wd_vs_ht	  3
+	 8 ]H2]   Hof'al							wd__vs_h2  9
+      ( 10 ]HCT]  Hishtaf'al )				10	]HCT]
+	11 ]HT2]  Hotpa''al							wd__vs_nt 10
+	12 ]NT]	  Nitpa''el			]NT]	12			wd_vs_nt
+	13 ]>t]	  etpaal	  		]>T]	13	]>T]  itpa''el	wd_vs_at	  1
+				  	 	]T]	14			wd_vs_t	  5
+							15	]>]   af'el
+							16	]C]   shaf'el
+	Pos 41-42 Len 2 			Pos 41-42 Len 2
+
+4	Verbal Ending			5	Subject + Tense Suffix
+						Hebrew		Aramaic	a_vbe
+	-1 Not relevant
+	 0 Absent					0
+	 1 [					[	1	[	wd_vb_	   1
+	 2 [H					[H	2	[H	wd_vb_h	   2
+	 3 [T					[T	3	[T	wd_vb_t	  10
+	 4 [TH					[TH	4		wd_vb_th	  12
+	 5 [T=					[T=	5	[T=	wd_vb_t_	  11
+	 6 [TJ					[TJ	6	[TJ	wd_vb_t	  13
+	 7 [W					[W	7	[W	wd_vb_w	   4
+	 8 [TM					[TM	8		wd_vb_tm	  14
+	 9 [TN					[TN	9	[TN	wd_vb_tn	  15
+	10 [NW					[NW	10		wd_vb_nw	   9
+	11 [=	3fs							wd__vb__	  16
+	12 [J					[J	12	[J	wd_vb_j	   6
+	13 [JN					[JN	13	[JN	wd_vb_jn	   7
+	14 [WN					[WN	14	[WN	wd_vb_wn	   5
+	15 [NH					[NH	15		wd_vb_nh	   8
+	16 [NH=	2fp							wd__vb_nh_ 17
+	17 [2	infa							wd__vb_2	  18
+	18 [h=	cohort ipv 2			[H=	18		wd_vb_h_	   3
+							19	[N
+							20	[N>
+							21	[T==
+							22	[TWN
+       Pos 44-45 Len 2				Pos 44-45 Len 2
+
+5	Nominal Ending			6	Nominal Suffix
+						Hebrew		Aramaic	wd_nme
+	-1 Not relevant
+	 0 Absent					0
+	 1 /					/	1	/	wd_nm_	   1
+	 2 /H					/H	2	/H	wd_nm_h	   2
+	 3 /T					/T	3	/T	wd_nm_t	  10	
+	 4 /JM					/JM	4		wd_nm_jm	   7	
+	 5 /J					/J	5	/J	wd_nm_j	   5
+	 6 /WT					/WT	6		wd_nm_wt	   3
+	 7 /H=	locat							wd__nm_h_  13
+	 8 /JM2	dual abs						wd__nm_jm2 14
+	 9 /J2	dual cstr						wd__nm_j2  15
+	10 /2	dual tantum						wd__nm_2   16
+	11 //	nompr							wd__nmnm   17
+	12 /wtj					/WTJ	12		wd_nm_wtj   4
+	13 /j=					/J=	13	/J=	wd_nm_j_	   6
+	14 /jm=					/JM=	14		wd_nm_jm_   8
+	15 /jn					/JN	15	/JN	wd_nm_jn	   9
+	16 /tj					/TJ	16		wd_nm_tj	  11
+	17 /tjm					/TJM	17		wd_nm_tjm  12
+	18 /th	/T~H (artif morph)			18	/W
+	19 /jmh /JM~H					19	/JN=
+							20	/N
+							21	/T=
+							22	/TJN
+
+						Locative/State Suffixes
+						Hebrew		Aramaic	a_loc
+							0
+						~H	1		wd_lc_h	1
+							2	~>
+
+
+						Marked Vowel Patterns
+						Hebrew		Aramaic	wd_vpm
+							0
+				      st abs 	:a	1	:a	wd_vp_a	1
+				      st cnst	:c	2	:c	wd_vp_c	2
+			              reduplic	:d	3	:d	wd_vp_d	3
+				      consecut	:n	4		wd_vp_n	4
+				      passive	:p	5	:p	wd_vp_p	5
+
+6	Pronominal Suffix		7	Prominal Suffix
+						Hebrew		Aramaic	wd_prs
+	-1 Not relevant
+	 0 Absent					0
+	 1 +
+	 2 +NJ					+NJ	2	+NJ	wd_ps_nj	 17
+	 3 +J					+J	3	+J	wd_ps_j	  8
+	 4 +K					+K	4	+K	wd_ps_k	  9
+	 5 +K=					+K=	5	+K=	wd_ps_k_	 10
+	 6 +W					+W	6		wd_ps_w	  7
+	 7 +HW					+HW	7		wd_ps_hw	  2
+	 8 +H					+H	8	+H	wd_ps_h	  1
+	 9 +NW					+NW	9		wd_ps_nw	16 
+	10 +KM					+KM	10	+KM	wd_ps_km  11
+	11 +KN					+KN	11	+KN	wd_ps_kn	 12
+	12 +HM					+HM	12	+HM	wd_ps_hm	  3
+	13 +M					+M	13		wd_ps_m	 13
+	14 +MW					+MW	14		wd_ps_mw	 14
+	15 +HN					+HN	15	+HN	wd_ps_hn	  5
+	16 +N					+N	16		wd_ps_n	 15
+	17 +hmh					+HMH	17		wd_ps_hmh  4
+	18 +hnh					+HNH	18		wd_ps_hnh  6
+							19	+H
+							20	+H=
+							21	+HWN
+							22	+HJ
+							23	+KWN
+							24	+KJ
+							25	+N>
+
+7	Verbal Tense Analysis		8	Verbal Tense
+						Hebrew		Aramaic	wd_verbal_tense
+	-1 Not relevant
+	 0 Absent					0
+	 1 yiqtol	ipf			ipf	1	ipf	wd_impf	   2
+	 2 qatal	pf			pf	2	pf	wd_pf	   1
+	 3 qtol		imp			imp	3	imp	wd_impv	   3
+	 4 qetol	inf cstr					wd__infc	   6
+	 5 qatol	inf abs						wd__infa    7
+	 6 qotel	ptc			ptc	6	ptc	wd_ptcp	   5
+	11 we-yiqtol	we-ipf						wd__weipf   8
+	12 way-yiqtol	ipf cons					wd__ipfc	   9
+	62 qatul	passive ptc					wd__pasptc 10
+						inf	7	inf	wd_inf	   4
+
+8	Person Analysis			9	Person
+						Hebrew		Aramaic	wd_person
+	-1 Not relevant
+	 0 Absent					0
+	 1 First person				1	1	1	wd_first	 1
+	 2 Second person			2	2	2	wd_second 2
+	 3 Third person				3	3	3	wd_third	 3
+
+9	Number Analysis			10	Number			wd_number
+
+	-1 Not relevant
+	 0 Absent					0
+	 1 Singular				s	1	s	wd_singular 1
+	 2 Dual					d	2	d	wd_dual	   2
+	 3 Plural				p	3	p	wd_plural   3
+
+10	Gender Analysis			11	Gender			wd_gender
+
+	-1 Not relevant
+	 0 Absent					0
+	 1 Feminine				F	1	F	wd_feminine  2
+	 2 Masculine				M	2	M	wd_masculine 1
+
+						Verbal Stem
+						Hebrew		Aramaic	wd_verbal_stem
+
+						etp	1		wd_etpaal 10
+						hi	2		wd_hiphil 6
+						ho	3	ho	wd_hophal 7
+						hot	4		wd_hotp	 9
+						htp	5	htp	wd_hitp	 8
+						ni	6		wd_niphal 3
+						pi	8	pi	wd_piel	 4
+						pu	9	pu	wd_pual	 5
+						qal	10		wd_qal	 1
+						pasqal	11		wd_pasqal 2
+						tiphal	12		wd_tiphal 11
+							13	ap
+							14	pa
+							15	pe
+							16	ha
+							17	hs	wd_his	10	?
+							18	ht
+							19	it
+							20	sh
+
+11	State Analysis			12	State
+						Hebrew		Aramaic	wd_vpm
+	-1 Not applicable
+	 0 unknown				?	0	?
+	 1 construct				c	1	c	wd_vp_c	2
+	 2 absolute				a	2	a	wd_vp_a	1
+							3	d	wd_vp_d	3
+
+12	Phrase Dependent Part of Speech
+
+	-1
+
+13	Phrase Type
+
+	-1
+
+14	Determination
+
+	-1
+         1 undeterminated
+         2 determinated 
+
+15	Control
+
+	-1
+

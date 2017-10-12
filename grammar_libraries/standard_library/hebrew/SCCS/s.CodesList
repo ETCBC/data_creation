@@ -1,0 +1,189 @@
+h38873
+s 00001/00000/00066
+d D 1.4 14/07/30 09:23:42 const 4 3
+c Added >JN= (pro forma)
+e
+s 00048/00041/00018
+d D 1.3 13/11/03 12:52:20 const 3 2
+c New format for syn04types 2.0
+e
+s 00004/00003/00055
+d D 1.2 06/09/26 14:47:30 const 2 1
+c Changed code of passive participle. Addressed [BKL]MW.
+e
+s 00058/00000/00000
+d D 1.1 05/09/14 16:39:16 const 1 0
+c Version of Feb 1999
+e
+u
+U
+f e 0
+t
+T
+I 1
+D 3
+ipf.     1     VBT
+perf.    2
+imp.     3
+infc.    4
+infa.    5
+ptc.     6 
+ipfc.    7
+ipfW.    8
+D 2
+ptcP.   13
+E 2
+I 2
+ptcP.    6
+E 2
+----     0
+E 3
+I 3
+impf     1	Verbal tense of the predicate
+perf     2
+impv     3
+infc     4
+infa     5
+ptca     6
+ptcp     6
+wayq     7
+weyq     8
+E 3
+-----
+D 3
+>XRJ     1     PREP
+E 3
+I 3
+>XR/     1	Preposition class of infinitive clause
+E 3
+>L       2
+D 3
+>YL      3
+E 3
+I 3
+>YL/     3
+E 3
+>T       4
+B        5
+D 3
+BJN      6
+E 3
+I 3
+BJN/     6
+E 3
+BL<DJ    7
+D 2
+BMW      8
+E 2
+I 2
+BMW      5
+E 2
+D 3
+B<D      9
+ZWLH    10
+E 3
+I 3
+B<D/     9
+ZWLH/   10
+J<N/    11
+E 3
+K       12
+D 2
+KMW     13
+E 2
+I 2
+KMW     12
+E 2
+L       14
+I 2
+LMW     14
+E 2
+LM<N    15
+MN      17
+<D      20
+I 3
+<L      21
+E 3
+<M      22
+D 3
+TXT     24
+----     0
+E 3
+I 3
+TXT/    24
+E 3
+-----
+D 3
+>CR     10     CONJ
+H       10
+C       10
+ZW      10
+>LW    100
+LW     100
+LWL>   100
+----   100
+>M     230
+W >M   230
+W      300
+>W     400
+GM     400
+W GM   400
+W2     400
+E 3
+I 3
+>W     400	Conjunction class of clause opening
+I 4
+>JN=   600
+E 4
+>LW    600
+>M     600
+>CR    500
+DJ     500
+H      500
+W      400
+ZW     500
+E 3
+KJ     500
+D 3
+KJ>M   500
+LHN    600
+LKN    600
+<L KN  600
+<D     700
+VRM    700
+LM<N   800
+E 3
+I 3
+HN     600
+LHN=   600
+LW     600
+LWL>   600
+E 3
+PN     800
+D 3
+J<N    900
+<QB    900
+E 3
+I 3
+C      500
+-----
+>XR/   700	Preposition class of clause opening
+>L     700
+B      700
+BLT/   800
+BMW    700
+ZWLH/  800
+VRM/   700
+J<N/   900
+K      700
+KMW    700
+L      700
+LMW    700
+LM<N   800
+MN     800
+<D     700
+<L     900
+<QB/   900
+E 3
+-----
+E 1

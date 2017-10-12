@@ -1,0 +1,101 @@
+.\" ident "@(#)dapro/syn03/phrset.5 1.1 01/23/98"
+.TH PHRSET 5 "01/23/98" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+.SH NAME
+phrset \- collection of accepted phrase patterns
+.SH SYNTAX
+.TP 25
+phrase_set =
+phrase_definition { phrase_definition }.
+.TP 25
+phrase_definition =
+part_of_speech_pattern separator phrase_template eoln <newline>.
+.TP 25
+part_of_speech_pattern =
+part_of_speech_instance * N.
+.TP 25
+phrase_template =
+state_template separator
+phrase_dependent_part_of_speech_template separator
+phrase_type_template separator
+determination_template.
+.TP 25
+part_of_speech_instance =
+part_of_speech condition_set.
+.TP 25
+state_template =
+state * N.
+.TP 25
+phrase_dependent_part_of_speech_template =
+part_of_speech * N.
+.TP 25
+phrase_type_template =
+\&'0' * (N-1) phrase_type.
+.TP 25
+determination_template =
+\&'-1' * (N-1) determination.
+.TP 25
+condition_set =
+\&'-' | '(' condition { ',' condition } ')'.
+.TP 25
+separator =
+\&'100'.
+.TP 25
+eoln =
+\&'99'.
+.PP
+The constant
+.SM N
+is a feature of one
+.I phrase_definition
+and corresponds with the number of words in a phrase.
+The non-terminals
+.IR part_of_speech ,
+.IR state ,
+.IR phrase_dependent_part_of_speech ,
+.IR phrase_type ,
+.I determination
+and
+.I condition
+are all signed integers.
+.SH DESCRIPTION
+The file
+.B phrset
+contains the set of phrase patterns that is used by
+.BR syn03 (1)
+to build phrases.
+A phrase pattern provides a part of speech pattern that must be
+matched and, if so, the values of
+.I state
+and
+.I phrase dependent part of speech
+for every word in the phrase together with the
+.I phrase type
+and
+.I determination
+of the phrase itself.
+The part of speech pattern to be matched consists of a sequence of
+values for
+.I part of speech
+the subsequent words must have.
+For every word, in addition to the value for part of speech,
+there is a (possibly empty) list of `morphological' and lexical
+conditions that must be met for a match to occur.
+.LP
+If
+.I condition
+is a number smaller than 100, it refers to the morphological
+condition in
+.BR morfcond (5)
+identified by the same number.
+If it is greater than 100, it refers to the lexical condition in
+.BR lexcond (5)
+identified by 100 less than this number.
+So condition 12 is morphological condition 12 and condition 112
+is lexical condition 12.
+.SH NOTES
+In this description we have used `phrases' as a short hand
+for the more correct term `phrase atoms'.
+.SH SEE ALSO
+.BR lexcond (5),
+.BR morfcond (5),
+.BR syn03 (1).

@@ -1,0 +1,19 @@
+#########################################################################
+#                                                                       #
+#       pron_suffixes: pronominal suffixes in biblical Aramaic          #
+#                                                                       #
+#########################################################################
+"H"	:ps=3:gn=m:nu=s:
+"H="	:ps=3:gn=f:nu=s:
+"HWN"	:ps=3:gn=m:nu=p:
+"HJ"	:ps=3:gn=m:nu=s:
+"HM"	:ps=3:gn=m:nu=p:
+"HN"	:ps=3:gn=f:nu=p:
+"J"	:ps=1:nu=s:
+"K"	:ps=2:gn=m:nu=s:
+"KWN"	:ps=2:gn=m:nu=p:
+"KJ"	:ps=2:gn=f:nu=s:
+"KM"	:ps=2:gn=m:nu=p:
+"KN"	:ps=2:gn=f:nu=p:
+"N>"	:ps=1:nu=p:
+"NJ"	:ps=1:nu=s:

@@ -1,0 +1,163 @@
+>MR[              # Verb, quotation
+MLL[
++++
+HWH[              # Verb, existence
+---
+>LP=/             # Noun, cardinal
+>RB</
+XD==/
+M>H/
+<FR/
+<FRJN/
+CB</
+CT==/
+CTJN/
+TLT/
+TLTJN/
+TRJN/
++++
+RBW=/             # Noun, multitude
++++
+>XR/              # Noun, possible preposition
+B>TR/
+BJN/
+NGD/
+<BR/
+QBL=/
+QDM/
+QDMH=/
+TXWT/
++++
+<WD/              # Noun, possible adverb
+TDJR/
++++
+>JTJ/             # Noun, existence
++++
+>X/               # Noun, distributive
+>NC/
+KL/
+---
+>DRZD>            # Adverb
+>ZD>
+>XRJN
+>SPRN>
+>P
+BRM
+VWT
+KH
+KN
+KNM>
+K<N
+K<NT
+K<T
+<L>
+YD>
+TMH
+TNJNWT
+---
+B                 # Preposition
+JT
+K
+L
+LWT
+MN
+<D
+<L
+<M
+---
+>DJN              # Conjunction
+DJ
+HN
+W
+LHN               # therefore
+LHN=              # except
+---
+>NXN>              : -1  1  3  0 -1
+>NH                : -1  1  1  0 -1
+>NTJ               : -1  2  1  1 -1
+>NTH               : -1  2  1  2 -1
+>NTWN              : -1  2  3  2 -1
+>NTN               : -1  2  3  1 -1
+HW>                : -1  3  1  2 -1
+HJ>                : -1  3  1  1 -1
+>NWN               : -1  3  3  2 -1
+HMW                : -1  3  3  2 -1
+HMWN               : -1  3  3  2 -1
+>NJN               : -1  3  3  1 -1
+---
+>L===              : -1 -1  3  0 -1
+>LH                : -1 -1  3  0 -1
+>LJN               : -1 -1  3  0 -1
+>LK                : -1 -1  3  0 -1
+D>                 : -1 -1  1  1 -1
+DK                 : -1 -1  1  2 -1
+DK=                : -1 -1  1  1 -1
+DKN                : -1 -1  3  0 -1
+DNH                : -1 -1  1  2 -1
+---
+MH                # Interrogative pronoun
+MN=
+---
+>LW=              # Interjection
+>RW
+H>                # behold
+H>=               # as
+---
+>L=               # Negative
+L>
+---
+H=                # Interrogative
+---
+>XRJ/             # Adjective
+>XRN/
+>JMTNJ/
+>RJK/
+B>JC/
+ZHJR/
+Z<JR/
+XWR=/             # white
+XDT/              # new
+XJ/
+XKJM/
+XSJR/
+VB/
+JYJB/
+JQJR/
+JTJR/
+MRD==/            # rebellious
+NQ>/
+<LJ/
+<LJWN/
+<MJQ/
+<NH=/             # miserable
+<YJB/
+<TJD/
+<TJQ/
+QDJC/
+QJM=/             # enduring
+RB/
+RXJQ/
+R<NN/
+FGJ>/
+CLH/
+CLJV/
+CPJR/
+CPL/
+TQJP/
++++
+>RKWJ/            # Adjective, gentilic
+BBLJ/
+DHWJ/
+JHWDJ/
+KFDJ/
+LWJ/
+MDJ/
+<LMJ/
+PRSJ/
+CWCNKJ/
++++
+QDMJ/             # Adjective, ordinal
+RBJ<J/
+TLJTJ/
+TNJN=/
+---

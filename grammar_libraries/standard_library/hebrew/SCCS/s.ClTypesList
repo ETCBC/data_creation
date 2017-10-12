@@ -1,0 +1,83 @@
+h39189
+s 00009/00005/00031
+d D 1.2 13/11/09 17:03:33 const 2 1
+c Update for syn04types 2.0
+e
+s 00036/00000/00000
+d D 1.1 05/09/14 16:39:40 const 1 0
+c Version of Jul 2002
+e
+u
+U
+f e 0
+t
+T
+I 1
+WayX 127
+Way0 107
+-----  0
+WXQt 132
+WxQt 142
+I 2
+WQt0 150
+WQtX 151
+E 2
+WQtl 152
+D 2
+0Qtl 102
+E 2
+I 2
+ZQtl 102
+E 2
+XQtl 112
+xQtl 122
+XxQt 182
+-----  0
+WXYq 131
+WxYq 141
+D 2
+0Yqt 101
+E 2
+I 2
+ZYqt 101
+E 2
+XYqt 111
+xYqt 121
+XxYq 181
+-----  0
+WeyX 128
+Wey0 108
+-----  0
+Impv 103
+D 2
+InfA 104
+InfC 105
+E 2
+I 2
+InfC 104
+InfA 105
+E 2
+-----  0
+PtcA 166
+PtcP 176
+AjCl 213
+NmCl 200
+-----  0
+I 2
+CPen 302
+E 2
+Ellp 303
+MSyn 304
+D 2
+CPen 302
+E 2
+I 2
+Reop 305
+E 2
+Voct 301
+I 2
+XPos 306
+E 2
+Defc  -1
+----- 99
+E 1

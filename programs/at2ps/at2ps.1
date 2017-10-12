@@ -1,0 +1,94 @@
+.\" ident "@(#)q2pro/at2ps/at2ps.1	1.2 13/01/31"
+.TH AT2PS 1 "13/01/31" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+.SH NAME
+at2ps \- create a phrase structure of an analysed text
+.SH SYNOPSIS
+.B at2ps
+[\fB\-deh\fR]
+[\fB\-l \fIlibrary\fR]
+[\fB\-o \fIoutput\fR]
+[\fIfile\fR \|.\|.\|.]
+.SH DESCRIPTION
+This manual page describes the first version of
+.BR at2ps (1),
+which handles pronominal suffixes as a special kind of inflectional
+morphemes, which have their own grammatical functions.
+.P
+.B at2ps
+reads morphologically encoded words from an Analysed Text
+.BR at (5)
+and a word grammar
+.BR word_grammar (5),
+and constructs a phrase structure file
+.BR ps2 (5).
+If no input files are given as arguments, the name of the input file is
+taken from
+.BR synnr (5).
+.PP
+.SH OPTIONS
+.TP
+.BI \-d
+Debug mode.
+Causes a human readable form of the analysis to be written on
+\fIstdout\fR.
+.TP
+.BI \-e
+Encode.
+The values of the nominal ending and the univalent final morpheme are
+joined in a code which is put into the column for nominal ending and
+can be decoded by
+.BR MatchNew (1).
+By default only the H locale is accounted for and added to the column
+for nominal ending in the manner of
+.BR syn01 (1).
+.TP
+.BI \-h
+Help.
+Causes a help text to be printed. 
+.TP
+.BI \-l " library"
+Use \fIlibrary\fP as the directory for the language libraries. This
+directory should contain a directory entry for every language used.
+The default library is %BASEDIR%/lib.
+.TP
+.BI \-o " output"
+Use \fIoutput\fP as the name of the output file created. By default
+the output file is created in the working directory and is named after
+the filename of the analysed text, with the extension .ps2 added at
+the tail of the input filename.
+.SH FILES
+There are three additional files: a \fIgrammar\fR, a \fIlexicon\fR and
+an \fIalphabet\fR file.
+The grammar must reside at the library where the languages are
+specified with the \-l switch.
+The name of the grammar is always \fBword_grammar\fR.
+In the same directory as the word_grammar file there must be a
+\fBlexicon\fR file and an \fBalphabet\fR file.
+Those files are intended to be human readable and editable
+for every language encountered.
+.TP
+.B %BASEDIR%/at2ps/ps2cor.awk
+.BR awk (1)
+script intended for post-processing the output file.
+.SH SEE ALSO
+.BR MatchNew (1),
+.BR at (5),
+.BR lexicon (5),
+.BR ps2 (5),
+.BR syn01 (1),
+.BR synnr (5),
+.BR word_grammar (5).
+.SH "RETURN VALUES"
+.B at2ps
+returns a zero exit status to the calling environment if no errors
+were encountered. On error it will print a message on
+.I stderr
+and will exit immediately with a non-zero exit status.
+.SH BUGS
+The
+.BR ps2 (5)
+file produced needs post-processing with \fIps2cor.awk\fP, because
+there are two things the word grammar cannot address by design:
+the state of proper nouns and the default gender of adjectives.
+The script also takes care of \fIketib wela qere\fP and changes the
+verbal tense \fIweyiqtol\fP into \fIimperfect\fP for Aramaic stems.

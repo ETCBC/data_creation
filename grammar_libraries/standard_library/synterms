@@ -1,0 +1,55 @@
+--- Part of Speech
+ 0 Article
+ 1 Verb
+ 2 Noun
+ 3 PropName
+ 4 Adverb
+ 5 Prep
+ 6 Conj
+ 7 PerPron
+ 8 DemPron
+ 9 IntPron
+ 10 Interjj
+ 11 Negation
+ 12 IntPrtcle
+ 13 Adjective
+--- Phrase Type
+ -2 NP (appos)
+ 1 VP
+ 2 NP
+ 3 NP proper name
+ 4 AdvP
+ 5 PP
+ 6 CjP
+ 7 NP pronoun
+ 8 NP pronoun
+ 9 NP pronoun
+ 10 IntjP
+ 11 NegP
+ 12 IntrP
+ 13 NPadj
+ 20 NPdet
+--- VbTense
+ -1 NotRel
+ 0 absent
+ 1 Yiqtol
+ 2 Qatal
+ 3 Q'tol
+ 4 Qetol
+ 5 Qatol
+ 6 Qotel
+ 11 We-yiqtol
+ 12 Wayyiqtol
+ 62 Qatul
+--- VbStem
+ -1 Not Relevant
+ 0 Qal
+ 1 Pi.
+ 2 Hif
+ 3 Nif
+ 4 Pu.
+ 6 Hit
+ 8 Hof
+ 10 Hst
+ 11 Hot
+ 12 Nit

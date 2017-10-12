@@ -1,0 +1,235 @@
+########################################################################
+#                                                                      #
+#       Aramaic word grammar of the Syntactic Variation Project        #
+#                                                                      #
+########################################################################
+
+#ident "@(#)word_grammar	1.3 15/08/07"
+
+word
+   inflection
+      prefix =
+         pfm: {"!", "!"} "preformative"
+         vbs: {"]", "]"} "verbal stem"
+      core =
+         lex: {} "lexeme"
+      suffix =
+         vbe: {"["} "verbal ending"
+         nme: {"/"} "nominal ending"
+         uvf: {"~"} "univalent final"
+      pattern =
+         vpm: {":"} "vowel pattern mark"
+
+   derivation
+      core =
+         rt: {} "root"
+
+forms
+   meta "(" "&" "_" "="
+
+   pfm = "", ">", "J", "L", "M", "N", "T", "T="
+   vbs = ">", ">T", "H", "HCT", "HT", "C"
+   lex < lexicon
+   vbe = "", "H", "W", "WN", "J", "JN", "N", "N>", "T", "T=", "T==",
+	 "TJ", "TWN", "TN"
+   nme = "", "H", "W", "W=", "J", "J=", "JM", "JM=", "JN", "JN=", "N",
+	 "T", "T=", "TJM", "TJN"
+   uvf = ">", "W", "N"
+   vpm = a, c, d, dp, p, u
+
+   rt < lexicon
+
+
+# Definition of grammatical functions: mnemonic and function name
+
+functions
+    gn: "gender" =
+	f: "feminine", m: "masculine"
+    nu: "number" =
+	sg: "singular", du: "dual", pl: "plural"
+    ps: "person" =
+	first: "first", second: "second", third: "third"
+    ls: "lexical set" =
+	afad: "anaphoric adverb",
+	card: "cardinal",
+	cjad: "conjunctive adverb",
+	focp: "focus particle",
+	gntl: "gentilic",
+	mult: "noun of multitude",
+	nmcp: "copulative noun",
+	nmdi: "distributive noun",
+	ordn: "ordinal",
+	padv: "potential adverb",
+	ppre: "potential preposition",
+	ques: "interrogative particle",
+	quot: "quotation verb",
+	vbcp: "copulative verb",
+	sffx: "pronominal suffix"
+    sp: "part of speech" =
+	verb: "verb",
+	subs: "noun",
+	nmpr: "proper noun",
+	advb: "adverb",
+	prep: "preposition",
+	conj: "conjunction",
+	prps: "personal pronoun",
+	prde: "demonstrative pronoun",
+	prin: "interrogative pronoun",
+	intj: "interjection",
+	nega: "negative",
+	inrg: "interrogative",
+	adjv: "adjective"
+    st: "state" =
+	cst: "construct", abs: "absolute", emf: "emphatic"
+    vs: "verbal stem" =
+	qal:  "qal",
+	piel: "pi``el",
+	hif:  "hif`il",
+	nif:  "nif`al",
+	pual: "pu``al",
+	haf:  "haf`el",
+	hit:  "hitpa``el",
+	htpe: "hitpe`el",
+	hof:  "hof`al",
+	pasq: "passive qal",
+	hsht: "hishtaf`al",
+	hotp: "hotpa``al",
+	nit:  "nitpa``el",
+	etpa: "etpa``al",
+	tif:  "tif`al",
+	afel: "af`el",
+	shaf: "shaf`el",
+	peal: "pe`al",
+	pael: "pa``el",
+	peil: "pe`il",
+	htpa: "hitpa``al",
+	etpe: "etpe`el",
+	esht: "eshtaf`al",
+	etta: "ettaf`al"
+    vt: "verbal tense" =
+	impf: "imperfect",
+	perf: "perfect",
+	impv: "imperative",
+	infc: "infinitive construct",
+	infa: "infinitive absolute",
+	ptca: "participle",
+	ptcp: "passive participle"
+
+
+# The rules are applied on a fall through basis, so their order
+# is important.
+
+rules
+
+inflection
+
+   not exist(vbe) && not exist(nme) :: +sp
+
+   exist(nme) :: +nu, +gn, +st
+   exist(vbe) :: +ps, +nu, +gn
+
+# Litterae compaginis
+   uvf == "W" :: st=cst
+
+# Nominal endings
+   shared {
+      exist(nme) :: sp=subs, nu=sg
+   }
+      vpm == a :: st=abs
+      vpm == c :: st=cst
+      nme == "H" :: gn=f, st=abs
+      nme == "T" :: gn=f, st=cst
+      nme == {"JM=", "JN="} :: nu=du, st=abs
+      nme == {"J=", "W="} :: nu=du, st=cst
+      nme == {"TJM", "TJN"} :: nu=du, gn=f, st=abs
+      nme == {"JM", "JN"} :: nu=pl, gn=m, st=abs
+      nme == {"J", "W"} :: nu=pl, gn=m, st=cst
+      nme == "N" :: nu=pl, gn=f, st=abs
+      nme == "T=" :: nu=pl, gn=f, st=cst
+      uvf == ">" :: st=emf
+   end
+
+# Verbal endings
+   shared {
+      exist(vbe) :: sp=verb, vs=peal
+   }
+      vbe == "H" :: ps=third, nu=pl, gn=f
+      vbe == {"W", "WN"} :: ps=third, nu=pl, gn=m
+      vbe == {"J", "JN"} :: ps=second, nu=sg, gn=f
+      vbe == "N" :: ps=third, nu=pl, gn=f
+      vbe == "N>" :: ps=first, nu=pl
+      vbe == "T" :: ps=third, nu=sg, gn=f
+      vbe == "T=" :: ps=second, nu=sg, gn=m
+      vbe == "T==" :: ps=first, nu=sg
+      vbe == "TWN" :: ps=second, nu=pl, gn=m
+      vbe == "TJ" :: ps=second, nu=sg, gn=f
+      vbe == "TN" :: ps=second, nu=pl, gn=f
+   end
+
+# Verbal stems
+   # Stems with separate intensive formations
+   vbs == ">T" :: vs=etpe
+   vbs == "HT" :: vs=htpe
+   shared { exist(vbe) && vpm == {d, dp} :: vs=pael }
+      vbs == ">T" :: vs=etpa
+      vbs == "HT" :: vs=htpa
+   end
+
+   # Stems with separate passive formations
+   vbs == ">" :: vs=afel
+   vbs == "H" :: vs=haf
+   # The passive stem formations only occur in finite verb forms
+   shared { exist(vbe) && not exist(nme) :: sp=verb }
+      not exist(vbs) && vpm == p :: vs=peil
+      not exist(vbs) && vpm == u :: vs=pual
+      vbs == {">", "H"} && vpm == u :: vs=hof
+   end
+
+   # Independent stems
+   vbs == "HCT" :: vs=hsht
+   vbs == "C" :: vs=shaf
+
+# Preformatives
+   pfm == ">" :: ps=first, nu=sg
+   pfm == {"J", "L"} :: ps=third
+   pfm == "N" :: ps=first, nu=pl
+   pfm == "T" :: ps=second
+   pfm == "T=" :: ps=third, gn=f
+
+# Suffix conjugation defaults
+   shared {
+      not exist(pfm) && exist(vbe) && not exist(nme) :: vt=perf
+   }
+      vbe == "" :: ps=third, nu=sg, gn=m
+   end
+
+# Prefix conjugation defaults
+   shared {
+      exist(pfm) && exist(vbe) && not exist(nme) :: vt=impf
+   }
+      pfm == "" :: vt=impv, ps=second
+      shared { pfm != {">", "N"} && vbe == "" :: nu=sg }
+	 pfm != "T=" :: gn=m
+      end
+   end
+
+# Infinitives
+   shared {
+      vbe == "" && exist(nme) && exist(pfm) && (
+	 pfm == "" ||
+	 not (exist(vbs) || vpm == {d, dp, p})
+      ) :: vt=infc, +ps, +nu, +gn
+   }
+      vpm == a :: vt=infa, st=abs
+   end
+
+# Participles
+   shared {
+      vbe == "" && exist(nme) && (not exist(pfm) ||
+	 pfm != "" &&
+	 (exist(vbs) || vpm == {d, dp, p})
+      ) :: vt=ptca, +ps
+   }
+      nme == "" :: gn=m
+      vpm == {dp, p, u} :: vt=ptcp
+   end

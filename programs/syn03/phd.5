@@ -1,0 +1,53 @@
+.\" ident "@(#)dapro/syn03/phd.5 1.1 01/23/98"
+.TH PHD 5 "01/23/98" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+.SH NAME
+phd \- transcript of phrase divisions made during a syn03 session
+.SH SYNTAX
+.TP 20
+file =
+line { line }.
+.TP 20
+line =
+verse_label phrase { phrase } EOI <newline>.
+.TP 20
+verse_label =
+<string of exactly eleven characters>.
+.TP 20
+phrase =
+word { ',' word } ':' phrase_type determination.
+.TP 20
+EOI =
+\&'999'.
+.TP 20
+word =
+state phrase_dependent_part_of_speech.
+.LP
+In the above syntax the white space has been omitted
+for reasons of clarity.
+The identifiers not further defined (phrase_type, determination,
+state and phrase_dependent_part_of_speech) are all signed
+integers.
+.SH DESCRIPTION
+In the
+.I phrase divisions file
+(with the extension `phd') the decisions are recorded
+that are made about the phrase divisions during a
+.BR syn03 (1)
+session.
+For every verse processed there is one line in the file that
+reflects the way this verse has been divided into phrases.
+For every word in a phrase
+.I state
+and
+.I phrase dependent part of speech
+are stored, as are for every phrase
+.I phrase type
+and
+.I determination.
+.SH NOTES
+In this description we have used `phrases' as a short hand
+for the more correct term `phrase atoms'.
+.SH SEE ALSO
+.BR phrset (5),
+.BR ps2phd (1),
+.BR syn03 (1).

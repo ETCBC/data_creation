@@ -1,0 +1,68 @@
+h29234
+s 00055/00000/00000
+d D 1.1 03/11/13 15:40:34 const 1 0
+c date and time created 03/11/13 15:40:34 by const
+e
+u
+U
+f e 0
+f m dapro/syn03/Makefile.Linux
+t
+T
+I 1
+#ident %W% %E%
+
+NAME	= syn03
+
+include ../config
+
+MAN1		= $(NAME).1
+MAN5		= lexcond.5 morfcond.5 phd.5 phrset.5 ps3.5
+PROGRAMS	= $(NAME) $(NAME)x
+
+CPPFLAGS	= -I.
+
+MODULES = Grammar PhraseSet User Division IO File LCTable Loci Locus\
+	  MCTable MCond Pattern AtomList Item Atom CondSetList CondSet\
+	  Feature IntList Compare String Surface Verse Error VerseLabel\
+	  Word Lexeme
+
+C_SOURCE	= GetWindowSize.c
+P_SOURCE	= Main.p $(MODULES:=.p)
+
+HEADERS	= $(MODULES:=.h)
+OBJECTS = $(P_SOURCE:.p=.o) $(C_SOURCE:.c=.o)
+SOURCES	= $(C_SOURCE) $(P_SOURCE)
+
+
+all: $(PROGRAMS) $(MAN1) $(MAN5)
+
+$(NAME)x: $(OBJECTS)
+	$(LINK.p) -o $@ $(OBJECTS) $(LDLIBS)
+
+
+.sh:
+	sed 's:%BASEDIR%:$(BASEDIR):g' $< > $@
+	chmod +x $@
+
+install: all
+	mkdir -p $(DESTDIR)/bin
+	$(INSTALL) -m 555 $(PROGRAMS) $(DESTDIR)/bin
+	mkdir -p $(DESTDIR)/man/man1
+	$(INSTALL) -m 444 $(MAN1) $(DESTDIR)/man/man1
+	mkdir -p $(DESTDIR)/man/man5
+	$(INSTALL) -m 444 $(MAN5) $(DESTDIR)/man/man5
+
+depend: $(HEADERS) $(SOURCES)
+	$(CC) $(DEPOPT) $(CPPFLAGS) $(C_SOURCE) > $@
+	$(PC) $(DEPOPT) $(CPPFLAGS) $(P_SOURCE) >> $@
+
+clean:
+	rm -f $(OBJECTS) $(PROGRAMS) *.bak core
+
+distclean: clean
+	rm -f *.ln *.o depend
+	test ! -L Makefile || rm Makefile
+
+include depend
+E 1

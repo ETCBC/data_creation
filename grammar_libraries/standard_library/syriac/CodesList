@@ -1,0 +1,36 @@
+impf     1	Verbal tense of the predicate
+perf     2
+impv     3
+infc     4
+infa     5
+ptca     6
+ptcp     6
+wayq     7
+weyq     8
+-----
+B        5	Preposition class of infinitive clause
+L       14
+MVL     16
+MN      17
+<L      21
+<M      22
+-----
+>W     400	Conjunction class of clause opening
+>JN    500
+>L>    600
+>LW    600
+>N     600
+BRM    500
+DLM>   800
+W      400
+KD     700
+-----
+B      700	Preposition class of clause opening
+D      500
+L      700
+MVL    900
+MN     800
+<D     700
+<L     900
+QDM    700
+-----

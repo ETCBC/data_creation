@@ -1,0 +1,16 @@
+##########################################################################
+#                                                                        #
+#       nom_suffixes: nominal suffixes in biblical Aramaic               #
+#                                                                        #
+##########################################################################
+""
+"H"	:gn=f:nu=s:st=a:
+"W"	:gn=m:nu=p:st=c:
+"J"	:gn=m:nu=p:st=c:
+"J="	:nu=d:st=c:
+"JN"	:gn=m:nu=p:st=a:
+"JN="	:nu=d:st=a:
+"N"	:gn=f:nu=p:st=a:
+"T"	:sg=f:nu=s:st=c:
+"T="	:sg=f:nu=p:st=c:
+"TJN"	:sg=f:nu=d:st=a:

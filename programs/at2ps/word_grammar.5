@@ -1,0 +1,296 @@
+.TH WORD_GRAMMAR 5 "3 May 1995" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+.SH NAME
+word_grammar \- format of file with word level grammar
+.SH SYNTAX
+.TP 20
+grammar
+= word forms functions rules.
+.TP 20
+word
+= '\fBword\fP' prefix infix suffix marker enclitic.
+.TP 20
+prefix
+= '\fBprefix\fP' '=' { prefix_declaration }.
+.TP 20
+prefix_declaration
+= morpheme_identifier ':' code_character ',' morpheme_name.
+.TP 20
+infix
+= '\fBinfix\fP' '=' { infix_declaration }.
+.TP 20
+infix_declaration
+= morpheme_identifier ':' code_character ',' morpheme_name.
+.TP 20
+suffix
+= '\fBsuffix\fP' '=' { suffix_declaration }.
+.TP 20
+suffix_declaration
+= morpheme_identifier ':' code_character ',' morpheme_name.
+.TP 20
+marker
+= '\fBmarker\fP' '=' { marker_declaration }.
+.TP 20
+marker_declaration
+= identifier ':' code_character ',' marker_name.
+.TP 20
+enclitic
+= '\fBenclitic\fP' '=' { enclitic_declaration }.
+.TP 20
+enclitic_declaration
+= morpheme_identifier ':' code_character ',' morpheme_name.
+.TP 20
+morpheme_identifier
+= identifier.
+.TP 20
+identifier
+= letter { letter | digit }.
+.TP 20
+code_character
+= '\\'' <printable> '\\'' .
+.TP 20
+morpheme_name
+= string.
+.TP 20
+string
+= '"' { <printable> } '"'.
+.TP 20
+marker_name
+= string.
+.TP 20
+forms
+= '\fBforms\fP' { forms_declaration }.
+.TP 20
+forms_declaration
+= morpheme_identifier '=' string { ',' string }.
+.TP 20
+functions
+= '\fBfunctions\fP' { function_declaration }.
+.TP 20
+function_declaration
+= function '=' values.
+.TP 20
+function
+= function_identifier function_sharing ':' function_name.
+.TP 20
+values
+= value_declaration { ',' value_declaration }.
+.TP 20
+function_identifier
+= identifier.
+.TP 20
+function_sharing
+= <empty> | '[' morpheme_identifier { ',' morpheme_identifier } ']'.
+.TP 20
+function_name
+= string.
+.TP 20
+value_declaration
+= value_identifier ':' value_name.
+.TP 20
+value_identifier
+= identifier.
+.TP 20
+value_name
+= string.
+.TP 20
+rules
+= '\fBrules\fP' { rule }.
+.TP 20
+rule
+= simple_rule | block.
+.TP 20
+simple_rule
+= expression '::' assignment { ',' assignment }.
+.TP 20
+block
+= shared_rule rule { rule } '\fBend\fP'.
+.TP 20
+shared_rule
+= '\fBshared\fP' '{' simple_rule '}'.
+.TP 20
+expression
+= term { '||' term }.
+.TP 20
+term
+= factor { '&&' factor }.
+.TP 20
+factor
+= simple_factor | negated_factor | grouped_factor.
+.TP 20
+simple_factor
+= comparison | existence | marking.
+.TP 20
+comparison
+= literal_comparison | set_comparison.
+.TP 20
+literal_comparison
+= morpheme_identifier relational_operator string.
+.TP 20
+relational_operator
+= '==' | '!='.
+.TP 20
+set_comparison
+= morpheme_identifier set_operator set_constructor.
+.TP 20
+set_operator
+= '\fBin\fP' | '\fBni\fP'.
+.TP 20
+set_constructor
+= '{' string { ',' string } '}'.
+.TP 20
+existence
+= '\fBexist\fP' '(' morpheme_identifier ')'.
+.TP 20
+marking
+= '\fBmark\fP' '(' identifier ',' string ')'.
+.TP 20
+negated_factor
+= '\fBnot\fP' factor.
+.TP 20
+grouped_factor
+= '(' expression ')'.
+.TP 20
+assignment
+= function_identifier function_sharing '=' value.
+.TP 20
+value
+= '\fBabsent\fP' | '\fBunknown\fP' | value_identifier.
+.SH DESCRIPTION
+This file contains the grammar at word level, i.e. how word functions
+are derived from morphemes.
+It consists of four sections,
+.IR word ,
+.IR forms ,
+.IR functions
+and
+.IR rules .
+.LP
+The
+.I word
+section defines how a word is constructed from its morphemes.
+For each morpheme that can occur in a word a morpheme declaration
+is given that consists of a mnemonic, a marking character and
+a string. The mnemonic is used to refer to the morpheme in the
+other sections of the file, the marking character is the
+character with which it is marked in the morphological encoding
+of the word it belongs to. The string holds the name of the
+morpheme.
+Five different types of morphemes are considered here.
+.TP 10
+prefixes
+Morphemes that occur before the lexeme. They are coded by putting
+them in between their corresponding markers, as e.g. \f(CO!J!\fP
+in \f(CO!J!>MR[\fP.
+.TP 10
+infixes
+Morphemes that occur inside the lexeme. They are also coded by
+putting them in between their corresponding markers.
+.TP 10
+suffixes
+Morphemes that occur after the lexeme. They are coded by preceding
+them with their corresponding marker, as e.g. \f(CO/JM\fP in
+\f(COMLK/JM\fP.
+.TP 10
+markers
+These are not really morphemes. They are introduced as a means of
+marking morphological phenomena that do not pertain to a single
+(fixed) morpheme. They are coded by means of a marking character
+followed by lower case characters, each of which accounts for
+a certain phenomenon.
+.TP 10
+enclitics
+These are really morphemes, but can behave like words in certain
+conditions, like the pronominal suffix in Hebrew. Therefore
+they (and only they) can be assigned word functions.
+.LP
+The
+.I forms
+section defines the allowed realized values for the morphemes
+declared in the prior section.
+Each entry consists of the mnemonic of the morpheme followed by
+an enumeration of the string values that may be assigned to it.
+Every morpheme declared in the word section has to have an
+entry in the forms section.
+The entries for the `morphemes' of type
+.I marker
+are special as their values are one or more lower case
+letters. The allowed values can either be given as a string
+contained all possible values or as an enumeration of one
+character strings or as a combination of this.
+So \f(COmrk = "abc"\fP is equivalent to \f(COmrk = "a", "b", "c"\fP.
+.LP
+The
+.I functions
+section declares the word functions and their possible values.
+The values \fBabsent\fP and \fBunknown\fP are reserved and
+apply to all functions. They need not and must not be explicitly
+declared.
+A function is declared by stating its mnemonic (for further
+reference) and its name, followed by a comma separated list of
+allowed values.
+The value declaration also consists of the definition of a mnemonic
+and a name.
+Functions that also apply to enclitics are denoted as such by
+putting the morpheme identifier directly after the function name.
+.TP
+For instance
+\f(COgn [prs]: "gender" = f: "feminine", m: "masculine"\fP
+.LP
+declares a word function `gender' (mnemonic `gn') with four
+values
+.IR absent ,
+.IR unknown ,
+.I f
+and
+.IR m ,
+and states that the enclitic `prs' has the same (word) function.
+.LP
+The
+.I rules
+section describes the rules by which the word functions are
+derived from the morphemes.
+A rule is a pair of a condition and an action. The rules are
+executed in order of appearance.
+When a rule matches, i.e. the condition is met, the action
+(a list of assigments of values to word functions) is
+executed.
+A matching rule does not end the process, all rules are always
+tried.
+A rule is a simple rule or a block of rules.
+A block of rules is a set of rules with a shared rule.
+When a word matches the shared rule of a rule set, the
+associated action is retained and the rule set is entered.
+If a matching rule is found within the rule set, the
+action associated with the shared rule is executed followed
+by the action specified by the matching rule.
+When all rules have been tried, all declared word functions
+must have been assigned a value otherwise the word is
+considered ungrammatical, which will result in an error.
+.SH RESERVED WORDS
+.BR absent ,
+.BR enclitic ,
+.BR end ,
+.BR exist ,
+.BR forms ,
+.BR functions ,
+.BR in ,
+.BR infix ,
+.BR mark ,
+.BR marker ,
+.BR ni ,
+.BR not ,
+.BR prefix ,
+.BR rules ,
+.BR shared ,
+.BR suffix ,
+.BR unknown ,
+.BR word .
+.SH FILES
+.TP 40
+lib/\fIlanguage\fP/word_grammar
+File holding the word grammar for the language in question.
+.SH SEE ALSO
+.BR lexicon (3),
+.BR lemma (3),
+.BR islower (3C),
+.BR isprint (3C)

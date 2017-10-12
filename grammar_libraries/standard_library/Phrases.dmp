@@ -1,0 +1,2169 @@
+   1 ****
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Article, Noun
+                  [* NPdet]
+   2 ****
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Article, Adjective
+                  [* NPadj]
+   3 ****
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     *-----=====> Article, Adjective
+                  [* NPadj]
+   4 ****
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Article, Adjective
+                  [* NPadj]
+   5 ****
+     Article    
+     DemPron    
+     *-----=====> Article, DemPron
+                  [* NP pronoun]
+   6 ****
+     Article    
+     PropName   : NmEnd / /WT
+     Article    
+     DemPron    
+     *-----=====> Article, PropName, Article, DemPron
+                  [* * * NPdet]
+   7 ****
+     Article    
+     PropName   : NmEnd / /WT
+     *-----=====> Article, PropName
+                  [* NP proper name]
+   8 ****
+     Article    
+     PropName   : NmEnd /H=
+     *-----=====> Article, PropName
+                  [* NP proper name]
+   9 ****
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Article, Noun, Article, Adjective
+                  [* * * NPdet]
+  10 ****
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Article, Noun, Article, Noun
+                  [* * * NPdet]
+  11 ****
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     *-----=====> Article, Noun, Article, Adjective
+                  [* * * NPdet]
+  12 ****
+     Article    
+     Noun       : NmEnd /H= | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     *-----=====> Article, Noun, Article, Adjective
+                  [* * * NPdet]
+  13 ****
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     *-----=====> Article, Noun, Article, Adjective
+                  [* * * NPdet]
+  14 ****
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+     *-----=====> Article, Noun, Article, DemPron
+                  [* * * NPdet]
+  15 ****
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+     *-----=====> Article, Noun, Article, DemPron
+                  [* * * NPdet]
+  16 ****
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+     *-----=====> Article, Noun, Article, DemPron
+                  [* * * NPdet]
+  17 ****
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     *-----=====> Article, Noun
+                  [* NPdet]
+  18 ****
+     Article    
+     Noun       : in Lex.Subset -6 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Article, Noun
+                  [* NPdet]
+  19 ****
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Article, Noun
+                  [* NPdet]
+  20 ****
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     *-----=====> Article, Noun
+                  [* NPdet]
+  21 ****
+     Article    
+     Noun       : NmEnd /H= | Sfx absent
+     *-----=====> Article, Noun
+                  [* NP]
+  22 ****
+     Article    
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+     *-----=====> Article, Noun
+                  [* NP]
+  23 ****
+     Article    
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     *-----=====> Article, Noun
+                  [* NPdet]
+  24 ****
+     Article    
+     Verb       : VbStem: Nif | NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     Article    
+     DemPron    
+     *-----=====> Article, Adjective, Article, DemPron
+                  [* * * NPdet]
+  25 ****
+     Article    
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qatul
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+  26 ****
+     Article    
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+  27 ****
+     Article    
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+  28 ****
+     Article    
+     Verb       : VbStem: Nif | NmEnd / /WT | Sfx absent | VbTense: Qotel
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+  29 ****
+     Article    
+     Verb       : Sfx absent | VbTense: Qatal
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+  30 ****
+     Article    
+     Verb       : VbStem: Nif | NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+  31 ****
+     Article    
+     Verb       : VbStem: Nif | NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     *-----=====> Article, Noun
+                  [* NPdet]
+  32 ****
+     Article    
+  33 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     PerPron    
+     *-----=====> Noun, PerPron
+                  [NP] [NP pronoun]
+  34 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Conj       
+     *-----=====> Adjective, Conj
+                  [NPadj] [CjP]
+  35 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Conj       
+     *-----=====> Noun, Conj
+                  [NP] [CjP]
+  36 ****
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qatul
+     Conj       
+     *-----=====> Adjective, Conj
+                  [NPadj] [CjP]
+  37 ****
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     Conj       
+     *-----=====> Noun, Conj
+                  [NP] [CjP]
+  38 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Prep       : Sfx absent
+     PropName   : NmEnd / /WT
+     *-----=====> Noun, Prep, PropName
+                  [NP] [* PP]
+  39 ****
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qatul
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+     *-----=====> Noun, Prep, Noun, Noun, PropName
+                  [NP] [* * * PP]
+  40 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+     *-----=====> Adjective, Prep, Noun, Noun, PropName
+                  [NPadj] [* * * PP]
+  41 ****
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qatul
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+     *-----=====> Noun, Prep, Noun, Noun
+                  [NP] [* * PP]
+  42 ****
+     Verb       : NmEnd / /WT |  Not (Sfx absent) | VbTense: Qatol
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Prep, Noun, Article, Noun
+                  [NP] [* * * PP]
+  43 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT |  Not (Sfx absent)
+     *-----=====> Noun, Prep, Noun
+                  [NP] [* PP]
+  44 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Prep       : Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+     *-----=====> Noun, Prep, Article, PropName
+                  [NP] [* * PP]
+  45 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Prep, Article, Noun
+                  [NP] [* * PP]
+  46 ****
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Prep, Article, Noun
+                  [NP] [* * PP]
+  47 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Prep       :  Not (Sfx absent)
+     *-----=====> Noun, Prep
+                  [NP] [PP]
+  48 ****
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     Adverb     : NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Adverb
+                  [NP] [AdvP]
+  49 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     PropName   : NmEnd / /WT
+     Conj       
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+  50 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     PropName   : NmEnd / /WT
+  51 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+  52 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+  53 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+  54 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+  55 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Noun       : NmEnd / /WT | Sfx absent
+  56 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Noun       : NmEnd / /WT | Sfx absent
+  57 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qetol
+     Verb       : Sfx absent | VbTense: Yiqtol
+     *-----=====> Adverb, Verb
+                  [AdvP] [VP]
+  58 ****
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qatul
+     Verb       : in Lex.Subset -2 | Sfx absent | VbTense: Qatal
+     *-----=====> Noun, Verb
+                  [NP] [VP]
+  59 ****
+     Verb       : NmEnd /T /J /J2 /2 |  Not (Sfx absent) | VbTense: Qotel
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     *-----=====> Noun, Verb
+                  [NP] [VP]
+  60 ****
+     Verb       : Sfx absent | VbTense: Qatal
+     Verb       : in Lex.Subset -2 | Sfx absent | VbTense: Qatal
+     *-----=====> Adjective, Verb
+                  [NPadj] [VP]
+  61 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+  62 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+  63 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qatul
+     Article    
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     *-----=====> Adjective, Article, Noun
+                  [NPadj] [* NPdet]
+  64 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Article, Noun
+                  [NP] [* NPdet]
+  65 ****
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+  66 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+  67 ****
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     *-----=====> Noun
+                  [NP]
+  68 ****
+     Verb       : VbStem: Nif | NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     *-----=====> Adjective
+                  [NPadj]
+  69 ****
+     Verb       
+  70 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+  71 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Conj       
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     *-----=====> Noun, Adjective, Conj, Adjective
+                  [* * * NP]
+  72 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Noun, Noun
+                  [* NP]
+  73 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+  74 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+  75 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+  76 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+  77 ****
+     Noun       : in Lex.Subset -4 | NmEnd /H /JM /JM2 | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+  78 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Conj       
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+  79 ****
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Conj       
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+  80 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Conj       
+  81 ****
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+     *-----=====> Adverb, Prep, Noun, Noun, PropName
+                  [AdvP] [* * * PP]
+  82 ****
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+     *-----=====> Adverb, Prep, Noun
+                  [AdvP] [* PP]
+  83 ****
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Prep       : Sfx absent
+     Verb       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent | VbTense: Qatol
+     *-----=====> Adverb, Prep, Verb
+                  [AdvP] [* VP]
+  84 ****
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Prep       : Sfx absent
+     *-----=====> Adverb, Conj
+                  [AdvP] [CjP]
+  85 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+  86 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+  87 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+  88 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+  89 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+  90 ****
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+  91 ****
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+  92 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Conj       
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     Conj       
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     *-----=====> Noun, Noun, Adjective, Conj, Adjective, Conj, Adjective
+                  [* * * * * * NP]
+  93 ****
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Noun, Noun, Noun
+                  [* * NP]
+  94 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+  95 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Conj       
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+  96 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Conj       
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+  97 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Conj       
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+  98 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+  99 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 100 ****
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 101 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 102 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 103 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 104 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 105 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 106 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 107 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 108 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 109 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 110 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 111 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 112 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 113 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd /H /JM /JM2 | Sfx absent
+ 114 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 115 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 116 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 117 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 118 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 119 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 120 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 121 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 122 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 123 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 124 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 125 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 126 ****
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 127 ****
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 128 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qatul
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 129 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Verb       : NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     *-----=====> Noun, Noun, Noun
+                  [* * NP]
+ 130 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Noun, Noun, Article, Noun
+                  [* * * NP]
+ 131 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Noun, Article, Noun
+                  [* * * NP]
+ 132 ****
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Noun, Article, Noun
+                  [* * * NP]
+ 133 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Noun, Article, Noun
+                  [* * * NP]
+ 134 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Noun, Noun, Article, Noun
+                  [* * * NP]
+ 135 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Noun, Noun, Article, Noun
+                  [* * * NP]
+ 136 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Noun, Article, Noun
+                  [* * * NP]
+ 137 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Noun, Noun, Article, Noun
+                  [* * * NP]
+ 138 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 139 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 140 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 141 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+ 142 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 143 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 144 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 145 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 146 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 147 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 148 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 149 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 150 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 151 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 152 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 153 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 154 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 155 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd /H /JM /JM2 | Sfx absent
+ 156 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 157 ****
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd /H /JM /JM2 | Sfx absent
+ 158 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 159 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 160 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+ 161 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 162 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 163 ****
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 164 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 165 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 166 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+ 167 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+ 168 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 169 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 170 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd /H= | Sfx absent
+ 171 ****
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 172 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 173 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 174 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+ 175 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+ 176 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd /H /JM /JM2 | Sfx absent
+ 177 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /H= | Sfx absent
+ 178 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 179 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 180 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 181 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 182 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Noun       : NmEnd / /WT | Sfx absent
+ 183 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 184 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Verb       : Sfx absent | VbTense: Yiqtol
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+ 185 ****
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Verb       : Sfx absent | VbTense: Yiqtol
+     *-----=====> Adverb, Verb
+                  [AdvP] [VP]
+ 186 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Verb       : in Lex.Subset -2 | Sfx absent | VbTense: Yiqtol
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+ 187 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 |  Not (Sfx absent) | VbTense: Qotel
+     *-----=====> Noun, Noun
+                  [* NP]
+ 188 ****
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Verb       : in Lex.Subset -1 | Sfx absent | VbTense: Yiqtol
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+ 189 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Article, Noun
+                  [* * NP]
+ 190 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Article, Noun
+                  [* * NP]
+ 191 ****
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 192 ****
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 193 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 194 ****
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 195 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 196 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 197 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 198 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 199 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+ 200 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 201 ****
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 202 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 203 ****
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 204 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     PerPron    
+ 205 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 206 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 207 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Article, Noun
+                  [* * NPdet]
+ 208 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     *-----=====> Noun, Article, Noun
+                  [* * NPdet]
+ 209 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : in Lex.Subset -6 | NmEnd /H /JM /JM2 | Sfx absent
+ 210 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 211 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 212 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd /H /JM /JM2 | Sfx absent
+ 213 ****
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 214 ****
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 215 ****
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 216 ****
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 217 ****
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 218 ****
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 219 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 220 ****
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 221 ****
+     Noun       : NmEnd /H= | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 222 ****
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 223 ****
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 224 ****
+     Noun       
+ 225 ****
+     PropName   : NmEnd / /WT
+     PropName   : NmEnd / /WT
+ 226 ****
+     PropName   : NmEnd / /WT
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+     *-----=====> PropName, Noun, PropName
+                  [NP proper name] [* NP (appos)]
+ 227 ****
+     PropName   : NmEnd / /WT
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+     *-----=====> PropName, Noun
+                  [NP proper name] [NP (appos)]
+ 228 ****
+     PropName   : NmEnd / /WT
+     Article    
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     *-----=====> PropName, Article, Adjective
+                  [* * NP proper name]
+ 229 ****
+     PropName   
+ 230 ****
+     Adverb     
+ 231 ****
+     Prep       : Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 232 ****
+     Prep       : Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     *-----=====> Prep, Noun
+                  [* PP]
+ 233 ****
+     Prep       : Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT |  Not (Sfx absent)
+     *-----=====> Prep, Noun
+                  [* PP]
+ 234 ****
+     Prep       : Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+     *-----=====> Prep, Noun
+                  [* PP]
+ 235 ****
+     Prep       : Sfx absent
+     IntPrtcle  
+ 236 ****
+     Prep       : Sfx absent
+     Negation   : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 237 ****
+     Prep       : Sfx absent
+     Negation   : Sfx absent
+ 238 ****
+     Prep       : Sfx absent
+     DemPron    
+ 239 ****
+     Prep       : Sfx absent
+     Conj       
+     *-----=====> Prep, Conj
+                  [* CjP]
+ 240 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Conj       
+     *-----=====> Prep, Prep, Conj
+                  [* * CjP]
+ 241 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     PropName   : NmEnd / /WT
+ 242 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 243 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 244 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 245 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 246 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Noun       : NmEnd /H= | Sfx absent
+ 247 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+ 248 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 249 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 250 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 251 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 252 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+ 253 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 254 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 255 ****
+     Prep       : Sfx absent
+     Prep       : Sfx absent
+ 256 ****
+     Prep       : Sfx absent
+     Prep       :  Not (Sfx absent)
+ 257 ****
+     Prep       : Sfx absent
+     Adverb     : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd /H /JM /JM2 | Sfx absent
+ 258 ****
+     Prep       : Sfx absent
+     Adverb     : Sfx absent
+     *-----=====> Prep, Conj
+                  [* CjP]
+ 259 ****
+     Prep       : Sfx absent
+     Adverb     : Sfx absent
+ 260 ****
+     Prep       : Sfx absent
+     PropName   : NmEnd / /WT
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+ 261 ****
+     Prep       : Sfx absent
+     PropName   : NmEnd / /WT
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     PropName   : NmEnd / /WT
+     *-----=====> Prep, PropName, Noun, PropName, Noun, PropName
+                  [* PP] [* NP (appos)] [* NP (appos)]
+ 262 ****
+     Prep       : Sfx absent
+     PropName   : NmEnd / /WT
+ 263 ****
+     Prep       : Sfx absent
+     PropName   : NmEnd /H=
+ 264 ****
+     Prep       : Sfx absent
+     PropName   : NmEnd /H /JM /JM2
+ 265 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     PerPron    
+     *-----=====> Prep, Noun, Noun, Article, Noun, Article, DemPron
+                  [* * * * * * PP]
+ 266 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+ 267 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 268 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 269 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd /H /JM /JM2 | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+ 270 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+     DemPron    
+ 271 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Conj       
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 272 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     Prep       : Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 273 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+     *-----=====> Prep, Noun, PropName, Noun
+                  [* * PP] [NP (appos)]
+ 274 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 275 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 276 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 277 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd /H=
+ 278 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 279 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 280 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 281 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 282 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 283 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 284 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 285 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 286 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 287 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 288 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+ 289 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 290 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 291 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd /H /JM /JM2 | Sfx absent
+ 292 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+ 293 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 294 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 295 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 296 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Prep, Noun, Noun, Article, Noun
+                  [* * * * PP]
+ 297 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 298 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 299 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 300 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 301 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 302 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 303 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+ 304 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 305 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 306 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     *-----=====> Prep, Noun, Noun, Article, Noun
+                  [* PP] [* * NP (appos)]
+ 307 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 308 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 309 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 310 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 311 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 312 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 313 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 314 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 315 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     *-----=====> Prep, Noun, Noun, Article, Noun
+                  [* * * * PP]
+ 316 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+ 317 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 318 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 319 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 320 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 321 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+ 322 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 323 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 324 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 325 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 326 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+ 327 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd /H= | Sfx absent
+ 328 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 329 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd /H= | Sfx absent
+ 330 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+ 331 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 332 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Article    
+     PropName   : NmEnd / /WT
+ 333 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 334 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 335 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 |  Not (Sfx absent) | VbTense: Qotel
+     *-----=====> Prep, Noun, Noun
+                  [* * PP]
+ 336 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 |  Not (Sfx absent) | VbTense: Qotel
+     *-----=====> Prep, Noun, Noun
+                  [* * PP]
+ 337 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     Conj       
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 338 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Prep, Noun, Article, Noun
+                  [* * * PP]
+ 339 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Prep, Noun, Article, Noun
+                  [* * * PP]
+ 340 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     *-----=====> Prep, Noun, Article, Noun
+                  [* * * PP]
+ 341 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Prep, Noun, Article, Noun
+                  [* * * PP]
+ 342 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Prep, Noun, Article, Noun
+                  [* * * PP]
+ 343 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 344 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+     Article    
+     DemPron    
+ 345 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 346 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 347 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 348 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 349 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 350 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 351 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 352 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+ 353 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+ 354 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 355 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 356 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 357 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+ 358 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 359 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 360 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 361 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 362 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : in Lex.Subset -6 | NmEnd /H /JM /JM2 | Sfx absent
+ 363 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 364 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 365 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+ 366 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 367 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 368 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 369 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+ 370 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+ 371 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 372 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 373 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 374 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+     *-----=====> Prep, Noun
+                  [* NP]
+ 375 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+ 376 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 377 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+ 378 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 379 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+ 380 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd / /WT |  Not (Sfx absent)
+ 381 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+ 382 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 383 ****
+     Prep       : Sfx absent
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+ 384 ****
+     Prep       : Sfx absent
+     Noun       : NmEnd /H= | Sfx absent
+ 385 ****
+     Prep       : Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     PropName   : NmEnd / /WT
+     Conj       
+     Noun       : NmEnd / /WT |  Not (Sfx absent)
+ 386 ****
+     Prep       : Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     PropName   : NmEnd / /WT
+ 387 ****
+     Prep       : Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 388 ****
+     Prep       : Sfx absent
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 389 ****
+     Prep       : Sfx absent
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qatol
+     *-----=====> Prep, Verb
+                  [* VP]
+ 390 ****
+     Prep       : Sfx absent
+     Verb       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent | VbTense: Qatol
+     *-----=====> Prep, Verb
+                  [* VP]
+ 391 ****
+     Prep       : Sfx absent
+     Verb       : Sfx absent | VbTense: Yiqtol
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+ 392 ****
+     Prep       : Sfx absent
+     Verb       : NmEnd / /WT |  Not (Sfx absent) | VbTense: Qatol
+     *-----=====> Prep, Verb
+                  [* VP]
+ 393 ****
+     Prep       : Sfx absent
+     Verb       : in Lex.Subset -2 | Sfx absent | VbTense: Yiqtol
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+ 394 ****
+     Prep       : Sfx absent
+     Verb       : Sfx absent | VbTense: Qatal
+     *-----=====> Conj, Verb
+                  [CjP] [VP]
+ 395 ****
+     Prep       : Sfx absent
+     Verb       : VbStem: Nif | NmEnd / /WT | Sfx absent | VbTense: Qatol
+     *-----=====> Prep, Verb
+                  [* VP]
+ 396 ****
+     Prep       : Sfx absent
+     Verb       : in Lex.Subset -2 | NmEnd / /WT | Sfx absent | VbTense: Qatol
+     *-----=====> Prep, Verb
+                  [* VP]
+ 397 ****
+     Prep       : Sfx absent
+     Verb       : NmEnd /T /J /J2 /2 |  Not (Sfx absent) | VbTense: Qotel
+     *-----=====> Prep, Noun
+                  [* PP]
+ 398 ****
+     Prep       : Sfx absent
+     Verb       : Sfx absent | VbTense: We-yiqtol
+     *-----=====> Negation, Verb
+                  [NegP] [VP]
+ 399 ****
+     Prep       : Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd / /WT | Sfx absent
+     *-----=====> Prep, Article, Noun
+                  [* * PP]
+ 400 ****
+     Prep       : Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+     *-----=====> Prep, Article, Noun
+                  [* * PP]
+ 401 ****
+     Prep       : Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -3 | NmEnd /H /JM /JM2 | Sfx absent
+ 402 ****
+     Prep       : Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+     Article    
+     DemPron    
+ 403 ****
+     Prep       : Sfx absent
+     Article    
+     PropName   : NmEnd / /WT
+ 404 ****
+     Prep       : Sfx absent
+     Article    
+     PropName   : NmEnd /H=
+ 405 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd / /WT | Sfx absent
+     PropName   : NmEnd / /WT
+     *-----=====> Prep, Article, Noun, Article, Adjective, Noun, PropName
+                  [* * * * PP] [* NP (appos)]
+ 406 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+ 407 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+ 408 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+ 409 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+ 410 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -3 | NmEnd /T /J /J2 /2 | Sfx absent
+ 411 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     Adjective  : in Lex.Subset -2 | NmEnd /H /JM /JM2 | Sfx absent
+ 412 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+ 413 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Article    
+     DemPron    
+ 414 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     DemPron    
+ 415 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+     Article    
+     PerPron    
+ 416 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+     Article    
+     PerPron    
+ 417 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     PerPron    
+ 418 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     PerPron    
+ 419 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+     Article    
+     Verb       : VbStem: Nif | NmEnd /H /JM /JM2 | Sfx absent | VbTense: Qotel
+     Article    
+     DemPron    
+ 420 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd / /WT | Sfx absent
+ 421 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : in Lex.Subset -6 | NmEnd /H /JM /JM2 | Sfx absent
+ 422 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 423 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd / /WT | Sfx absent
+ 424 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : in Lex.Subset -3 | NmEnd / /WT | Sfx absent
+ 425 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : in Lex.Subset -6 | NmEnd / /WT | Sfx absent
+ 426 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : in Lex.Subset -4 | NmEnd /H /JM /JM2 | Sfx absent
+ 427 ****
+     Prep       : Sfx absent
+     Article    
+     Noun       : NmEnd /H= | Sfx absent
+ 428 ****
+     Prep       : Sfx absent
+     Article    
+     Verb       : NmEnd / /WT | Sfx absent | VbTense: Qotel
+     *-----=====> Prep, Conj, Noun
+                  [* * PP]
+ 429 ****
+     Prep       : Sfx absent
+     Article    
+     *-----=====> Prep, Conj
+                  [* CjP]
+ 430 ****
+     Prep       : Sfx absent
+     *-----=====> Prep
+                  [AdvP]
+ 431 ****
+     Prep       
+ 432 ****
+     Conj       
+     Conj       
+ 433 ****
+     Conj       
+ 434 ****
+     PerPron    
+ 435 ****
+     DemPron    
+     PerPron    
+     *-----=====> Adverb, PerPron
+                  [AdvP] [NP pronoun]
+ 436 ****
+     DemPron    
+     Noun       : in Lex.Subset -4 | NmEnd /H /JM /JM2 | Sfx absent
+     Adjective  : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+ 437 ****
+     DemPron    
+     Noun       : in Lex.Subset -1 | NmEnd /H /JM /JM2 | Sfx absent
+     Conj       
+     Noun       : in Lex.Subset -1 | NmEnd / /WT | Sfx absent
+     Noun       : NmEnd /H /JM /JM2 | Sfx absent
+ 438 ****
+     DemPron    
+ 439 ****
+     IntPron    
+ 440 ****
+     Interjj    
+ 441 ****
+     Negation   
+ 442 ****
+     IntPrtcle  
+ 443 ****
+     Adjective  : in Lex.Subset -1 | NmEnd /T /J /J2 /2 |  Not (Sfx absent)
+     Conj       
+     *-----=====> Noun, Conj
+                  [NP] [CjP]
+ 444 ****
+     Adjective  : in Lex.Subset -1 | NmEnd /T /J /J2 /2 | Sfx absent
+     PropName   : NmEnd / /WT
+ 445 ****
+     Adjective  

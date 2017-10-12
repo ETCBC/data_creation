@@ -1,0 +1,106 @@
+'\" t
+.\" ident "@(#)dapro/syn03/ps3.5	1.2 06/10/06"
+.TH PS3 5 "06/10/06" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+.SH NAME
+ps3 \- morpho-syntactic analysis at phrase level
+.SH SYNTAX
+The syntax of this file is an extension to the syntax of
+.BR ps1 (5),
+with the following supplementary rules.
+.TP 20
+line =
+label <space> lexical_data space morph_data space func_data
+space phrase_data <newline>.
+.TP 20
+phrase_data =
+phrdep_pos space phrase_type space phrase_det.
+.TP 20
+phrdep_pos =
+integer.
+.TP 20
+phrase_type =
+integer.
+.TP 20
+phrase_det =
+integer.
+.SH DESCRIPTION
+Ps3 is the format of the morpho-syntactic data base output by
+.BR syn03 (1).
+This type of file contains the result of the analysis at phrase level,
+where the phrase features are being assigned a value.
+The phrase features are
+.IR "phrase dependent part of speech" ,
+.I phrase type
+and
+.I phrase determination.
+.IP "phrase dependent part of speech"
+The part of speech adopted as member of the phrase.
+For this, the same set of values are used as for
+.IR "part of speech" .
+.IP "phrase type"
+The value zero means `not the last word of the phrase'.
+A non-zero value has a double meaning. It indicates both `end of phrase'
+and the phrase type.
+A negative value denotes an apposition with a phrase type of the
+corresponding positive value.
+The following values for
+.I phrase type
+are in use.
+.RS
+.P
+.TS
+r l l.
+1	VP	verbal phrase
+2	NP	nominal phrase
+3	PrNP	proper-noun phrase
+4	AdvP	adverbial phrase
+5	PP	prepositional phrase
+6	CP	conjunctive phrase
+7	PPrP	personal pronoun phrase
+8	DPrP	demonstrative pronoun phrase
+9	IPrP	interrogative pronoun phrase
+10	InjP	interjectional phrase
+11	NegP	negative phrase
+12	InrP	interrogative phrase
+13	AdjP	adjective phrase
+.TE
+.RE
+.IP "phrase determination"
+The three possible values are: -1 (not applicable), 1 (undetermined)
+and 2 (determined).
+.SH EXAMPLE
+The ellipsis (\|.\|.\|.) indicates where the morphological data block
+has been left out (for clarity only).
+.PP
+.nf
+.ft CO
+Label      Lexeme            LxS PoS ... VbT Pe Nu Ge   Sta PDP PhT PhD
+
+ IKON21,04 >CR                 4   6 ...  -1 -1 -1 -1    -1   6   6  -1
+ IKON21,04 DBR[               -1   1 ...   2  3  1  2    -1   1   1  -1
+ IKON21,04 >L                  2   5 ...  -1 -1 -1 -1    -1   5   5  -1
+ IKON21,04 NBWT//              0   3 ...  -1 -1  1  0     2   3   3   2
+ IKON21,04 H                   0   0 ...  -1 -1 -1 -1    -1   0   0  -1
+ IKON21,04 JZR<>LJ/           -2  13 ...  -1 -1  1  0     2   2  -2   2
+           *
+.ft R
+.fi
+.SH NOTES
+The name
+.SM PS
+file originally stems from the work on Psalm 1 in the
+early days of the Werkgroep Informatica.
+When the research shifted to phrases, the term was reassessed as to
+mean `Phrase Structure' file.
+Nowadays, however, this flag no longer covers its cargo as
+.SM PS
+files are a data base for the complete morpho-syntactic analysis of
+a text.
+.SH SEE ALSO
+.BR lexcond (5),
+.BR morfcond (5),
+.BR phd (5),
+.BR phrset (5),
+.BR ps1 (5),
+.BR ps2 (5),
+.BR syn03 (1).

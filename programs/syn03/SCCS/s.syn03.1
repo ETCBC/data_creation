@@ -1,0 +1,293 @@
+h55162
+s 00021/00003/00123
+d D 1.4 15/02/26 12:00:06 const 4 3
+c Added description of pattern identifiers
+e
+s 00003/00003/00123
+d D 1.3 02/07/20 16:10:35 const 3 2
+c Corrected spelling error.
+e
+s 00050/00030/00076
+d D 1.2 99/02/16 14:31:59 const 2 1
+c Adapted description to the current version of syn03.
+e
+s 00106/00000/00000
+d D 1.1 98/01/23 16:19:04 const 1 0
+c date and time created 98/01/23 16:19:04 by const
+e
+u
+U
+f e 0
+f m dapro/syn03/syn03.1
+t
+T
+I 4
+'\" t
+E 4
+I 1
+D 3
+.\" ident "%Z%%M% %I% %G%"
+.TH SYN03 1 "%G%" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+E 3
+I 3
+.\" ident %W% %E%
+.TH SYN03 1 "%E%" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+E 3
+.SH NAME
+D 2
+syn03 \- apply phrase divisions interactively
+E 2
+I 2
+syn03 \- establish phrase atoms and update phrase set
+E 2
+.SH SYNOPSIS
+.B syn03
+I 2
+[\fB-l\fR \fIlanguage\fR]
+E 2
+.SH DESCRIPTION
+D 2
+.B syn03
+E 2
+I 2
+.B Syn03
+E 2
+performs the third stage of the morpho-syntactic analysis of a
+text, the determination of the phrase boundaries.
+D 2
+It does not take any arguments, but relies on a file called
+E 2
+I 2
+It relies on a file called
+E 2
+.B synnr
+produced by
+.BR syn02 (1),
+that provides the current stage in the analysis and the
+D 2
+.I text_name
+E 2
+I 2
+.I chapter
+E 2
+of the text that is being processed.
+It insists on the stage number being 2, as this indicates that
+.BR syn02 (1)
+has successfully run to completion.
+It uses
+D 2
+.I text_name
+E 2
+I 2
+.I chapter
+E 2
+to identify its input files
+D 2
+.IB text_name .ps2
+E 2
+I 2
+.IB chapter .ps2
+E 2
+and
+D 2
+.IB text_name .ct
+E 2
+I 2
+.IB chapter .ct
+E 2
+and to establish the names of the output files
+D 2
+.IB text_name .phd
+E 2
+I 2
+.IB chapter .npd \fR,
+.IB chapter .pps
+E 2
+and
+D 2
+.IB text_name .ps3 \fR.
+E 2
+I 2
+.IB chapter .ps3 \fR.
+E 2
+It further uses the files
+.BR lexcond ,
+.B morfcond
+and
+.B phrset
+as data base of valid phrase patterns.
+All files need to reside in the current directory.
+I 2
+If any of the files
+.BR lexcond ,
+.BR morfcond ,
+or
+.B phrset
+is missing,
+.B syn03
+will use a copy of the standard file from the language directory.
+E 2
+When
+.B syn03
+has finished successfully, it will update the stage number in
+.B synnr
+to 3, indicating that all phrase boundaries have been established.
+.PP
+D 2
+.B syn03
+E 2
+I 2
+.B Syn03
+E 2
+processes a text one verse at a time.
+For every verse it proposes a division into phrases, which the user
+is asked to confirm. If the user disagrees, he is asked to apply
+the necessary changes. If this results in the creation of a phrase
+D 3
+pattern that is as yet unknown, it will be added to the programmes
+E 3
+I 3
+D 4
+pattern that is as yet unknown, it will be added to the programme's
+E 3
+phrase set (not the file). All the phrases that have been
+confirmed, are recorded in the file
+E 4
+I 4
+pattern that is as yet unknown, it will be added to the program's
+phrase set (not the file).
+.P
+When displayed on the screen, the phrase patterns have an identifier
+which consists of a number and a letter.
+The number is the ordinal of the pattern within the collection and the
+letter indicates in which collection the pattern was found.
+.P
+.TS
+l l.
+d	Pattern from \fBphd\fP(5)
+j	Joined patterns
+s	Pattern from \fBphrset\fP(5)
+u	Pattern constructed by user during session
+.TE
+.P
+A pattern marked by an asterisk behind the phrase number does not
+contain any lexical or morphological conditions.
+.P
+All the phrases that have been confirmed, are recorded in the file
+E 4
+D 2
+.IB text_name .phd \fR.
+E 2
+I 2
+.IB chapter .npd \fR.
+E 2
+The complete text data is stored in
+D 2
+.IB text_name .ps3 \fR,
+E 2
+I 2
+.IB chapter .ps3 \fR,
+E 2
+using the
+.BR ps3 (5)
+D 2
+format, obviously.
+E 2
+I 2
+format.
+E 2
+At the end of a session the phrase set together with the newly
+constructed phrase patterns are written to a file called
+.BR PHR .
+I 2
+A survey of the phrase patterns used and their incidence is
+written to the file
+.IB chapter .pps
+(phrase pattern statistics).
+E 2
+.PP
+After every verse the user is offered the opportunity to suspend
+the session. This results in a file
+D 2
+.IB text_name .phd
+E 2
+I 2
+.IB chapter .npd
+E 2
+that only partially covers the text.
+If
+.B syn03
+D 2
+finds the file
+.IB text_name .phd
+when it is invoked, it will use the information from this file
+E 2
+I 2
+finds a file
+.IB chapter .phd
+or
+.IB chapter .npd
+when it is invoked, it will use the information from the bigger of
+these files
+E 2
+to create the phrases. When this information is exhausted, it
+will turn to the user to proceed from this point on.
+D 2
+Internally, the data from an incomplete
+.IB text_name .phd
+is copied to a file called
+.BR partdivis ,
+which is left in the current directory.
+This file has only significance at the start of a session
+and can safely be removed afterwards.
+E 2
+I 2
+.SH OPTIONS
+.TP
+.BI \-l " language"
+Specifies which versions of
+.BR lexcond ,
+.BR morfcond ,
+and
+.B phrset
+are to be retrieved, if necessary.
+The default language is Hebrew.
+E 2
+.SH FILES
+.PD 0
+.TP 10
+D 2
+.B synnr
+Stage file.
+.TP 10
+.B phrset
+Collection of approved phrase patterns used as input.
+.TP 10
+E 2
+.B lexcond
+Lexical conditions.
+.TP 10
+.B morfcond
+Morphological conditions.
+I 2
+.TP 10
+.B phrset
+Collection of approved phrase patterns used as input.
+.TP 10
+.B synnr
+Stage file.
+E 2
+.PD
+.SH NOTES
+In this description we have used `phrases' as a short hand
+for the more correct term `phrase atoms'.
+.SH SEE ALSO
+.BR lexcond (5),
+.BR morfcond (5),
+.BR phd (5),
+.BR phrset (5),
+.BR ps2 (5),
+.BR ps3 (5),
+.BR syn02 (1),
+.BR synnr (5).
+E 1

@@ -1,0 +1,261 @@
+################################################################
+#                                                              #
+#      Grammar at word level in Biblical Aramaic               #
+#                                                              #
+################################################################
+
+#ident "@(#)word_grammar	1.4.1.4 14/05/01"
+
+# Word skeleton in terms of morpheme types
+word
+    prefix =
+	pfm: '!', "preformative"
+	vbs: ']', "verbal stem"
+    infix =
+	# No infixes
+    suffix =
+	vbe: '[', "verbal ending"
+	nme: '/', "nominal ending"
+	uvf: '~', "univalent final"
+    marker =
+	vpm: ':', "vowel pattern mark"
+    enclitic =
+	prs: '+', "pronominal suffix"
+
+lexical
+    vbe, nme
+
+# In order to arrive at the correct ordinals for the morphemes with the
+# old at2ps(1), both Aramaic and Hebrew morphemes are declared in the
+# forms section.
+
+forms
+    pfm = "", ">", "H", "J", "L", "M", "N", "T", "T="
+    vbs = ">", ">T", "H", "HT", "HCT", "N", "NT", "C", "T"
+    vbe = "", "H", "H=", "W", "WN", "J", "JN", "N", "N>", "NH",
+	  "NW", "T", "T=", "T==", "TH", "TWN", "TJ", "TM", "TN"
+    nme = "", "H", "W", "W=", "WT", "WTJ", "J", "J=", "JM", "JM=",
+	  "JN", "JN=", "N", "T", "T=", "TJ", "TJM", "TJN"
+    uvf = ">", "H", "W", "J", "N"
+    vpm = "a", "c", "d", "n", "p", "u"
+    prs = "H", "H=", "HW", "HWN", "HJ", "HM", "HN", "W", "J", "K",
+	  "K=", "KWN", "KJ", "KM", "KN", "M", "MW", "N", "N>",
+	  "NW", "NJ"
+
+# Definition of grammatical functions and their values. They are given
+# both for Aramaic and Hebrew, and in the order required by word.h of
+# the old at2ps(1).
+
+functions
+    gn [prs]: "gender" =
+	f: "feminine", m: "masculine"
+    nu [prs]: "number" =
+	sg: "singular", du: "dual", pl: "plural"
+    ps [prs]: "person" =
+	first: "first", second: "second", third: "third"
+    ls: "lexical set" =
+	nmdi: "distributive noun",
+	nmcp: "copulative noun",
+	padv: "potential adverb",
+	afad: "anaphoric adverb",
+	ppre: "potential preposition",
+	cjad: "conjunctive adverb",
+	ordn: "ordinal",
+	vbcp: "copulative verb",
+	mult: "noun of multitude",
+	focp: "focus particle",
+	ques: "interrogative particle",
+	gntl: "gentilic",
+	quot: "quotation verb",
+	card: "cardinal"
+    sp: "part of speech" =
+	art: "article",
+	verb: "verb",
+	subs: "noun",
+	nmpr: "proper noun",
+	advb: "adverb",
+	prep: "preposition",
+	conj: "conjunction",
+	prps: "personal pronoun",
+	prde: "demonstrative pronoun",
+	prin: "interrogative pronoun",
+	intj: "interjection",
+	nega: "negative",
+	inrg: "interrogative",
+	adjv: "adjective"
+    st: "state" =
+	c: "construct", a: "absolute", e: "emphatic"
+    vs: "verbal stem" =
+	qal:  "qal",
+	piel: "pi``el",
+	hif:  "hif`il",
+	nif:  "nif`al",
+	pual: "pu``al",
+	haf:  "haf`el",
+	hit:  "hitpa``el",
+	htpe: "hitpe`el",
+	hof:  "hof`al",
+	pasq: "passive qal",
+	hsht: "hishtaf`al",
+	hotp: "hotpa``al",
+	nit:  "nitpa``el",
+	etpa: "etpa``al",
+	tif:  "tif`al",
+	afel: "af`el",
+	shaf: "shaf`el",
+	peal: "pe`al",
+	pael: "pa``el",
+	peil: "pe`il",
+	htpa: "hitpa``al",
+	etpe: "etpe`el",
+	esht: "eshtaf`al",
+	etta: "ettaf`al"
+    vt: "verbal tense" =
+	impf: "imperfect",
+	perf: "perfect",
+	impv: "imperative",
+	infc: "infinitive construct",
+	infa: "infinitive absolute",
+	ptca: "participle",
+	wayq: "wayyiqtol",
+	weyq: "weyiqtol",
+	ptcp: "passive participle"
+
+
+# The rules are applied on a fall through basis, so their order
+# is important.
+
+rules
+   not exist(vbe) && not exist(nme) :: sp=unknown
+
+   exist(nme) :: nu=unknown, gn=unknown, st=unknown
+   exist(vbe) :: ps=unknown, nu=unknown, gn=unknown
+
+# Litterae compaginis
+   uvf in {"W", "J"} :: st=c
+
+# Nominal endings
+   shared {
+      exist(nme) :: sp=subs, nu=sg
+   }
+      mark(vpm, "a") :: st=a
+      mark(vpm, "c") :: st=c
+      nme == "H" :: gn=f, st=a
+      nme == "T" :: gn=f, st=c
+      nme in {"JM=", "JN="} :: nu=du, st=a
+      nme in {"J=", "W="} :: nu=du, st=c
+      nme in {"TJM", "TJN"} :: nu=du, gn=f, st=a
+      nme in {"JM", "JN"} :: nu=pl, gn=m, st=a
+      nme in {"J", "W"} :: nu=pl, gn=m, st=c
+      nme == "N" :: nu=pl, gn=f, st=a
+      nme == "T=" :: nu=pl, gn=f, st=c
+      exist(prs) :: st=a
+      uvf == ">" :: st=e
+   end
+
+# Verbal endings
+   shared {
+      exist(vbe) :: sp=verb, vs=peal
+   }
+      vbe == "H" :: ps=third, nu=pl, gn=f
+      vbe in {"W", "WN"} :: ps=third, nu=pl, gn=m
+      vbe in {"J", "JN"} :: ps=second, nu=sg, gn=f
+      vbe == "N" :: ps=third, nu=pl, gn=f
+      vbe == "N>" :: ps=first, nu=pl
+      vbe == "T" :: ps=third, nu=sg, gn=f
+      vbe == "T=" :: ps=second, nu=sg, gn=m
+      vbe == "T==" :: ps=first, nu=sg
+      vbe == "TWN" :: ps=second, nu=pl, gn=m
+      vbe == "TJ" :: ps=second, nu=sg, gn=f
+      vbe == "TN" :: ps=second, nu=pl, gn=f
+   end
+
+# Verbal stems
+   # Stems with separate intensive formations
+   vbs == ">T" :: vs=etpe
+   vbs == "HT" :: vs=htpe
+   shared { exist(vbe) && mark(vpm, "d") :: vs=pael }
+      vbs == ">T" :: vs=etpa
+      vbs == "HT" :: vs=htpa
+   end
+
+   # Stems with separate passive formations
+   vbs == ">" :: vs=afel
+   vbs == "H" :: vs=haf
+   # The passive stem formations only occur in finite verb forms
+   shared { exist(vbe) && not exist(nme) :: sp=verb }
+      not exist(vbs) && mark(vpm, "p") :: vs=peil
+      not exist(vbs) && mark(vpm, "u") :: vs=pual
+      vbs in {">", "H"} && mark(vpm, "u") :: vs=hof
+   end
+
+   # Independent stems
+   vbs == "HCT" :: vs=hsht
+   vbs == "C" :: vs=shaf
+
+# Preformatives
+   pfm == ">" :: ps=first, nu=sg
+   pfm in {"J", "L"} :: ps=third
+   pfm == "N" :: ps=first, nu=pl
+   pfm == "T" :: ps=second
+   pfm == "T=" :: ps=third, gn=f
+
+# Suffix conjugation defaults
+   shared {
+      not exist(pfm) && exist(vbe) && not exist(nme) :: vt=perf
+   }
+      vbe == "" :: ps=third, nu=sg, gn=m
+   end
+
+# Prefix conjugation defaults
+   shared {
+      exist(pfm) && exist(vbe) && not exist(nme) :: vt=impf
+   }
+      pfm == "" :: vt=impv, ps=second
+      shared { pfm ni {">", "N"} && vbe in {"", "H="} :: nu=sg }
+	 pfm != "T=" :: gn=m
+      end
+   end
+
+# Infinitives
+   shared {
+      vbe == "" && exist(nme) && exist(pfm) && (
+	 pfm == "" ||
+	 not (exist(vbs) || mark(vpm, "d") || mark(vpm, "p"))
+      ) :: vt=infc, ps=unknown, nu=unknown, gn=unknown
+   }
+      mark(vpm, "a") :: vt=infa, st=a
+   end
+
+# Participles
+   shared {
+      vbe == "" && exist(nme) && (not exist(pfm) ||
+	 pfm != "" &&
+	 (exist(vbs) || mark(vpm, "d") || mark(vpm, "p"))
+      ) :: vt=ptca, ps=unknown
+   }
+      nme == "" :: gn=m
+      mark(vpm, "p") || mark(vpm, "u") :: vt=ptcp
+   end
+
+# Personal pronoun
+   prs in {"J", "NJ"} ::
+      ps[prs]=first,  nu[prs]=sg, gn[prs]=unknown
+   prs == "K" ::
+      ps[prs]=second, nu[prs]=sg, gn[prs]=m
+   prs == "KJ" ::
+      ps[prs]=second, nu[prs]=sg, gn[prs]=f
+   prs in {"H=", "HJ"} ::
+      ps[prs]=third,  nu[prs]=sg, gn[prs]=m
+   prs == "H" ::
+      ps[prs]=third,  nu[prs]=sg, gn[prs]=f
+   prs == "N>" ::
+      ps[prs]=first,  nu[prs]=pl, gn[prs]=unknown
+   prs in {"KM", "KWN"} ::
+      ps[prs]=second, nu[prs]=pl, gn[prs]=m
+   prs == "KN" ::
+      ps[prs]=second, nu[prs]=pl, gn[prs]=f
+   prs in {"HM", "HWN"} ::
+      ps[prs]=third,  nu[prs]=pl, gn[prs]=m
+   prs == "HN" ::
+      ps[prs]=third,  nu[prs]=pl, gn[prs]=f

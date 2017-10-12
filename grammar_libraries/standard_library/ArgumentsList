@@ -1,0 +1,368 @@
+pngV<<pngV   10 1390
+ VBT<< VBT    8 1332
+preV<<preV    5 1241
+numV<<numV    1  466
+perV<<perV    2  277
+-Qtl<<WayX    4   12
+WXQt<<WayX    4   17
+WLQt<<WayX    0    5
+0Qtl<<WayX    3    2
+imp.<<WayX    0    2
+-yqt<<WayX    0   11
+AjCl<<WayX    0    5
+infc<<WayX    6   31
+ptc.<<WayX    0   11
+NmCl<<WayX    0   12
+WXQt<<Way0    0    6
+WQtl<<Way0    0    6
+WLQt<<Way0    3   11
+WPQt<<Way0    0    2
+-Qtl<<Way0    0   57
+infc<<Way0    6   58
+imp.<<Way0    0    1
+-yqt<<Way0    0    5
+ptc.<<Way0    0   16
+NmCl<<Way0    0   56
+AjCl<<Way0    1    9
+CPen<<Way0    0    1
+-yqt<<WQtl    0   17
+WayX<<WQtl    0    3
+Way0<<WQtl    5    3
+ptc.<<WQtl    0   11
+ptcP<<WQtl    0    9
+AjCl<<WQtl    0    2
+NmCl<<WQtl    0   22
+Ellp<<WQtl    0    3
+WayX<<WXQt    0   13
+Way0<<WXQt    0   14
+infc<<WXQt    0    1
+NmCl<<WXQt    0    1
+WayX<<WLQt    0    2
+-yqt<<WLQt    0    2
+NmCl<<WLQt    0    2
+Way0<<-Qtl    5   28
+WayX<<-Qtl    5   17
+0yqt<<-Qtl    0    1
+-yqt<<-Qtl    0    4
+WPyq<<-Qtl    0    5
+infc<<-Qtl    6   37
+AjCl<<-Qtl    0    2
+NmCl<<-Qtl    0   56
+Way0<<0Qtl    5    9
+imp.<<0Qtl    0    6
+infc<<0Qtl    0   11
+ptc.<<0Qtl    0    3
+NmCl<<0Qtl    0   12
+Ellp<<0Qtl    0    1
+Way0<<-yqt    0    1
+-Qtl<<-yqt    0   26
+WQtl<<-yqt    0   17
+WeyX<<-yqt    0    3
+Wey0<<-yqt    0    6
+imp.<<-yqt    2   13
+infc<<-yqt    0    7
+ptc.<<-yqt    0   21
+NmCl<<-yqt    0   33
+NmCl<<WLyq    0    1
+infc<<WLyq    0    3
+WQtl<<WPyq    0    4
+-Qtl<<0yqt    3    6
+WXQt<<0yqt    0    4
+0Qtl<<0yqt    0    4
+WeyX<<0yqt    0    4
+imp.<<0yqt    0    3
+infc<<0yqt    0    7
+NmCl<<0yqt    0   11
+WQtl<<WeyX    0    3
+Way0<<Wey0    0    4
+0yqt<<Wey0    0    1
+AjCl<<Wey0    0    8
+infc<<Wey0    6    4
+WQtl<<imp.    5    8
+-Qtl<<imp.    0   28
+0yqt<<imp.    3   22
+-yqt<<imp.    3   20
+WeyX<<imp.    5   11
+Wey0<<imp.    6   25
+ptc.<<imp.    0   12
+AjCl<<imp.    0   12
+NmCl<<imp.    0   13
+infc<<imp.    6    2
+WayX<<infc    0    1
+-Qtl<<infc    0   10
+0Qtl<<infc    0    4
+imp.<<infc    0    2
+ptc.<<infc    0    8
+AjCl<<infc    0   14
+NmCl<<infc    0   10
+WQtl<<infa    0    1
+-yqt<<infa    0    1
+NmCl<<infa    0    2
+-Qtl<<AjCl    0   15
+0yqt<<AjCl    0    6
+Wey0<<AjCl    0    1
+imp.<<AjCl    0    2
+infc<<AjCl    0    4
+ptc.<<AjCl    1    7
+AjCl<<AjCl    0    2
+WQtl<<ptc.    0    7
+WPyq<<ptc.    0    3
+infc<<ptc.    0   20
+NmCl<<ptc.    0   36
+AjCl<<ptc.    0    1
+-yqt<<ptcP    0    8
+WayX<<NmCl    0    8
+Way0<<NmCl    0    9
+WQtl<<NmCl    0   18
+WPQt<<NmCl    0    6
+WLQt<<NmCl    0    4
+-Qtl<<NmCl    0   53
+0yqt<<NmCl    0   13
+-yqt<<NmCl    0   59
+Wey0<<NmCl    0    2
+WPyq<<NmCl    0   18
+imp.<<NmCl    0    7
+infc<<NmCl    6   17
+ptc.<<NmCl    0   22
+ptcP<<NmCl    0    3
+AjCl<<NmCl    0    8
+NmCl<<NmCl    0  141
+Ellp<<VbCl    0  260
+WXQt<<Defc    0    2
+VLex==Vlex    4  234
+ VBlex+KJ     5   33
+ Quot.Verb    0  384
+pngV<< Sfx    5  469
+Pron<< Sfx    0   14
+ Sfx<< Sfx    3  545
+Pron<<pngV    0    9
+ Sfx<<pngV    5  549
+ Sfx<<----    0  614
+Pron<<Pron    3   16
+pngV<<Pron    5   17
+ Sfx<<Pron    5   15
+ REL<<N/PP   10  315
+Conj<<Conj    2  200
+W   <<>CR     0   74
+W   <<KJ >    0   15
+W   <<KJ      1   55
+W   <<W2      0    8
+W   <<----    5  297
+W  G<<GM      0    6
+W   <<KN      0    1
+W2  <<W       0   23
+W2  <<----    0   53
+>CR <<W       0  134
+>CR <<W2      0    7
+>CR <<H       0    4
+>CR <<KJ >    0    2
+>CR <<KJ      0   11
+>CR <<----    0  157
+KJ ><<>CR     0   20
+KJ ><<W       0    1
+KJ  <<W       1   53
+KJ ><<----    0    2
+KJ  <<----    0   86
+>M  <<----    0    4
+>W ><<----    0    6
+H   <<W       0   29
+H   <<----    0   28
+----<<W       0  331
+----<<W2      0    8
+----<<W  G    0    2
+----<<>CR     0   29
+----<<>M      0    2
+----<<KJ      0   63
+C   <<W2      0    3
+<QB><<KJ      0    3
+KN  <<----    0    3
+GM  <<----    0    3
+GM  <<KJ      0    5
+ Neg<< Neg    0   50
+ Neg<< ---    2  178
+NPd2<<NPd2    3  265
+NPd2<<----    0  413
+ ---<<NPd2    0  597
+NPd1<<NPd1    0  187
+ ---<<NPd1    0  405
+NPd1<<----    0  448
+pPP:>XR/      0    1
+pPP:B         0  151
+pPP:BJN/      0    1
+pPP:L         0   88
+pPP:MN        0   41
+pPP:>L        0   85
+pPP:>T        0   92
+pPP:TXT/      0    7
+pPP:<M        0    4
+ParLx: 01     3  335
+ParLx: 02     6   49
+ParLx: 03     9   31
+ParLx: 04    10   19
+ Prep: >XR    0    2
+ Prep: B      0   13
+ Prep: K      0    9
+ Prep: L      0  196
+ Prep: MN     0   10
+ Prep: <D     0    6
+   *Quot :    0   32
+WayX<<Quot    0    3
+Way0<<Quot    0   14
+WLQt<<Quot    0    1
+WPQt<<Quot    0    2
+0Qtl<<Quot    0   39
+-Qtl<<Quot    0   12
+-yqt<<Quot    0   55
+0yqt<<Quot    0   14
+imp.<<Quot    0   64
+infc<<Quot    0   29
+infa<<Quot    0    1
+ptc.<<Quot    0   12
+AjCl<<Quot    0    7
+NmCl<<Quot    0   94
+Defc<<Quot    0    1
+Voct<<Quot    0   12
+Asyn<<QtVb    0  171
+1/2p<<3rdP    0  388
+3rdP<<1/2P    0  272
+NmCl<<WPQt    0    1
+-yqt<<MSyn    0    1
+infc<<MSyn    0    2
+   *Ellip:    0    3
+-Qtl<<Ellp    0    1
+-yqt<<Ellp    0    2
+NmCl<<Ellp    0    5
+Defc<<Ellp    0    1
+   *CasPn:    0    2
+-yqt<<CPen    0    4
+Way0<<CPen    0    2
+imp.<<CPen    0    2
+ptc.<<CPen    0    3
+NmCl<<CPen    0    4
+   *Defec:    0   10
+-yqt<<Defc    0   24
+0yqt<<Defc    0   18
+WQtl<<Defc    0    1
+WPQt<<Defc    0    1
+-Qtl<<Defc    0   34
+0Qtl<<Defc    0   12
+ptc.<<Defc    0    8
+infc<<Defc    0    2
+NmCl<<Defc    0   32
+AjCl<<Defc    0    4
+Defc<<Defc    0    3
+CPen<<Defc    0    1
+   *Embed:    0   17
+Ques<<Ques    5   22
+Irog<<Irog    5   10
+NmCl<<Wey0    0    4
+VblC//VblC    5   62
+ptc.<<-Qtl    0    4
+ptc.<<WLQt    0    5
+   *Vocat:    0    7
+Way0<<Voct    0    1
+0Qtl<<imp.    0    5
+-Qtl<<Wey0    0    4
+Wey0<<0yqt    0    5
+-yqt<<Wey0    0    3
+infc<<WLQt    0    1
+Way0<<WLQt    0    2
+0Qtl<<NmCl    0    3
+W GM<<----    0    1
+----<<H       0    1
+CPen<<-yqt    0    1
+Defc<<-Qtl    0    1
+-yqt<<infc    0    5
+GM  <<W       0    1
+----<<GM      0    1
+0yqt<<0Qtl    0    1
+WQtl<<0yqt    0    3
+WLyq<<NmCl    0    1
+WQtl<<WayX    0    1
+Defc<<-yqt    0    1
+Way0<<ptc.    0    1
+<<<<<<----    0    5
+WayX<<ptc.    0    1
+imp.<<WXQt    0    1
+ptc.<<WXQt    0    1
+Voct<<Defc    0    7
+Defc<<NmCl    0    3
+Defc<<WayX    0    1
+-Qtl<<ptc.    0    3
+WQtl<<infc    0    1
+pPP:2sgM      0    3
+WXyq<<-Qtl    0    1
+WayX<<0Qtl    0    3
+ptc.<<Voct    0    1
+NmCl<<Voct    0    3
+imp.<<Voct    0    1
+0Qtl<<MSyn    0    3
+NmCl<<MSyn    0    7
+   *Macro:    0    5
+MSyn<<MSyn    0    1
+imp.<<MSyn    0    1
+NmCl<<WeyX    0    1
+KJ  <<W2      0    1
+W   <<<<<<    0    2
+WeyX<<-Qtl    0    1
+WeyX<<WQtl    0    1
+Wey0<<0Qtl    0    1
+0Qtl<<ptc.    0    1
+ Prep: ---    0    5
+ Prep: >T     0    1
+WXQt<<infc    0    1
+W   <<J<N/    0    2
+infa<<NmCl    0    1
+imp.<<infa    0    1
+Defc<<WQtl    0    1
+LKN <<W       0    1
+----<<LKN     0    3
+WLyq<<Defc    0    1
+MSyn<<WLyq    0    1
+WQtl<<WLyq    0    1
+infc<<WQtl    0    2
+WXQt<<NmCl    0    2
+W GM<<GM      0    1
+0yqt<<WXQt    0    1
+pPP:3sgM      0    3
+ Prep: LM<    0    1
+>CR <<<<<<    0    2
+WayX<<WPQt    0    1
+infc<<WPQt    0    4
+Way0<<infc    0    2
+pPP:<<<<      0    2
+ptcP<<WayX    0    1
+WPQt<<WayX    0    1
+Way0<<WPQt    0    2
+Defc<<WPQt    0    2
+infa<<Way0    0    1
+PN  <<----    0    3
+>CR <<PN      0    3
+Wey0<<WQtl    0    1
+pPP:<L        0    1
+----<<KN      0    1
+ptc.<<MSyn    0    1
+KJ>M<<----    0    1
+LM<N<<----    0    4
+W   <<LM<N    0    3
+<<<<<<KJ      0    1
+W PN<<PN      0    4
+W   <<PN      0    3
+Ellp<<Quot    0    1
+PN  <<W       0    1
+W PN<<----    0    1
+W   <<W PN    0    1
+-yqt<<0Qtl    0    1
+W LK<<----    0    2
+----<<W LK    0    1
+LKN <<----    0    1
+-Qtl<<Voct    0    5
+0Qtl<<Voct    0    1
+0yqt<<Voct    0    1
+0yqt<<MSyn    0    1
+MSyn<<WayX    0    1
+MSyn<<Voct    0    1
+LKN <<>CR     0    2
+MSyn<<-Qtl    0    1
+-Qtl<<CPen    0    1
+ptcP<<CPen    0    1

@@ -1,0 +1,47 @@
+h43459
+s 00035/00000/00000
+d D 1.1 07/04/17 15:57:08 const 1 0
+c date and time created 07/04/17 15:57:08 by const
+e
+u
+U
+f e 0
+t
+T
+I 1
+500 <ap>          { Apposition }
+501 <Pr>          { Predicate }
+502 <Su>          { Subject }
+503 <Ob>          { Object }
+504 <Co>          { Complement }
+505 <Aj>          { Adjunct }
+506 <Ti>          { Time reference }
+507 <Lo>          { Locative }
+508 <Mo>          { Modifier }
+509 <Cj>          { Conjunction }
+510 <Ng>          { Negation }
+511 <Qu>          { Question }
+512 <Ij>          { Interjection }
+515 <sc>          { Supplementary constituent }
+519 <Re>          { Relative }
+521 <PC>          { Predicate complement }
+522 <Is>          { Interjection with subject suffix }
+528 <Ms>          { Modifier with subject suffix }
+531 <PO>          { Predicate with object suffix }
+532 <Ps>          { Predicate with subject suffix }
+533 <ps>          { Participle with non-object suffix }
+534 <po>          { Participle with object suffix }
+542 <Ns>          { Negation with subject suffix }
+550 <eX>          { Existence }
+552 <Xs>          { Existence with subject suffix }
+562 <Vo>          { Vocative }
+566 <pa>          { Parallel }
+567 <cj>          { Link }
+572 <Fr>          { Fronted element }
+582 <sp>          { Specification }
+591 <Qp>          { Interrogative pronoun as predicate }
+592 <Qs>          { Interrogative pronoun as subject }
+593 <Qo>          { Interrogative pronoun as object }
+594 <Qc>          { Interrogative pronoun as complement }
+599 <Un>          { Unknown }
+E 1

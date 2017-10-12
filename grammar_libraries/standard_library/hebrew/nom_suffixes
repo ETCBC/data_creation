@@ -1,0 +1,17 @@
+##########################################################################
+#                                                                        #
+#	nom_suffixes: nominal suffixes in biblical Hebrew                #
+#                                                                        #
+##########################################################################
+""
+"H"	:gn=f:nu=s:st=a:
+"WT"	:gn=f:nu=p:
+"WTJ"	:gn=f:nu=p:st=c:
+"J"	:gn=m:nu=p:st=c:
+"J="	:nu=d:st=c:
+"JM"	:gn=m:nu=p:st=a:
+"JM="	:nu=d:st=a:
+"JN"	:gn=m:nu=p:st=a:
+"T"	:gn=f:nu=s:
+"TJ"	:gn=f:nu=d:st=c:
+"TJM"	:gn=f:nu=d:st=a:

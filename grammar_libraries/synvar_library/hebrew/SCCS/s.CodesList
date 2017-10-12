@@ -1,0 +1,183 @@
+h05452
+s 00001/00001/00073
+d D 1.13 17/05/22 10:46:47 dirk 13 12
+c added equal sign to >BL=
+e
+s 00002/00001/00072
+d D 1.12 17/05/08 15:12:13 dirk 12 11
+c Added >BL=
+e
+s 00001/00000/00072
+d D 1.11 17/05/04 17:19:37 dirk 11 10
+c added >PJLW
+e
+s 00000/00000/00072
+d D 1.10 17/05/04 17:00:35 dirk 10 9
+c added >LML>
+e
+s 00001/00000/00071
+d D 1.9 17/05/04 15:26:13 dirk 9 8
+c added >LML>
+e
+s 00001/00001/00070
+d D 1.8 17/05/04 11:11:24 dirk 8 7
+c restored bogus edit
+e
+s 00001/00001/00070
+d D 1.7 17/05/04 11:10:23 dirk 7 6
+c bogus edit
+e
+s 00001/00000/00070
+d D 1.6 17/05/04 10:08:08 dirk 6 5
+c Added relative D- (temporary)
+e
+s 00002/00002/00068
+d D 1.5 17/05/03 14:55:19 dirk 5 4
+c changed tabs into spaces
+e
+s 00001/00001/00069
+d D 1.4 17/05/03 14:52:34 dirk 4 3
+c alphabetized
+e
+s 00001/00000/00069
+d D 1.3 17/05/02 16:05:59 dirk 3 2
+c added CM>= 'lest, perhaps'
+e
+s 00004/00002/00065
+d D 1.2 16/02/01 14:56:58 janet 2 1
+c synchronized lexemes to lexica
+e
+s 00067/00000/00000
+d D 1.1 15/05/28 14:26:55 dirk 1 0
+c date and time created 15/05/28 14:26:55 by dirk
+e
+u
+U
+f e 0
+t
+T
+I 1
+impf      1	Verbal tense of the predicate
+perf      2
+impv      3
+infc      4
+infa      5
+ptca      6
+ptcp      6
+wayq      7
+weyq      8
+-----
+>XR       1	Preposition class of infinitive clause
+>L        2
+>YL       3
+>T        4
+B         5
+BJN       6
+BL<DJ     7
+BMW       5
+B<D       9
+ZWLH     10
+J<N      11
+K=       12
+KMW      12
+L        14
+LMW      14
+LM<N     15
+MN       17
+<D       20
+<L       21
+<M=      22
+TXT      24
+-----
+D 12
+>W      400	Conjunction class of clause opening
+E 12
+I 12
+D 13
+>BL=    500	Conjunction class of clause opening
+E 13
+I 13
+>BL==   500	Conjunction class of clause opening
+E 13
+>W      400
+E 12
+D 2
+>JN=    600
+E 2
+I 2
+>JN==   600
+>L>=    600
+E 2
+>LW     600
+I 9
+>LML>   600
+E 9
+>M      600
+I 11
+>PJLW	600
+E 11
+>CR     500
+I 6
+D 7
+D       500
+E 7
+I 7
+D 8
+Dirk    500
+E 8
+I 8
+D       500
+E 8
+E 7
+E 6
+DJ      500
+H       500
+W       400
+ZW      500
+KJ      500
+D 2
+HN=     600
+E 2
+I 2
+HN      600
+LHN     600
+E 2
+LHN=    600
+LW      600
+LWL>    600
+PN      800
+I 4
+D 5
+C	500
+E 4
+I 3
+CM>=	800
+E 5
+I 5
+C       500
+CM>=    800
+E 5
+E 3
+D 4
+C       500
+E 4
+-----
+>XR     700	Preposition class of clause opening
+>L      700
+B       700
+BLT     800
+BMW     700
+ZWLH    800
+VRM     700
+J<N     900
+K=      700
+KMW     700
+L       700
+LMW     700
+LM<N    800
+MN      800
+<D      700
+<L      900
+<QB     900
+-----
+E 1

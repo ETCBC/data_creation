@@ -1,0 +1,28 @@
+h10115
+s 00004/00004/00000
+d D 1.2 08/07/03 15:19:35 const 2 1
+c number of labels and number of categories did not match
+e
+s 00004/00000/00000
+d D 1.1 07/04/17 12:16:21 const 1 0
+c date and time created 07/04/17 12:16:21 by const
+e
+u
+U
+f e 0
+t
+T
+I 1
+D 2
+#lex  .Root .P123 .HWH  .Modf .PrCm .NPdt .PrnP .sfx  .NPid .>T   .Cpl1 .Cpl2 .Cpl3 .Cpl4 .Cpl5 .Adj1 .Adj2 .Adj3 .Adj4 .Adj5 .Adj6 .Parse
+.>>>[ ....  .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Pr>
+#lex  .Root .P123 .HWH  .Modf .PrCm .NPdt .PrnP .sfx  .NPid .>T   .Cpl1 .Cpl2 .Cpl3 .Cpl4 .Cpl5 .Adj1 .Adj2 .Adj3 .Adj4 .Adj5 .Adj6 .Parse
+.TTT[ ....  .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Pr>
+E 2
+I 2
+#lex  .Root .P123 .HW>  .Modf .PrCm .NPdt .PrnP .sfx  .NPid .>T   .Cpl1 .Cpl2 .Cpl3 .Cpl4 .Cpl5 .Adj1 .Adj2 .Adj3 .Adj4 .Adj5 .Adj6 .Parse
+.>>>[ ....  .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Pr>
+#lex  .Root .P123 .HW>  .Modf .PrCm .NPdt .PrnP .sfx  .NPid .>T   .Cpl1 .Cpl2 .Cpl3 .Cpl4 .Cpl5 .Adj1 .Adj2 .Adj3 .Adj4 .Adj5 .Adj6 .Parse
+.TTT[ ....  .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .     .      <Pr>
+E 2
+E 1

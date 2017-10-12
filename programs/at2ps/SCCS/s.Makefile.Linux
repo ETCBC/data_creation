@@ -1,0 +1,141 @@
+h44086
+s 00001/00001/00061
+d D 1.6 13/12/08 12:03:28 const 6 5
+c Editing the ct(5) of at2ps(1), ctcor.sed was moved from mkdescr to here
+e
+s 00003/00002/00059
+d D 1.5 13/01/31 12:46:31 const 5 4
+c Added word_grammar.5
+e
+s 00005/00003/00056
+d D 1.4 13/01/31 11:58:43 const 4 3
+c Added ps2cor.awk
+e
+s 00003/00003/00056
+d D 1.3 11/11/07 17:20:20 const 3 2
+c Adjusted configuration as required by WIVUobl
+e
+s 00001/00001/00058
+d D 1.2 04/07/20 11:43:25 const 2 1
+c Resolved a few compiler warnings.
+e
+s 00059/00000/00000
+d D 1.1 03/11/06 15:27:21 const 1 0
+c Placed under package WIVUq2pro.
+e
+u
+U
+f e 0
+f m q2pro/at2ps/Makefile.Linux
+t
+T
+I 1
+D 3
+#ident %W% %E%
+E 3
+I 3
+#ident "%W% %E%"
+E 3
+
+NAME	= at2ps
+
+include ../config
+
+D 2
+INCLUDES	= -I. -I$(LIBBASE)/obl/include
+E 2
+I 2
+D 3
+INCLUDES	= -I$(LIBBASE)/obl/include
+E 2
+LDFLAGS		= -L$(LIBBASE)/lib -R$(LIBBASE)/lib
+E 3
+I 3
+INCLUDES	= -I$(BASEDIR)/include/obl
+LDFLAGS		= -L$(BASEDIR)/lib -R$(BASEDIR)/lib
+E 3
+LDLIBS		= -lobl -lfl
+
+I 4
+D 6
+AUX		= ps2cor.awk
+E 6
+I 6
+AUX		= ctcor.sed ps2cor.awk
+E 6
+E 4
+GENERATED	= Lpars.c Lpars.h lexer.c compile.c
+HEADERS		= Lpars.h backpatch.h compile.h error.h exec.h extra.h\
+		  global.h grammar.h lexer.h ps_io_2.h qlist.h quad.h\
+		  segment.h symbol.h symtbl.h type.h word.h wrdgrm.h
+SOURCES		= at2ps.c ps_io_2.c segment.c wrdgrm.c compile.c\
+		  Lpars.c lexer.c backpatch.c qlist.c quad.c error.c\
+		  exec.c word.c grammar.c symtbl.c type.c symbol.c
+
+LNFILES	= $(SOURCES:.c=.ln)
+OBJECTS	= $(SOURCES:.c=.o)
+
+MAN1	= $(NAME).1
+I 5
+MAN5	= word_grammar.5
+E 5
+
+
+D 4
+all: $(NAME) $(MAN1)
+E 4
+I 4
+D 5
+all: $(NAME) $(AUX) $(MAN1)
+E 5
+I 5
+all: $(NAME) $(AUX) $(MAN1) $(MAN5)
+E 5
+E 4
+
+$(NAME): $(OBJECTS)
+	$(LINK.c) -o $@ $(OBJECTS) $(LDLIBS)
+
+lexer.c: lexer.l
+	$(LEX.l) lexer.l > $@
+
+Lpars.c Lpars.h compile.c: compile.g
+	rm -f Lpars.c Lpars.h compile.c
+	LLgen -a compile.g
+
+lint: $(LNFILES)
+	$(LINT.c) $(LNFILES) $(LNLIBS)
+
+install: all
+	mkdir -p $(DESTDIR)/bin
+	$(INSTALL) -m 555 $(NAME) $(DESTDIR)/bin
+D 4
+	mkdir -p $(DESTDIR)/man/man1
+	$(INSTALL) -m 444 $(MAN1) $(DESTDIR)/man/man1
+E 4
+I 4
+	mkdir -p $(DESTDIR)/$(NAME)
+	$(INSTALL) -m 444 $(AUX) $(DESTDIR)/$(NAME)
+D 5
+	minstall -M $(DESTDIR)/man $(MAN1)
+E 5
+I 5
+	minstall -M $(DESTDIR)/man $(MAN1) $(MAN5)
+E 5
+E 4
+
+depend: $(HEADERS) $(SOURCES)
+	$(CC) $(DEPOPT) $(CPPFLAGS) $(SOURCES) > $@
+	$(CC) $(DEPOPT) $(CPPFLAGS) $(SOURCES) |\
+	sed 's/\.o:/.ln:/' >> $@
+
+clean:
+	rm -f $(NAME) $(OBJECTS) $(LNFILES) *.bak core
+
+distclean: clean
+	rm -f $(GENERATED)
+	rm -f *.ln *.o depend
+	test ! -L Makefile || rm Makefile
+
+include depend
+E 1

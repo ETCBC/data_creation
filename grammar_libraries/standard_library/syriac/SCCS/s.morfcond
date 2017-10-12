@@ -1,0 +1,53 @@
+h31207
+s 00017/00016/00000
+d D 1.2 17/07/07 14:47:14 const 2 1
+c Synchronised morphological conditions with Aramaic
+e
+s 00016/00000/00000
+d D 1.1 02/08/29 12:22:34 const 1 0
+c date and time created 02/08/29 12:22:34 by const
+e
+u
+U
+f e 0
+t
+T
+I 1
+D 2
+ 1   0 = -5 99	# nouns of existence
+ 2   0 = -3 99	# possible prepositions, ordinals
+ 3   0 = -2 99	# verbs of existence, gentilics
+ 4   0 = -1 99	# cardinals, direct speech
+ 5   6 =  0 99	# suffix absent
+ 6   6 =  2 3 4 5 6 7 8 9 10 12 15 99	# suffix present
+ 7   7 =  1 2 3 99	# finite verbs
+ 8   7 =  4 99		# infinitives
+ 9   7 =  6 62 99	# participles
+10   9 =  1 99	# nu = sg
+11   9 =  2 99	# nu = du
+12   9 =  3 99	# nu = pl
+13  11 =  0 99	# unknown state
+14  11 =  1 99	# st = cst
+15  11 =  2 99	# st = abs
+16  11 =  3 99	# st = emph
+E 2
+I 2
+ 1  0 = -6 99	# distributiva
+ 2  0 = -5 99	# nouns of existence
+ 3  0 = -4 99	# possible adverbs
+ 4  0 = -3 99	# possible prepositions, ordinals
+ 5  0 = -2 99	# nouns of multitude, verbs of existence, gentilics
+ 6  0 = -1 99	# cardinals, direct speech, pure adjectives
+ 9  6 =  0 99	# suffix absent
+10  6 =  2 3 4 6 7 8 9 10 12 13 14 15 17 18 99	# suffix present
+11  7 =  1 2 3 12 99		# finite verbs
+12  7 =  4 6 62 99		# non-finite verbs
+13  9 =  1 99	# number = singular
+14  9 =  2 99	# number = dual
+15  9 =  3 99	# number = plural
+16 11 =  0 99	# state = unknown
+17 11 =  1 99	# state = construct
+18 11 =  2 99	# state = absolute
+19 11 =  3 99	# state = emphatic
+E 2
+E 1

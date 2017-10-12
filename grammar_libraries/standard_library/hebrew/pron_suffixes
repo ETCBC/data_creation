@@ -1,0 +1,20 @@
+########################################################################
+#                                                                      #
+#      pron_suffixes: pronominal suffixes in biblical Hebrew           #
+#                                                                      #
+########################################################################
+"H"	:ps=3:gn=f:nu=s:
+"HW"	:ps=3:gn=m:nu=s:
+"HM"	:ps=3:gn=m:nu=p:
+"HN"	:ps=3:gn=f:nu=p:
+"W"	:ps=3:gn=m:nu=s:
+"J"	:ps=1:nu=s:
+"K"	:ps=2:gn=m:nu=s:
+"K="	:ps=2:gn=f:nu=s:
+"KM"	:ps=2:gn=m:nu=p:
+"KN"	:ps=2:gn=f:nu=p:
+"M"	:ps=3:gn=m:nu=p:
+"MW"	:ps=3:gn=m:nu=p:
+"N"	:ps=3:gn=f:nu=p:
+"NW"	:ps=1:nu=p:
+"NJ"	:ps=1:nu=s:

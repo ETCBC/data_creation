@@ -1,0 +1,129 @@
+h11268
+s 00029/00051/00007
+d D 1.2 17/07/18 17:10:46 const 2 1
+c First version for Syriac proper
+e
+s 00058/00000/00000
+d D 1.1 08/06/05 17:11:59 const 1 0
+c date and time created 08/06/05 17:11:59 by const
+e
+u
+U
+f e 0
+t
+T
+I 1
+D 2
+ipf.     1     VBT
+perf.    2
+imp.     3
+infc.    4
+infa.    5
+ptc.     6 
+ipfc.    7
+ipfW.    8
+ptcP.   13
+----     0
+E 2
+I 2
+impf     1	Verbal tense of the predicate
+perf     2
+impv     3
+infc     4
+infa     5
+ptca     6
+ptcp     6
+wayq     7
+weyq     8
+E 2
+-----
+D 2
+>XRJ     1     PREP
+>L       2
+>YL      3
+>T       4
+B        5
+BJN      6
+BL<DJ    7
+BMW      8
+B<D      9
+ZWLH    10
+K       12
+KMW     13
+E 2
+I 2
+B        5	Preposition class of infinitive clause
+E 2
+L       14
+D 2
+LM<N    15
+E 2
+I 2
+MVL     16
+E 2
+MN      17
+D 2
+<D      20
+E 2
+I 2
+<L      21
+E 2
+<M      22
+D 2
+TXT     24
+----     0
+E 2
+-----
+D 2
+>CR     10     CONJ
+H       10
+C       10
+ZW      10
+>LW    100
+LW     100
+LWL>   100
+----   100
+>M     230
+W >M   230
+W      300
+>W     400
+GM     400
+W GM   400
+W2     400
+KJ     500
+KJ>M   500
+LHN    600
+LKN    600
+<L KN  600
+E 2
+I 2
+>W     400	Conjunction class of clause opening
+>JN    500
+>L>    600
+>LW    600
+>N     600
+BRM    500
+DLM>   800
+W      400
+KD     700
+-----
+B      700	Preposition class of clause opening
+D      500
+L      700
+MVL    900
+MN     800
+E 2
+<D     700
+D 2
+VRM    700
+LM<N   800
+PN     800
+J<N    900
+<QB    900
+E 2
+I 2
+<L     900
+QDM    700
+E 2
+-----
+E 1

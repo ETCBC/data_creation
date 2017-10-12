@@ -1,0 +1,47 @@
+h16611
+s 00035/00000/00000
+d D 1.1 08/06/05 17:11:59 const 1 0
+c date and time created 08/06/05 17:11:59 by const
+e
+u
+U
+f e 0
+t
+T
+I 1
+500 --->          { refers to app}
+501 <Pr>          { Pred.        }
+502 <Su>          { Subject      }
+503 <Ob>          { Object       }
+504 <Co>          { Complement   }
+505 <Aj>          { Adjunct      }
+515 <sc>          { suppl.Const. }
+506 <Ti>          { Time ref.    }
+507 <Lo>          { Loc  ref.    }
+508 <Mo>          { Modifyer     }
+528 <Ms>          { Modif.+sfx.  }
+509 <Cj>          { Conjunction  }
+519 <Re>          { Relative     }
+510 <Ng>          { Negation     }
+511 <Qu>          { Question     }
+591 <Qp>          { Quest.M = P  }
+592 <Qs>          { Quest.M = S  }
+593 <Qo>          { Quest.M = O  }
+594 <Qc>          { Quest.M = C  }
+512 <Ij>          { Intj.        }
+522 <Is>          { Intj+ subj.sf}
+521 <PC>          { Pred. Compl. }
+531 <PO>          { Pred+ obj. sf}
+532 <Ps>          { Pred+ subj.sf}
+533 <ps>          { ptc.+ specif.}
+534 <po>          { ptc.+ obj.   }
+542 <Ns>          { Neg.+ sfx.   }
+550 <eX>          { Existence    }
+552 <Xs>          { Existence+sfx}
+562 <Vo>          { Vocative     }
+572 <Fr>          { Fronted Elem.}
+582 <sp>          { Specif. Elem.}
+566 <PA>	  { Parall. Elem.}
+567 <cj>	  { Parall. Conj.}
+599 <Un>          { Unknown Pars.}
+E 1

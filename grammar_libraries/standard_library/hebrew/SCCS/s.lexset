@@ -1,0 +1,1141 @@
+h53921
+s 00001/00000/00787
+d D 1.20 07/06/19 17:14:10 const 20 19
+c Added MJCRJM/ as possible adverb. E-mail of 17:11.
+e
+s 00001/00000/00786
+d D 1.19 02/12/02 13:48:27 const 19 18
+c Lexeme status for prepositions (BMW, KMW), and LMW.
+e
+s 00000/00001/00786
+d D 1.18 01/01/24 16:01:00 const 18 17
+c Removed >L=/ from subset of nouns of existence.
+e
+s 00001/00000/00786
+d D 1.17 00/12/20 16:24:26 const 17 16
+c Added gentilicium MDNJ/
+e
+s 00002/00000/00784
+d D 1.16 00/12/04 16:16:14 const 16 15
+c Turned Libyans, Sukkites and Ethiopians into gentilicia.
+e
+s 00001/00000/00783
+d D 1.15 00/12/04 14:13:51 const 15 14
+c Introduced gentilicium Ahashtarite (1Ch 4:6) in stead of proper name.
+e
+s 00001/00000/00782
+d D 1.14 00/12/04 12:10:56 const 14 13
+c Added the gentilicium MDJ/ (Median)
+e
+s 00000/00001/00782
+d D 1.13 00/11/30 11:02:34 const 13 12
+c Removed HJDD from the interjections, now a substantive.
+e
+s 00005/00004/00778
+d D 1.12 00/11/09 17:03:40 const 12 11
+c Gentilicia >LJ/, >RRJ/, LXMJ/ and CMCJ/
+e
+s 00001/00001/00781
+d D 1.11 00/11/07 12:12:11 const 11 10
+c Changed the gentilicium >BJH<ZRJ/ into <ZRJ/
+e
+s 00001/00000/00781
+d D 1.10 99/05/27 17:08:00 const 10 9
+c Added >JN== (1S 21:9) as interrogative.
+e
+s 00001/00001/00780
+d D 1.9 98/12/10 12:28:27 const 9 8
+c Corrected the spelling of CMJNJ/.
+e
+s 00000/00001/00781
+d D 1.8 98/12/09 17:52:13 const 8 7
+c Changed GWZL/ into a substantive as in lexicon.
+e
+s 00004/00000/00778
+d D 1.7 98/12/09 15:44:13 const 7 6
+c Added SJNJ/ <RQJ/ YMRJ/ and QDMNJ=/ as gentilics.
+e
+s 00002/00010/00776
+d D 1.6 98/12/03 13:04:54 const 6 5
+c Supplied missing "/" to QDRNJT/ and QWMMJWT/.
+e
+s 00001/00001/00785
+d D 1.5 98/11/30 17:44:31 const 5 4
+c Changed HL>H from interjection into adverb.
+e
+s 00001/00001/00785
+d D 1.4 98/09/04 17:05:33 const 4 3
+c Set 2, subset 5: removed "BL/" and added ">L=/".
+e
+s 00021/00026/00765
+d D 1.3 98/08/20 18:43:44 const 3 2
+c Synchronised lexset with lexicon.
+e
+s 00022/00022/00769
+d D 1.2 98/08/19 17:17:44 const 2 1
+c Moved 21 nouns in others sets to an appropriate subset of set 2.
+e
+s 00791/00000/00000
+d D 1.1 98/02/09 17:34:47 const 1 0
+c date and time created 98/02/09 17:34:47 by const
+e
+u
+U
+f e 0
+t
+T
+I 1
+D 6
+########################################################################
+#                                                                      #
+#      Template for file "lexset"                                      #
+#                                                                      #
+########################################################################
+
+#ident "%Z%%M% %I% %G%"
+
+E 6
+>MR[
+DBR[
++++
+HJH[
+---
+>XD/
+>LP=/
+>RB</
+XMC/
+M>H/
+<FR/
+<FRH/
+<FRJM/
+<CTJ/
+RBW>/
+CB</
+CLC/
+CMNH/
+CNJM/2
+CC/
+TC</
++++
+RBBH/
++++
+>XWR/
+I 2
+>XR/
+>YL/
+BJN/
+BL<DJ/
+B<D/
+E 2
+DRK/
+I 2
+ZWLH/
+XLP/
+VRM/
+J<N/
+MWL/
+NGD/
+NKX=/
+E 2
+SBJB/
+<BR/
+I 2
+<MD/
+E 2
+<QB/
+P<M/
+QDM/
+QDMH/
+I 2
+TXT/
+E 2
++++
+I 3
+>V/
+E 3
+>MC/
+>TMWL/
+BDD/
+D 2
+BQR=/
+E 2
+BVX/
+I 2
+BQR=/
+E 2
+HBL/
+I 2
+XJC/
+XRC===/
+E 2
+JWM/
+I 2
+JXD/
+KBR/
+E 2
+LJLH/
+I 2
+M>D/
+E 2
+MXR/
+MXRT/
+I 20
+MJCRJM/
+E 20
+M<V/
+I 2
+<WD/
+E 2
+<RB/
+I 3
+D 6
+QDRNJT
+QWMMJWT
+E 6
+I 6
+QDRNJT/
+QWMMJWT/
+E 6
+E 3
+RG</
+CW</
+CLCWM/
+TMWL/
++++
+>JN/
+I 4
+D 18
+>L=/
+E 18
+E 4
+>C=/
+I 2
+D 4
+BL/
+E 4
+E 2
+BLJ/
+BLTJ/
+JC/
++++
+KL/
+>JC/
+---
+>WLJ
+>WLM
+>Z
+>ZJ
+>XRNJT
+>K
+>MNH
+>MNM
+>MNM=
+I 3
+GM
+E 3
+DWMM
+I 5
+HL>H
+E 5
+D 3
+H>LH
+E 3
+HLM
+HNH==
+D 2
+XJC/
+E 2
+XNM
+D 2
+XRC===/
+E 2
+JWMM
+D 2
+JXD/
+E 2
+JXDW
+D 2
+KBR/
+E 2
+KH
+KKH
+KN
+I 3
+LHN
+LKN
+E 3
+D 2
+M>D/
+E 2
+MHRH
+MSX
+<DN
+<DNH
+D 2
+<WD/
+E 2
+<TH
+PH
+PNJMH
+PT>M
+D 3
+QDRNJT
+QWMMJWT
+E 3
+RJQM
+RQ
+CM
+CMH=
+---
+D 2
+>XR/
+E 2
+>L
+D 2
+>YL/
+E 2
+>T
+B
+D 2
+BJN/
+BL<DJ/
+E 2
+BMW
+D 2
+B<D/
+ZWLH/
+XLP/
+E 2
+K
+KMW
+L
+I 19
+LMW
+E 19
+LM<N
+D 2
+MWL/
+E 2
+MN
+D 2
+NGD/
+NKX=/
+E 2
+<D
+<L
+<M
+D 2
+<MD/
+TXT/
+E 2
+---
+>W
+>LW
+>M
+>CR
+D 3
+GM
+E 3
+W
+W2
+ZW
+D 2
+VRM/
+J<N/
+E 2
+KJ
+D 3
+LHN
+E 3
+LW
+LWL>
+D 3
+LKN
+E 3
+PN
+C
+---
+D 3
+>NW               : -1  1  3  0 -1
+E 3
+>NXNW             : -1  1  3  0 -1
+>NJ               : -1  1  1  0 -1
+>NKJ              : -1  1  1  0 -1
+>T=               : -1  2  1  1 -1
+>TH               : -1  2  1  2 -1
+>TM               : -1  2  3  2 -1
+>TN               : -1  2  3  1 -1
+I 3
+>TNH              : -1  2  3  1 -1
+E 3
+HW>               : -1  3  1  2 -1
+HJ>               : -1  3  1  1 -1
+HM                : -1  3  3  2 -1
+HMH               : -1  3  3  2 -1
+HNH=              : -1  3  3  1 -1
+NXNW              : -1  1  3  0 -1
+---
+>L===             : -1 -1  3  0 -1
+>LH               : -1 -1  3  0 -1
+HLZ               : -1 -1  1  0 -1
+HLZH              : -1 -1  1  0 -1
+HLZW              : -1 -1  1  0 -1
+Z>T               : -1 -1  1  1 -1
+ZH                : -1 -1  1  2 -1
+ZH=               : -1 -1  1  0 -1
+ZW=               : -1 -1  1  0 -1
+---
+MH
+D 3
+MZH
+E 3
+MJ
+MN=
+---
+>BJ
+>BL
+>BRK
+>HH
+>WJ
+>WJH
+>X
+>XLJ
+>KN
+>LLJ
+>MN
+>N>
+>P
+>PW
+D 3
+>CRJ
+E 3
+BJ
+H>
+H>X
+D 3
+HB                :  3  2  1  2 -1
+HBH               :  3  2  1  2 -1
+HBW               :  3  2  3  0 -1
+HBW=
+HBJ               :  3  2  1  1 -1
+E 3
+HH
+HW
+HWJ
+D 13
+HJDD
+E 13
+I 3
+D 5
+HL>H
+E 5
+E 3
+HN
+HNH
+D 3
+HS
+HSW
+E 3
+XLJLH
+N>
+SLH
+---
+>L=
+I 3
+BL
+E 3
+D 2
+BL/
+E 2
+L>
+---
+I 3
+>HJ
+E 3
+>J
+>J=
+>JH
+>JK
+>JKH
+>JKH=
+>JKKH
+>JN=
+I 10
+>JN==
+E 10
+>JPH
+>L==
+>N
+H=
+HJK
+LMH
+MDW<
+MTJ
+---
+>BJWN/
+>BJR/
+>BJR=/
+>BL===/
+>GM=/
+>DJR/
+>DM=/
+>DMDM/
+>DMNJ/
+>WJL/
+>WLJ/
+>XZ/
+>XR=/
+>XRWN/
+D 3
+>V/
+E 3
+I 3
+>XCTRNJM/
+E 3
+>VR/
+>JM/
+>JTN/
+>KZB/
+>KZR/
+>KZRJ/
+>LWP=/
+>LM/
+>MWN/
+>MJY/
+>MLL/
+>MLL=/
+>MY=/
+>NWC=/
+>PJL/
+>PJQ/
+D 3
+>YJL/=/
+E 3
+I 3
+>YJL=/
+E 3
+>RWZ/
+>RK/
+>RK==/
+>RMJ=/
+>CM=/
+BGWD/
+BHJR/
+D 3
+BXWR/
+E 3
+BXJR/
+BLH/
+B<R/
+BYWR/
+BR==/
+BRD=/
+BRWR/
+BRX/
+BRJ>/
+BCL/
+G>/
+G>H/
+D 3
+G>JWN/
+E 3
+GBH/
+GBH==/
+GBX/
+GBN/
+GDWL/
+GDL=/
+I 3
+D 8
+GWZL/
+E 8
+E 3
+GLMWD/
+DBQ=/
+DWH/
+DWJ=/
+DK/
+DK>/
+DL/
+DQ/
+DCN=/
+HPKPK/
+HRH/
+WZR/
+ZD/
+ZJDWN/
+ZK/
+ZKWR=/
+ZKR=/
+Z<P=/
+ZQN/
+ZR/
+XGWR/
+XD/
+XDL/
+XDC/
+XWM/
+XZQ/
+XZQ==/
+XV>=/
+XJ/
+XJH=/
+XJYWN/
+XKLJLJ/
+XKM/
+XL/
+XLL/
+XLQ=/
+XLQ==/
+XM==/
+XMWY/
+XMY/
+XNWN/
+XNP/
+D 3
+XNP/
+E 3
+XSJD/
+XSN/
+D 3
+XSPS/
+E 3
+XSR/
+XP/
+XPY=/
+I 3
+XPCJ/
+E 3
+XRB==/
+XRD/
+XRWY=/
+XRWY====/
+XRJCJ/
+XRC=/
+XCK=/
+XT=/
+VHR/
+VWB/
+VM>/
+VRJ/
+VRP=/
+JBC/
+JGWR/
+JGJ<=/
+JG</
+JDJD/
+JHJR/
+JXJD/
+JXP/
+JLWD/
+JMNJ/
+J<P/
+JPH/
+JPHPJ/
+JQJR/
+JQR/
+JR>/
+JRQRQ/
+JCJC/
+JCN/
+JCN=/
+JCR/
+JCC/
+KBD/
+KBJR/
+KHH/
+KXC=/
+KLH==/
+KLJL/
+KN/
+KSJL/
+LBWC=/
+LBN/
+LX=/
+LN/
+LY/
+MGN=/
+MHJR/
+MZH/
+ML>/
+MSKN/
+MR/
+I 3
+MRWX/
+E 3
+MRJRJ/
+MRR/
+MCQD/
+MTWQ/
+MTQ=/
+N>/
+N>WH/
+NBL/
+NGX/
+NDJB/
+NWH==/
+NXWC/
+I 3
+NVJL/
+E 3
+NK>/
+NK>=/
+NKH/
+NKX/
+NKRJ/
+N<JM/
+NQBH/
+NQD=/
+NQJ/
+SWR/
+D 3
+SWRJ/
+E 3
+SKL/
+SLX/
+SMR/
+I 3
+S<P/
+E 3
+SR/
+I 3
+SRB/
+E 3
+SRWX/
+<BWT/
+<GL=/
+<DJN/
+<WR/
+<Z===/
+<ZWZ=/
+<VWP/
+<JP/
+<JRM/
+I 3
+<LG/
+E 3
+<LZ/
+<LJ/
+<LJWN/
+<LJZ/
+<ML=/
+<MQ=/
+<MQ==/
+<NG/
+<NW/
+<NJ/
+<NP=/
+<YWM/
+<YL/
+<QD/
+<QLQL/
+<QLTWN/
+<QR/
+<QC/
+<RB=======/
+<RWM/
+<RWM=/
+<RJY/
+<RJRJ/
+<RL/
+<CWT/
+<CJR/
+<CN=/
+<TJ/
+<TJD/
+<TJQ/
+<TJQ=/
+<TQ/
+<TQ=/
+PJPJWT/
+PL>J/
+PLJLJ/
+PNJMJ/
+PSX=/
+PQX/
+D 3
+PTJ/
+E 3
+PTLTL/
+Y>J/
+YBH/
+YDJQ/
+YHB/
+YX/
+YXH/
+YXR/
+YM>/
+YNW</
+YNM/
+Y<JR/
+YPWNJ=/
+YR/
+YRB/
+QDWC/
+QDMWN/
+QDMNJ/
+QDC=/
+QVN/
+QVN=/
+QJYWN/
+QL/
+QLL/
+QN>/
+QNW>/
+QYWR/
+QYR=/
+QR=/
+QRB=/
+QRWB/
+I 3
+QRX=/
+E 3
+QRJ>/
+QCB=/
+QCB==/
+QCH/
+R>CH=/
+R>CWNJ/
+RB/
+RGZ=/
+RGLJ/
+RG<=/
+RWH/
+RZH/
+RXB/
+RXWM/
+RXWQ/
+RXMNJ/
+RXQ/
+RVB/
+RJQ=/
+RK/
+R</
+R<B=/
+R<NN/
+RPH/
+RQ=/
+RQ</
+RC</
+FB<=/
+FGJ>/
+FKJR/
+D 3
+FM<LJ/
+E 3
+I 3
+FM>LJ/
+E 3
+FMX/
+FNJ>/
+F<JR===/
+FRJQ/
+FRQ=/
+C>NN/
+CWBB/
+CWBB=/
+CWLL/
+CWQQ/
+CX/
+CXR=/
+CXRXR/
+CKWL=/
+CKWLH/
+CKWR/
+CKX/
+D 3
+CKN/
+E 3
+CKR/
+CLVT/
+CLJW/
+CLJV/
+CLM=/
+CMM/
+CMN=/
+CMN==/
+C<R==/
+C<RWR/
+C<RWRJ/
+CPL/
+CPL==/
+TXTWN/
+TXTJ/
+TJKWN/
+TLWL/
+TM/
+TMJM/
+TQJP/
++++
+D 11
+>BJH<ZRJ/
+E 11
+>DWMJ/
+>DMJ/
+>ZNJ/
+>ZRXJ/
+>XWXJ/
+>XRJRMJ/
+I 15
+>XCTRJ/
+E 15
+>J<ZRJ/
+I 12
+>LJ/
+E 12
+>LNJ/
+>MRJ/
+>PRTJ/
+>R>LJ/
+>RBJ/
+>RDJ/
+>RWDJ/
+>RWDJ=/
+>RKJ/
+>RMJ/
+I 12
+>RRJ/
+E 12
+>FRJ>LJ/
+>CBLJ/
+>CDWDJ/
+>CWRJ/
+>CQLWNJ/
+>CRJ=/
+>CT>LJ/
+B>RTJ/
+BWZJ/
+BXRMJ/
+D 12
+BJTH>LJ/
+BJTHLXMJ/
+BJTHCMCJ/
+E 12
+BKRJ/
+BKRJ=/
+BL<J/
+D 12
+BNHJMJNJ/
+E 12
+BNJMJNJ/
+BRJ<J/
+BRTJ/
+GBLJ/
+GB<WNJ/
+GB<TJ/
+GDJ=/
+GDRJ/
+GDRTJ/
+GWNJ/
+GZWNJ/
+GZRJ/
+GJLNJ/
+GL<DJ/
+GRGCJ/
+GRMJ/
+GRCNJ/
+GCWRJ/
+GTJ/
+DDNJ/
+DNJ/
+HGRJ/
+HRWRJ/
+HRRJ/
+ZBWLNJ/
+ZJPJ/
+ZRXJ/
+XBRJ/
+XBRNJ/
+XWJ/
+XWPMJ/
+XLQJ/
+XMWLJ/
+XMTJ/
+XNKJ/
+XPRJ/
+XYRWNJ/
+XRDJ/
+XRWPJ/
+XRJ/
+XRNJ/
+XCTJ/
+XTJ/
+J>JRJ/
+JBWSJ/
+JHWDJ/
+JWNJ/
+JZR<>LJ/
+JXJ>LJ/
+JXL>LJ/
+JXY>LJ/
+JKJNJ/
+JMJNJ/
+I 12
+JMJNJ/
+E 12
+JMJNJ=/
+JPLVJ/
+JYHRJ/
+JYRJ/
+JRXM>LJ/
+JFR>LJ/
+JCBJ/
+JCM<>LJ/
+JTRJ/
+KLBJ/
+KN<NJ/
+KPTRJ/
+KRMJ/
+KRMLJ/
+KRTJ/
+KFDJ/
+KCJ/
+LBNJ/
+I 16
+LWBJ/
+E 16
+LWJ/
+I 12
+LXMJ/
+I 14
+MDJ/
+E 14
+E 12
+MDJNJ/
+I 17
+MDNJ/
+E 17
+MW>BJ/
+MWRCTJ/
+MWCJ/
+MXLJ/
+MXLTJ/
+MVRJ/
+MKJRJ/
+MKRTJ/
+MLKJ>LJ/
+MNXTJ/
+MNCJ/
+M<KTJ/
+MYRJ/
+MRNTJ/
+MRRJ/
+MCR<J/
+MTNJ/
+NXLMJ/
+NVWPTJ/
+NMW>LJ/
+N<MJ/
+N<MTJ/
+I 7
+SJNJ/
+I 16
+SKJ/
+E 16
+E 7
+SPRWJ/
+SRDJ/
+<BRJ/
+<DLMJ/
+<WJ/
+<ZJ>LJ/
+I 11
+<ZRJ/
+E 11
+<ZTJ/
+<MWNJ/
+<MLQJ/
+<MRMJ/
+<NTTJ/
+<QRWNJ/
+<RBJ/
+<RBJ=/
+<RBTJ/
+<RJ/
+<RNJ/
+<R<RJ/
+I 7
+<RQJ/
+E 7
+<CTRTJ/
+PWNJ/
+PWTJ/
+PL>J=/
+PLVJ/
+PLCTJ/
+PRZJ/
+PRSJ/
+PR<TWNJ/
+PRYJ/
+YWPJ/
+YJDNJ/
+I 7
+YMRJ/
+E 7
+YPWNJ/
+YRJ=/
+YR<J/
+YR<TJ/
+I 7
+QDMNJ=/
+E 7
+QHTJ/
+QJNJ/
+QNZJ/
+QRXJ/
+R>WBNJ/
+RKBJ/
+RMTJ/
+FWKTJ/
+C>WLJ/
+CWXJ/
+CWXMJ/
+CWLMJ/
+CWNJ/
+CWNMJ/
+CWPMJ/
+CJLNJ/
+CKMJ/
+CLMJ/
+CLNJ/
+CMJD<J/
+CM<J=/
+CM<NJ/
+CM<TJ/
+CMRWNJ/
+CMRNJ/
+I 12
+CMCJ/
+E 12
+CMTJ/
+C<LBNJ/
+CPMJ/
+CRWNJ/
+CTLXJ/
+TWL<J/
+TXKMNJ/
+TXNJ/
+TJMNJ/
+TJMNJ=/
+TJYJ/
+TMNJ/
+TQW<J/
+TCBJ/
++++
+XMJCJ/
+<FJRJ/
+R>CWN/
+RBJ<J/
+CBJ<J/
+CLJCJ/
+D 9
+CMNJNJ/
+E 9
+I 9
+CMJNJ/
+E 9
+CNJ/
+CCJ/
+TCJ<J/
+---
+E 1

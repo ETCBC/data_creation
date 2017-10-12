@@ -1,0 +1,18 @@
+ 1  0 = -6 99	# distributiva
+ 2  0 = -5 99	# nouns of existence
+ 3  0 = -4 99	# possible adverbs
+ 4  0 = -3 99	# possible prepositions, ordinals
+ 5  0 = -2 99	# nouns of multitude, verbs of existence, gentilics
+ 6  0 = -1 99	# cardinals, direct speech, pure adjectives
+ 7  3 =  3 99	# verbal stem = "N" (niphal)
+ 8  5 =  7 9 10 99	# locative
+ 9  6 =  0 99	# suffix absent
+10  6 =  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 99	# suffix present
+11  7 =  1 2 3 11 12 99		# finite verbs
+12  7 =  4 5 6 62 99		# non-finite verbs
+13  9 =  1 99	# number = singular
+14  9 =  2 99	# number = dual
+15  9 =  3 99	# number = plural
+16 11 =  0 99	# state = unknown
+17 11 =  1 99	# state = construct
+18 11 =  2 99	# state = absolute

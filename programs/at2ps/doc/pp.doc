@@ -1,0 +1,40 @@
+1016	main
+ 991	   Initialize
+ 834	      ClearAnalysisList (AnalysisList)
+ 864	      ClearConditionList (ConditionsList)
+ 845	      ClearPhraseList (PhraseList)
+  92	   ReadStage (TextName)
+ 142	   OpenFiles (TextName)
+     146 NPhraseSet
+     148 MP
+     149 MP
+ 114	      OpenFile (File, Name, Mode)
+ 980	   AskCheck (Checking)
+ 924	   inleesphrset
+     936 NPhraseSet
+     ...
+ 875	   inleesmorphcondities
+ 908	   ReadLexConditionsList (LexConditionsFile, LexCondList, NumberLexCond)
+ 248	   ReadVerse
+ 207	   TestCompoundPhrases
+ 705	   Identifyphrases (WordCount)
+ 556	      testcondities (end_previous_phr, last_word)
+ 653	      ComparePhrases (PhraseList)
+ 477	      insertPSinfo (end_previous_phr, last_word)
+     525 MP
+ 304	         TryIt (start_index, last_word)
+     434 MP
+     ...
+ 200		    Askinteger (arg)
+ 164		       ReadInteger(i)
+ 154			  Space(c)
+ 159			  Digit(c)
+ 279	   WriteLexAnalysis (p)
+1008	   CloseFiles
+    1013 NPhraseSet
+1000	   FinishUp
+
+
+
+NPhraseSet	'nphrset'
+MP		name+'MISparse'

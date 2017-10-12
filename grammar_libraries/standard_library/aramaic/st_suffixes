@@ -1,0 +1,19 @@
+##########################################################################
+#                                                                        #
+#       st_suffixes: subject + tense suffixes in biblical Aramaic verbs  #
+#                                                                        #
+##########################################################################
+""
+"H"	:gn=f:nu=p:
+"W"	:gn=m:nu=p:
+"WN"	:vt=ipf:gn=m:nu=p:
+"J"	:vt=imp:ps=2:gn=f:nu=s:
+"JN"	:vt=ipf:ps=2:gn=f:nu=s:
+"N"	:vt=ipf:ps=3:gn=f:nu=p:
+"N>"	:vt=pf:ps=1:nu=p:
+"T"	:vt=pf:ps=3:gn=f:nu=s:
+"T="	:vt=pf:ps=2:gn=m:nu=s:
+"T=="	:vt=pf:ps=1:nu=s:
+"TWN"	:vt=pf:ps=2:gn=m:nu=p:
+"TJ"	:vt=pf:ps=2:gn=f:nu=s:
+"TN"	:vt=pf:ps=2:gn=f:nu=p:

@@ -1,0 +1,112 @@
+h10908
+s 00100/00000/00000
+d D 1.1 05/09/14 16:40:36 const 1 0
+c Version of Feb 2003
+e
+u
+U
+f e 0
+t
+T
+I 1
+0Qtl<<Quot  Sfx<<---- pngV<<pngV 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd2<<NPd2 
+0Qtl<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd2<<NPd2 
+0Qtl<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W    
+0Qtl<<Quot 1/2p<<3rdP Asyn<<QtVb 
+0Qtl<<Quot 3rdP<<1/2P Asyn<<QtVb NPd2<<---- 
+0Qtl<<Quot Asyn<<QtVb ----<<W    NPd2<<---- 
+0Qtl<<Quot numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 
+0Qtl<<Quot Asyn<<QtVb 
+0Yqt<<Quot 1/2p<<3rdP Asyn<<QtVb 
+0Yqt<<Quot 1/2p<<3rdP Asyn<<QtVb NPd2<<---- 
+0Yqt<<Quot Asyn<<QtVb 
+AjCl<<Quot numV<<numV Asyn<<QtVb preV<<preV  ---<<NPd2 NPd1<<---- 
+AjCl<<Quot numV<<numV Asyn<<QtVb preV<<preV NPd2<<NPd2 
+CPen<<Quot Asyn<<QtVb preV<<preV  ---<<NPd2 NPd1<<---- 
+Impv<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 pPP:L      
+Impv<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb ----<<W    pPP:L      
+Impv<<Quot  Sfx<<---- numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W    
+Impv<<Quot  Sfx<<---- numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W    pPP:L      
+Impv<<Quot  Sfx<<pngV  Sfx<< Sfx 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 
+Impv<<Quot 1/2p<<3rdP Asyn<<QtVb 
+Impv<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<KJ   
+Impv<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W    
+Impv<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 
+Impv<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd2<<NPd2 
+Impv<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd2<<NPd2 NPd1<<---- 
+Impv<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd2<<NPd2 pPP:L      
+NmCl<<Quot  Sfx<<---- 1/2p<<3rdP <<<<<<W     ---<<NPd2 
+NmCl<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb preV<<preV 
+NmCl<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb preV<<preV  ---<<NPd2 NPd1<<---- 
+NmCl<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb preV<<preV NPd1<<---- 
+NmCl<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb preV<<preV NPd2<<---- NPd1<<---- 
+NmCl<<Quot  Sfx<<---- 1/2p<<3rdP preV<<preV 
+NmCl<<Quot 3rdP<<1/2P Asyn<<QtVb preV<<preV 
+NmCl<<Quot Asyn<<QtVb preV<<preV NPd2<<NPd2 NPd1<<---- 
+NmCl<<Quot Asyn<<QtVb preV<<preV  ---<<NPd2 
+NmCl<<Quot Asyn<<QtVb preV<<preV NPd1<<---- 
+NmCl<<Quot Asyn<<QtVb preV<<preV 
+PtcA<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd1<<---- 
+PtcA<<Quot perV<<perV Asyn<<QtVb  Neg<< --- NPd1<<---- 
+PtcA<<Quot perV<<perV Asyn<<QtVb NPd1<<---- 
+PtcP<<Quot  Sfx<<---- numV<<numV 1/2p<<3rdP KJ>M<<W    pPP:L      
+PtcP<<Quot numV<<numV Asyn<<QtVb ----<<W    NPd2<<---- 
+PtcP<<Quot numV<<numV Asyn<<QtVb ----<<W    NPd2<<NPd2 
+PtcP<<Quot numV<<numV Asyn<<QtVb ----<<W    NPd2<<NPd2 NPd1<<---- 
+XQtl<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb NPd1<<---- 
+XQtl<<Quot 1/2p<<3rdP >M  <<W    
+XQtl<<Quot 1/2p<<3rdP Asyn<<QtVb 
+XQtl<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 NPd1<<---- 
+XQtl<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W     Neg<< --- 
+XQtl<<Quot 1/2p<<3rdP Asyn<<QtVb NPd1<<---- 
+XQtl<<Quot 1/2p<<3rdP KJ  <<W    
+XQtl<<Quot Asyn<<QtVb 
+XYqt<<Quot  Sfx<<---- numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 NPd1<<---- 
+XYqt<<Quot 1/2p<<3rdP >M  <<W     ---<<NPd2 
+XYqt<<Quot 1/2p<<3rdP Asyn<<QtVb 
+XYqt<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<LKN   Neg<< --- 
+XYqt<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 NPd1<<---- pPP:L      
+XYqt<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W     Neg<< ---  ---<<NPd2 
+XYqt<<Quot 1/2p<<3rdP Asyn<<QtVb NPd1<<---- 
+XYqt<<Quot 1/2p<<3rdP KJ  <<---- 
+XYqt<<Quot Asyn<<QtVb ----<<KJ    Neg<< ---  ---<<NPd2 NPd1<<---- 
+XxYq<<Quot 3rdP<<1/2P Asyn<<QtVb ----<<W     Neg<< --- NPd1<<---- 
+xQtl<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd2<<NPd2 
+xQtl<<Quot  Sfx<<---- numV<<numV 1/2p<<3rdP >M  <<W     ---<<NPd2 
+xQtl<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W    
+xQtl<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 
+xQtl<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd2<<NPd2 
+xQtl<<Quot Asyn<<QtVb 
+xQtl<<Quot Asyn<<QtVb NPd2<<---- 
+xYqt<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb 
+xYqt<<Quot  Sfx<<---- 1/2p<<3rdP PN  <<---- 
+xYqt<<Quot  Sfx<<---- numV<<numV 1/2p<<3rdP LKN <<W    NPd2<<NPd2 
+xYqt<<Quot  Sfx<<pngV numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W     Neg<< ---  ---<<NPd2 
+xYqt<<Quot 1/2p<<3rdP Asyn<<QtVb  Neg<< --- 
+xYqt<<Quot 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 
+xYqt<<Quot Asyn<<QtVb 
+xYqt<<Quot numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 
+xYqt<<Quot numV<<numV 1/2p<<3rdP LKN <<W     ---<<NPd2 NPd1<<---- 
+xYqt<<WayX numV<<numV 1/2p<<3rdP ----<<W    
+NmCl<<Quot Asyn<<QtVb preV<<preV NPd1<<---- 
+ VBT<< VBT  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb  Prep: K   
+ VBT<< VBT Asyn<<QtVb ----<<W    
+ VBT<< VBT numV<<numV 3rdP<<1/2P GM  <<W    NPd1<<---- 
+AjCl<<Quot numV<<numV Asyn<<QtVb preV<<preV NPd1<<---- 
+PtcA<<Quot numV<<numV Asyn<<QtVb ----<<W    NPd2<<NPd2 NPd1<<---- 
+Impv<<Quot  Sfx<<---- numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 
+0Yqt<<Quot  Sfx<<---- numV<<numV Asyn<<QtVb ----<<W    NPd2<<---- 
+0Yqt<<Quot  Sfx<<---- perV<<perV numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd2<<NPd2 
+Impv<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb NPd2<<---- 
+Impv<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 
+Impv<<Quot numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W    NPd2<<NPd2 
+Impv<<Quot numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W    
+NmCl<<Quot Asyn<<QtVb preV<<preV 
+Impv<<Quot numV<<numV 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 
+NmCl<<Quot Asyn<<QtVb ----<<W     Neg<< --- 
+Impv<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb ----<<W    
+xQtl<<Quot  Sfx<<---- pngV<<pngV 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 NPd1<<---- 
+xQtl<<Quot  Sfx<<---- pngV<<pngV 1/2p<<3rdP Asyn<<QtVb ----<<W     ---<<NPd2 NPd1<<---- 
+NmCl<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb preV<<preV 
+Voct<<Quot  Sfx<<---- 1/2p<<3rdP Asyn<<QtVb preV<<preV  ---<<NPd2 NPd1<<---- 
+E 1

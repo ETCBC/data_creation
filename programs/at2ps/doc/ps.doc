@@ -1,0 +1,89 @@
+RESERVED WORDS for morphemes and functions in PS-files.
+
+MORPHEMES
+
+lexeme
+	ASCII-string that may end on '[' or '/'.
+locative_state_suffix		  { ~ }
+	"H"
+nominal_suffix			  { / }
+	""	"H"	"J"	"JM"	"JM="	"JN"	"J="
+	"T"	"TJ"	"TJM"	"WT"	"WTJ"
+pronominal_suffix		  { + }
+	"H"	"HM"	"HMH"	"HN"	"HNH"	"HW"	"J"
+	"K"	"KM"	"KN"	"K="	"M"	"MW"	"N"
+	"NJ"	"NW"	"W"
+subject_tense_prefix		  { !! }
+	""	">"	"H"	"J"	"M"	"N"	"T"
+	"T="
+subject_tense_suffix		  { [ }
+	""	"H"	"H="	"J"	"JN"	"NH"	"NW"
+	"T"	"TH"	"TJ"	"TM"	"TN"	"T="	"W"
+	"WN"
+verbal_stem_prefix		  { ]] }
+	">T"	"H"	"HT"	"N"	"NT"	"T"
+
+FUNCTIONS
+
+gender
+	"?"	"f"	"m"
+lexical_part_of_speech
+	"adjv"	"advb"	"conj"	"dart"	"inrg"	"intj"	"nega"
+	"nmpr"	"prde"	"prep"	"prin"	"prps"	"subs"	"verb"
+lexical_set
+	"card"	"gntl"	"mult"	"nmdi"	"nmes"	"ordn"	"padv"
+	"ppre"	"quot"	"vbes"
+number
+	integer
+person	
+	integer
+state
+	"?"	"a"	"c"	"d"
+verbal_stem
+	"et"	"hi"	"ho"	"hot"	"hs"	"htp"	"ni"
+	"nt"	"pi"	"pql"	"pu"	"qal"	"ti"
+verbal_tense
+	"imp"	"inf"	"ipf"	"pf"	"ptc"
+
+boeken:
+
+/pr/gr/newtenach	/pr/gr	/pr/tenach
+Amos		Amos..	/data	amos		AMOS.01,01
+Canticum	Cant..		hooglied	.CAN.01,01
+Chronica_I	1Chr..	ICHR	ikronieken	.ICHR01,01
+Chronica_II	2Chr..	IICHR	iikronieken	IICHR01,01
+Daniel		Dan.		daniel		.DAN.01,01
+Deuteronomium	Deut.	DEUT	deuteronomium	.DEUT01,01
+Ecclesiastes	Eccl.	QOH.	prediker	.QOH.01,01
+Esra		Esra.		ezra		.ESR.01,01
+Esther		Esth.		esther		.EST.01,01
+Exodus		Exod.	EXO.	exodus		.EXO.01,01
+Ezechiel	Ezech.		ezechiel	.EZE.01,01
+Genesis		Gen.	GEN.	genesis		.GEN.01,01
+Habakuk		Hab..		habakuk		.HAB.01,01
+Haggai		Hag..		haggai		.HAG.01,01
+Hosea		Hosea.		hosea		.HOS.01,01
+Iob		Iob.		job		.IOB.01,01
+Jeremia		Jer.	JER.	jeremia		.JER.01,01
+Jesaia		Jes.		jesaja		.JES.01,01
+Joel		Joel..		joel		.JOE.01,01
+Jona		Jona..	JONA.	jona		JONA.01,01
+Josua		Jos..	JOZ.	jozua		.JOZ.01,01
+Judices		Jud..	RICHT	richteren	RICHT01,01
+Leviticus	Lev..	LEV.	leviticus	.LEV.01,01
+Maleachi	Mal..		maleachi	.MAL.01,01
+Micha		Micha..	MICH	micha		.MICH01,01
+Nahum		Nahum..		nahum		.NAH.01,01
+Nehemia		Neh..		nehemia		.NEH.01,01
+Numeri		Num..	NUM.	numeri		.NUM.01,01
+Obadia		Obad..		obadja		.OBAD01,01
+Proverbia	Prov..		spreuken	.PRO.01,01
+Psalmi		Psal.... PS	psalmen		.PS001,001
+Reges_I		1Reg..	IKON	ikoningen	.IKON01,01
+Reges_II	2Reg..	IIKON	iikoningen	IIKON01,01
+Ruth		Ruth..	RUTH	ruth		.RUTH01,01
+Sacharia	Sach..		zacharia	.ZACH01,01
+Samuel_I	1Sam..	ISAM.	isamuel		ISAM.01,01
+Samual_II	2Sam..	IISA.	iisamual	IISA.01,01
+Threni		Thr..		klaagliederen	.THR.01,01
+Zephania	Zeph..		zefanja		.ZEP.01,01

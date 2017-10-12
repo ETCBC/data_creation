@@ -1,0 +1,72 @@
+OLD PROCES				NEW PROCES
+
+INPUT	PROGRAM	OUTPUT			INPUT	PROGRAM	OUTPUT
+
+LB\book	syn00	synnr			LN\text	get_at	synnr
+		chapter					.\text
+
+synnr	syn01	synnr
+chapter		text.ps1
+morfset		text.ct
+[lexset]
+
+synnr	syn02	synnr			synnr	at2ps	synnr
+text.ps1	text.ps2		text		text.ps2
+lexset					word_grammar	text.ct
+					lexicon		text.ct1
+					alphabet
+
+synnr	syn03	synnr			synnr	SYN03	synnr
+text.ps2	text.ps3		text.ps2	text.ps3
+text.ct		PHR			text.ct		PHR
+text.ph					text.phd
+partdivis				partdivis
+phrset					phrset
+morfcond				morfcond
+lexcond					lexcond
+
+synnr	syntypes phrset
+text.ps3	PHR
+morfcond
+lexcond
+phrset
+
+synnr	syn04(newtest)	synnr		synnr	SYN04	synnr
+text.ps3	text.ps4		text.ps3	text.ps4
+text		text.ct4		text.ct1	text.ct4
+clset		text.div		clset		addClSet
+[phrcond]	addClSet		morfcondcl	[text.div]
+[sfxset]	partcldivis		[text.div]	partcldivis
+morfcondcl				lexcondcl
+lexcondcl
+
+
+synnr	syn05	synnr
+
+
+relations
+
+	syn00	.	.	.	.	get_at
+	  |					  |
+	  V					  |
+	syn01 a/h				  |
+	  |					  |
+	  V					  V
+	syn02 a/h     	.	.	.	at2ps
+	  |					  |
+	  |					  |
+	  | |-----|				  |
+	  V V	  |				  V
+	syn03-->syntypesnew			syn03
+	  |					  |
+	  V					  V
+	syn04					syn04
+	  |					  |
+	  V					  V
+	syn05					syn05
+
+afkortingen:
+
+book:	file with morphologically coded text of one book
+LB:	/projects/tenach/
+LN:	/projects/grammar/newtenach

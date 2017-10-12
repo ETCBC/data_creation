@@ -1,0 +1,76 @@
+.\" @(#)ps_io.3 1.30 94/10/31 SMI; from SVr4
+'\"macro stdmacro
+.\" Copyright 1994 Peter Crom
+.nr X
+.TH ps_io 3 "9 Dec 1994" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+.SH NAME
+ps_io, ps_open, ps_close, ps_putword \- ECA-word - .ps file interface
+.SH SYNOPSIS
+.LP
+.B
+#include <ps_io.h>
+.LP
+.B
+#include <ECA_word.h>
+.LP
+.BI "ps_t *ps_open(char " "*filename" );
+.LP
+.BI "int ps_close(ps_t " "*ps" );
+.LP
+.BI "int ps_putword(ps_t " "*ps" ,
+.BI "word_p " "*word" );
+.LP
+.SH DESCRIPTION
+These functions describe an interface for writing a PS (Phrase
+Structure) file out of subsequent ECA words.
+A detailed description of a PS file can be found in
+.BR ps_io (5),
+and a similarly detailed description of an ECA word can be read in
+.BR ECA_word (5).
+.LP
+.br
+The
+.B ps_open(\|)
+function returns a pointer to a PS file object. The object contains a
+filepointer to a
+.IR filename .ps2
+file and some administrative flags depending on the words that
+have been processed in the past. 
+These flags control the interpretation of the imperfect tense, the
+perfect tense and the verseborders. An existing PS file with the same
+name will be overwritten.
+.LP
+The
+.B ps_close(\|)
+function stops the process of PS file making. It checks if
+the last line was properly closed. If not, it will close it properly.
+It also returns memory involved with the phrase structure file.
+.LP
+The
+.B ps_putword(\|)
+function writes one line in the file
+.IR filename .ps,
+describing an ECA-word in the old PS file structure. It automatically
+recognizes verse boundaries, adding empty lines on a verse boundary.
+It expects the words to be given in the correct order, in order to
+produce the correct verbal tense information.
+.LP
+.SH "RETURN VALUES" 
+On success,
+.B ps_open(\|)
+returns  a PS file object.
+Otherwise, it returns a NULL pointer and sets an errormessage.
+.LP
+.B ps_close(\|)
+returns the returnvalue of the associated
+.B fclose
+function call.
+.LP
+If the function
+.B ps_putword (\|)
+operated well, the returnvalue will be TRUE, otherwise, it is FALSE,
+and an errormessage will be set.
+.SH SEE ALSO
+.BR biblan (3),
+.BR ps_io (5),
+.BR ECA_word (5).

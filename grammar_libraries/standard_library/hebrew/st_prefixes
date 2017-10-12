@@ -1,0 +1,13 @@
+##########################################################################
+#                                                                        #
+#     st_prefixes: subject + tense prefixes in biblical Hebrew verbs     #
+#                                                                        #
+##########################################################################
+""
+">"	:vt=ipf:ps=1:nu=s:
+"H"	:vs=ni:
+"J"	:vt=ipf:ps=3:gn=m:
+"M"	:vt=ptc:
+"N"	:vt=ipf:ps=1:nu=p:
+"T"	:vt=ipf:ps=2:
+"T="	:vt=ipf:ps=3:gn=f:

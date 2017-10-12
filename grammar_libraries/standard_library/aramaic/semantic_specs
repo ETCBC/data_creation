@@ -1,0 +1,19 @@
+#################################################
+#                                               #
+# semantic_specs : semantic specifications      #
+# in the Aramaic lexicon                        #
+#                                               #
+#################################################
+gntl    adjectivum gentilicium
+ordn    adjectivum ordinale
+card    nomen cardinale
+nmdi    nomen distributivum 
+nmex    nomen existentiae
+mult    nomen multitudinis (RBBH/)
+padv    potentialiter adverbium
+pcon    potentialiter conjunctio
+pinr    potentialiter interrogativum
+ppre    potentialiter prepositio
+ppde    potentialiter pronomen demonstrativum
+vbex    verbum existentiae
+quot    verbum rectae orationis

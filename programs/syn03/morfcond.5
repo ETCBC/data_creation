@@ -1,0 +1,48 @@
+.\" ident "@(#)dapro/syn03/morfcond.5 1.1 01/23/98"
+.TH MORFCOND 5 "01/23/98" "Werkgroep Informatica" "BIBLICAL LANGUAGES"
+.SH NAME
+morfcond \- morphological conditions for constructing phrases
+.SH SYNTAX
+.TP 20
+file =
+line { line }.
+.TP 20
+line =
+index function '=' value { value } EOI comment <newline>.
+.TP 20
+index =
+<integer: the ordinal by which the condition is known>.
+.TP 20
+function =
+<integer pointing to the grammatical function>.
+.TP 20
+value =
+<integer representing the value of the word function>.
+.TP 20
+EOI =
+\&'99'.
+.LP
+In the above syntax the white space has been omitted
+for reasons of clarity.
+The comment after the EOI marker is optional and is ignored.
+.SH DESCRIPTION
+The file
+.B morfcond
+holds the `morphological' conditions that are used in
+.BR phrset (5).
+A condition is referenced through its ordinal and consists of a
+word function and its approved values.
+A word meets a condition if the designated function
+has one of the stated values.
+.LP
+The
+.I index
+for `morphological' conditions
+must lie within the range of 1 .\|. 100 as conditions with an
+.I index
+greater than 100 are lexical conditions in
+.BR phrset (5).
+.SH SEE ALSO
+.BR lexcond (5),
+.BR phrset (5),
+.BR syn03 (1).
