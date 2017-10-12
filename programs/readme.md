@@ -5,5 +5,5 @@
 ### at2ps and syn03
 `projects/grammar/src`
 
-### *.p
+### *.pascal
 `projects/src/dapro/simple`
