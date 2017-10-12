@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES                                  MORFCONDCL(5)
+
+
+
+NAME
+     morfcondcl  -  morphological  conditions  for   constructing
+     clauses
+
+SYNTAX
+     file =              line { line }.
+
+     line =              index function '=' value { value  }  EOI
+                         comment <newline>.
+
+     index =             <integer: the ordinal by which the  con-
+                         dition is known>.
+
+     function =          <integer  pointing  to  the  grammatical
+                         function>.
+
+     value =             <integer representing the value  of  the
+                         word function>.
+
+     EOI =               '99'.
+
+     In the above syntax the white space  has  been  omitted  for
+     reasons  of  clarity.   The  comment after the EOI marker is
+     optional and is ignored.
+
+DESCRIPTION
+     The file morfcondcl  holds  the  `morphological'  conditions
+     that  are  used  in  clset(5).   A  condition  is referenced
+     through its ordinal and consists of a word function and  its
+     approved values.  A word meets a condition if the designated
+     function has one of the stated values.
+
+     The index for `morphological' conditions must lie within the
+     range  of  1 .. 100 as conditions with an index greater than
+     100 are lexical conditions in clset(5).
+
+SEE ALSO
+     clset(5), lexcondcl(5), syn04(1).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 12/07/23                     1
+
+
+

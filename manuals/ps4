@@ -1,0 +1,66 @@
+
+
+
+BIBLICAL LANGUAGES                                         PS4(5)
+
+
+
+NAME
+     ps4 - morpho-syntactic analysis at clause level
+
+SYNTAX
+     The syntax of this file is an extension  to  the  syntax  of
+     ps3(5), with the following modifications.
+
+     ps4 =               catm { catm }.
+
+     catm =              line { line } eoa.
+
+     line =              label   <space>    lexical_data    space
+                         morph_data    space    func_data   space
+                         phrase_data catm_flag <newline>.
+
+     eoa =               <eleven spaces> '*' <newline>.
+
+     catm_flag =         integer.
+
+DESCRIPTION
+     ps4(5) is the format of the morpho-syntactic data base  out-
+     put  by  syn04(1).  This type of file contains the result of
+     the first step in the analysis at clause level, the division
+     into  clause  atoms.   Clause atoms are the longest possible
+     contiguous stretches of phrase atoms containing at most  one
+     predication.   Apart  from adding `star lines' to signal the
+     end of every clause atom, syn04(1) adds one  column  to  the
+     format  of ps3(5), the column clause atom flag.  This column
+     is a relict of an earlier phase and is no longer  used.   It
+     was  intended to mark those clause atom divisions that could
+     not be produced automatically.  Currently  in  this  column,
+     the first word of every second and subsequent clause atom of
+     the verse is marked with 99.  All other words have -1.
+
+NOTES
+     The name PS file originally stems from the work on  Psalm  1
+     in  the  early  days of the Werkgroep Informatica.  When the
+     research shifted to phrases, the term was reassessed  as  to
+     mean  `Phrase Structure' file.  Nowadays, however, this flag
+     no longer covers its cargo as PS files are a data  base  for
+     the complete morpho-syntactic analysis of a text.
+
+SEE ALSO
+     ps3(5), syn04(1).
+
+
+
+
+
+
+
+
+
+
+
+Werkgroep Informatica Last change: 07/08/13                     1
+
+
+
