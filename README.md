@@ -3,4 +3,6 @@
 See the documentation at:<br>
 [ETCBC Data Creation](http://www.codykingham.com/etcbc/datacreation.html)
 
-This repository also contains zipped data files for the book of Genesis. To access those files, unzip using `gunzip [file]` from command line.
+This repository contains source code for the syntactic processing programs used to produce the [BHSA](https://github.com/ETCBC/bhsa) data under `/programs`.
+
+This repository also contains zipped data files for the book of Genesis in the `/example_data`. To access those files, unzip using `gunzip [file]` from command line.
