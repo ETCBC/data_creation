@@ -1,7 +1,7 @@
 # ETCBC Data Creation
 
 See the documentation at:<br>
-[ETCBC Data Creation](http://www.codykingham.com/etcbc/datacreation.html)
+[ETCBC Data Creation](http://www.etcbc.nl/datacreation)
 
 This repository contains source code for the syntactic processing programs used to produce the [BHSA](https://github.com/ETCBC/bhsa) data under `/programs`.
 
